@@ -1,0 +1,113 @@
+company_id,segment,year,quarter,flag,severity,detail
+pioneer,insurer,2016,4,not_filed,info,listed with an all-zero account
+xplico,insurer,2016,4,not_filed,info,listed with an all-zero account
+kenyan_alliance,insurer,2017,3,not_filed,info,listed with an all-zero account
+xplico,insurer,2018,1,not_filed,info,listed with an all-zero account
+xplico,insurer,2019,1,not_filed,info,listed with an all-zero account
+continental_re,reinsurer,2019,2,direct_inward_reclass,info,"direct premium down 439m while inward premium up 1,057m"
+invesco,insurer,2019,2,not_filed,info,listed with an all-zero account
+invesco,insurer,2019,3,not_filed,info,listed with an all-zero account
+directline,insurer,2019,4,claims_reversal,warning,single-quarter incurred claims of -372m
+invesco,insurer,2019,4,not_filed,info,listed with an all-zero account
+invesco,insurer,2020,1,not_filed,info,listed with an all-zero account
+invesco,insurer,2020,2,not_filed,info,listed with an all-zero account
+trident,insurer,2020,2,claims_reversal,warning,single-quarter incurred claims of -333m
+trident,insurer,2020,2,loss_ratio_outlier,warning,single-quarter loss ratio -209%
+invesco,insurer,2020,3,not_filed,info,listed with an all-zero account
+invesco,insurer,2020,4,not_filed,info,listed with an all-zero account
+takaful,insurer,2020,4,not_filed,info,listed with an all-zero account
+xplico,insurer,2020,4,not_filed,info,listed with an all-zero account
+invesco,insurer,2021,1,not_filed,info,listed with an all-zero account
+takaful,insurer,2021,1,not_filed,info,listed with an all-zero account
+xplico,insurer,2021,1,not_filed,info,listed with an all-zero account
+invesco,insurer,2021,2,not_filed,info,listed with an all-zero account
+takaful,insurer,2021,2,not_filed,info,listed with an all-zero account
+invesco,insurer,2021,3,not_filed,info,listed with an all-zero account
+saham,insurer,2021,3,not_filed,info,listed with an all-zero account
+takaful,insurer,2021,3,not_filed,info,listed with an all-zero account
+invesco,insurer,2021,4,not_filed,info,listed with an all-zero account
+monarch,insurer,2021,4,loss_ratio_outlier,warning,single-quarter loss ratio 494%
+saham,insurer,2021,4,not_filed,info,listed with an all-zero account
+xplico,insurer,2021,4,not_filed,info,listed with an all-zero account
+invesco,insurer,2022,1,not_filed,info,listed with an all-zero account
+monarch,insurer,2022,1,not_filed,info,listed with an all-zero account
+resolution,insurer,2022,1,not_filed,info,listed with an all-zero account
+saham,insurer,2022,1,not_filed,info,listed with an all-zero account
+xplico,insurer,2022,1,not_filed,info,listed with an all-zero account
+continental_re,reinsurer,2022,2,direct_inward_reclass,info,"direct premium down 3,543m while inward premium up 4,584m"
+invesco,insurer,2022,2,not_filed,info,listed with an all-zero account
+monarch,insurer,2022,2,not_filed,info,listed with an all-zero account
+trident,insurer,2022,2,not_filed,info,listed with an all-zero account
+allianz_kenya,insurer,2022,3,not_filed,info,listed with an all-zero account
+amaco,insurer,2022,3,not_filed,info,listed with an all-zero account
+monarch,insurer,2022,3,not_filed,info,listed with an all-zero account
+xplico,insurer,2022,3,not_filed,info,listed with an all-zero account
+allianz_kenya,insurer,2022,4,not_filed,info,listed with an all-zero account
+corporate,insurer,2022,4,not_filed,info,listed with an all-zero account
+healthier_micro,insurer,2022,4,not_filed,info,listed with an all-zero account
+invesco,insurer,2022,4,loss_ratio_outlier,warning,single-quarter loss ratio 321%
+monarch,insurer,2022,4,not_filed,info,listed with an all-zero account
+star_discover,insurer,2022,4,not_filed,info,listed with an all-zero account
+monarch,insurer,2023,1,claims_collapse,error,year-to-date incurred claims of 428m all but vanish by Q2 (-28m)
+trident,insurer,2023,1,not_filed,info,listed with an all-zero account
+xplico,insurer,2023,1,not_filed,info,listed with an all-zero account
+healthier_micro,insurer,2023,2,not_filed,info,listed with an all-zero account
+monarch,insurer,2023,2,claims_collapse,error,year-to-date incurred claims fell from 428m at Q1 to -28m
+monarch,insurer,2023,2,claims_reversal,warning,single-quarter incurred claims of -456m
+monarch,insurer,2023,2,loss_ratio_outlier,warning,single-quarter loss ratio -267%
+takaful,insurer,2023,2,not_filed,info,listed with an all-zero account
+trident,insurer,2023,2,not_filed,info,listed with an all-zero account
+star_discover,insurer,2023,3,loss_ratio_outlier,warning,single-quarter loss ratio 309%
+trident,insurer,2023,3,not_filed,info,listed with an all-zero account
+invesco,insurer,2023,4,loss_ratio_outlier,warning,single-quarter loss ratio -79%
+mua,insurer,2023,4,loss_ratio_outlier,warning,single-quarter loss ratio 516%
+trident,insurer,2023,4,not_filed,info,listed with an all-zero account
+xplico,insurer,2023,4,not_filed,info,listed with an all-zero account
+invesco,insurer,2024,1,not_filed,info,listed with an all-zero account
+monarch,insurer,2024,1,not_filed,info,listed with an all-zero account
+mua,insurer,2024,1,not_filed,info,listed with an all-zero account
+sanlam_allianz_general,insurer,2024,1,not_filed,info,listed with an all-zero account
+trident,insurer,2024,1,not_filed,info,listed with an all-zero account
+waica_re,reinsurer,2024,1,claims_collapse,error,"year-to-date incurred claims of 1,989m all but vanish by Q2 (358m)"
+invesco,insurer,2024,2,not_filed,info,listed with an all-zero account
+monarch,insurer,2024,2,claims_collapse,error,"year-to-date incurred claims of 1,649m all but vanish by Q3 (0m)"
+sanlam_allianz_general,insurer,2024,2,not_filed,info,listed with an all-zero account
+star_discover_micro,insurer,2024,2,premium_reversal,error,year-to-date written premium of 67m is higher than the 0m reported at Q3
+waica_re,reinsurer,2024,2,claims_collapse,error,"year-to-date incurred claims fell from 1,989m at Q1 to 358m"
+waica_re,reinsurer,2024,2,claims_reversal,warning,"single-quarter incurred claims of -1,631m"
+continental_re,reinsurer,2024,3,claims_reversal,warning,single-quarter incurred claims of -286m
+ghana_re,reinsurer,2024,3,direct_inward_reclass,info,"direct premium down 1,525m while inward premium up 2,258m"
+intra_africa,insurer,2024,3,premium_reversal,error,"year-to-date written premium of 4,320m is higher than the 2,752m reported at Q4"
+intra_africa,insurer,2024,3,premium_spike,error,"single-quarter written premium 2,880m against a typical 459m, reversed the next quarter"
+monarch,insurer,2024,3,claims_collapse,error,"year-to-date incurred claims fell from 1,649m at Q2 to 0m"
+monarch,insurer,2024,3,claims_reversal,warning,"single-quarter incurred claims of -1,649m"
+monarch,insurer,2024,3,loss_ratio_outlier,warning,single-quarter loss ratio -1376%
+occidental,insurer,2024,3,loss_ratio_outlier,warning,single-quarter loss ratio -62%
+sanlam_allianz_general,insurer,2024,3,not_filed,info,listed with an all-zero account
+star_discover,insurer,2024,3,claims_reversal,warning,single-quarter incurred claims of -708m
+star_discover,insurer,2024,3,loss_ratio_outlier,warning,single-quarter loss ratio -213%
+star_discover_micro,insurer,2024,3,premium_reversal,error,year-to-date written premium fell from 67m at Q2 to 0m
+tausi,insurer,2024,3,not_filed,info,listed with an all-zero account
+trident,insurer,2024,3,not_filed,info,listed with an all-zero account
+intra_africa,insurer,2024,4,premium_reversal,error,"year-to-date written premium fell from 4,320m at Q3 to 2,752m"
+sanlam_allianz_general,insurer,2024,4,not_filed,info,listed with an all-zero account
+trident,insurer,2024,4,not_filed,info,listed with an all-zero account
+kenya_orient,insurer,2025,1,not_filed,info,listed with an all-zero account
+sanlam_allianz_general,insurer,2025,1,not_filed,info,listed with an all-zero account
+trident,insurer,2025,1,not_filed,info,listed with an all-zero account
+star_discover,insurer,2025,2,claims_collapse,error,year-to-date incurred claims of 742m all but vanish by Q3 (-134m)
+star_discover,insurer,2025,2,loss_ratio_outlier,warning,single-quarter loss ratio 539%
+trident,insurer,2025,2,not_filed,info,listed with an all-zero account
+star_discover,insurer,2025,3,claims_collapse,error,year-to-date incurred claims fell from 742m at Q2 to -134m
+star_discover,insurer,2025,3,claims_reversal,warning,single-quarter incurred claims of -876m
+star_discover,insurer,2025,3,loss_ratio_outlier,warning,single-quarter loss ratio -212%
+trident,insurer,2025,3,not_filed,info,listed with an all-zero account
+corporate,insurer,2025,4,not_filed,info,listed with an all-zero account
+directline,insurer,2025,4,claims_reversal,warning,"single-quarter incurred claims of -1,338m"
+directline,insurer,2025,4,loss_ratio_outlier,warning,single-quarter loss ratio -270%
+kenya_re,reinsurer,2025,4,direct_inward_reclass,info,"direct premium down 9,825m while inward premium up 12,837m"
+monarch,insurer,2025,4,not_filed,info,listed with an all-zero account
+trident,insurer,2025,4,not_filed,info,listed with an all-zero account
+definite,insurer,2026,1,not_filed,info,listed with an all-zero account
+kenyan_alliance,insurer,2026,1,not_filed,info,listed with an all-zero account
+monarch,insurer,2026,1,not_filed,info,listed with an all-zero account
