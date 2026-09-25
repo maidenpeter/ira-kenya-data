@@ -48,3 +48,36 @@ Loss ratios agree to one decimal for all five years. The underwriting results fo
 - Company ids appearing twice in one quarter: 0
 - Company years where the four single quarters rebuild the Q4 year to date: 3300 of 3300
 - Single-quarter premium, earned premium or claims figures that come out negative: 52. Most are insurers' incurred claims, where a release of claims reserves in one quarter can outweigh the claims paid; a few are reinsurer premium moved between direct and inward business. All are kept as published.
+
+## Balance sheets and profit and loss accounts
+
+| Check | Checks run | Passed | Pass rate |
+|---|---|---|---|
+| Balance sheet: asset items add to total assets | 1,388 | 1,388 | 100.0% |
+| Balance sheet: total assets equal equity and liabilities | 1,388 | 1,388 | 100.0% |
+| Balance sheet: equity items add to total equity | 1,388 | 1,388 | 100.0% |
+| Balance sheet: liabilities plus equity add to the total | 1,388 | 1,388 | 100.0% |
+| P&L (IFRS 17): revenue less service expense less net reinsurance is the insurance service result | 347 | 347 | 100.0% |
+| P&L (IFRS 17): profit before tax less tax is profit for the year | 347 | 347 | 100.0% |
+| P&L (IFRS 4): profit before tax less tax is profit after tax | 1,040 | 1,040 | 100.0% |
+| P&L (IFRS 4): total income less total outgo is profit before tax | 1,040 | 1,039 | 99.9% |
+| P&L (IFRS 4): income items add to total income | 1,040 | 1,040 | 100.0% |
+| P&L (IFRS 4): transfer from revenue equals the revenue account's operating result | 992 | 949 | 95.7% |
+
+IRA's IFRS 4 profit and loss accounts do not itemise everything inside Total Outgo, so outgo is not checked item by item. The transfer-from-revenue check links two separate IRA tables; the companies where it misses are listed for follow-up in validation_statements.csv.
+
+## Return quality across quarters
+
+Every quarter above adds up on its own. These checks look along each company's quarters for returns that add up but cannot be right. Single-quarter figures from quarters flagged as errors are marked unreliable in the panels and left out of market single-quarter totals. Full list: `quality_flags.csv`.
+
+| Severity | Flag | Company quarters |
+|---|---|---|
+| error | claims_collapse | 8 |
+| error | premium_reversal | 4 |
+| error | premium_spike | 1 |
+| info | direct_inward_reclass | 4 |
+| info | not_filed | 73 |
+| warning | claims_reversal | 9 |
+| warning | loss_ratio_outlier | 13 |
+
+Errors: monarch 2023 Q1 (claims_collapse); monarch 2023 Q2 (claims_collapse); waica_re 2024 Q1 (claims_collapse); monarch 2024 Q2 (claims_collapse); star_discover_micro 2024 Q2 (premium_reversal); waica_re 2024 Q2 (claims_collapse); intra_africa 2024 Q3 (premium_reversal); monarch 2024 Q3 (claims_collapse); star_discover_micro 2024 Q3 (premium_reversal); intra_africa 2024 Q4 (premium_reversal); star_discover 2025 Q2 (claims_collapse); star_discover 2025 Q3 (claims_collapse).

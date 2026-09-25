@@ -78,3 +78,24 @@ The revenue accounts joined to the company crosswalk, with single-quarter figure
 | `is_micro` | Micro insurer flag |
 | `link` | Why names were joined, or what happened to the company |
 | `evidence` | Source for the link, or `IRA listing` where it rests on the pattern of names in IRA's own tables |
+
+## general_by_class_panel.csv
+
+`general_by_class.csv` on company ids, with `ytd_ksh_000`, `quarter_ksh_000`, `quarter_basis` (as in the revenue panel, plus `table_new_in_quarter` where IRA added a table that quarter) and `reliable_quarter`.
+
+## general_balance_sheets.csv
+
+| Column | Meaning |
+|---|---|
+| `line_item` | Balance sheet line as IRA printed it (spelling fixed, for example Liabilites) |
+| `line_order` | Position in IRA's statement. Equity lines come before Total Equity, liabilities before Total Equity And Liabilities, assets before Total Assets |
+| `reporting_basis` | `IFRS 4` to Q4 2023, `IFRS 17` from Q1 2024 |
+| `value_ksh_000` | Position at the quarter end |
+
+## general_profit_loss.csv
+
+As the balance sheets, with `segment` (insurer, reinsurer, micro) and year-to-date values. IFRS 4 lines run from Profit Transferred from Revenue to Unappropriated Profit CF. IFRS 17 lines run from Insurance Revenue to Profit for the year.
+
+## quality_flags.csv
+
+One row per company, quarter and problem: `flag`, `severity` (error, warning, info) and a plain-language `detail`. The rules are at the top of `src/ira_data/quality_flags.py`. The panels carry the same information as `quality_flags` and `reliable_quarter`.
