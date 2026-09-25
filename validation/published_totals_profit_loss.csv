@@ -1,0 +1,1641 @@
+year,quarter,segment,label,line_item,value
+2016,4,insurer,TOTAL,Profit Transferred from Revenue,5239873.0
+2016,4,insurer,TOTAL,Investment Income,5245786.0
+2016,4,insurer,TOTAL,Other Income,140974.0
+2016,4,insurer,TOTAL,Total Income,10626632.0
+2016,4,insurer,TOTAL,Loss Transferred From Revenue,1839955.0
+2016,4,insurer,TOTAL,Management Expenses,915836.0
+2016,4,insurer,TOTAL,Total Outgo,3338038.0
+2016,4,insurer,TOTAL,Profit / (Loss) Before Taxation,7288593.0
+2016,4,insurer,TOTAL,Provision for Taxation,2028746.0
+2016,4,insurer,TOTAL,Profit/(Loss) After Taxation,5259846.0
+2016,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,30658957.0
+2016,4,insurer,TOTAL,Transfer To Reserves,771119.0
+2016,4,insurer,TOTAL,Other Appropriations,1089193.0
+2016,4,insurer,TOTAL,Dividend,756212.0
+2016,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,33302279.0
+2016,4,reinsurer,TOTAL,Profit Transferred from Revenue,4259899.0
+2016,4,reinsurer,TOTAL,Investment Income,0.0
+2016,4,reinsurer,TOTAL,Other Income,100182.0
+2016,4,reinsurer,TOTAL,Total Income,4360081.0
+2016,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2016,4,reinsurer,TOTAL,Management Expenses,17494.0
+2016,4,reinsurer,TOTAL,Total Outgo,56150.0
+2016,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,4303930.0
+2016,4,reinsurer,TOTAL,Provision for Taxation,1293062.0
+2016,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,3010869.0
+2016,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,17039904.0
+2016,4,reinsurer,TOTAL,Transfer To Reserves,-80000.0
+2016,4,reinsurer,TOTAL,Other Appropriations,200000.0
+2016,4,reinsurer,TOTAL,Dividend,584962.0
+2016,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,19345810.0
+2016,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,9499772.0
+2016,4,reinsurer,GRAND TOTAL,Investment Income,5245786.0
+2016,4,reinsurer,GRAND TOTAL,Other Income,241156.0
+2016,4,reinsurer,GRAND TOTAL,Total Income,14986713.0
+2016,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1839955.0
+2016,4,reinsurer,GRAND TOTAL,Management Expenses,933330.0
+2016,4,reinsurer,GRAND TOTAL,Total Outgo,3394188.0
+2016,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,11592523.0
+2016,4,reinsurer,GRAND TOTAL,Provision for Taxation,3321808.0
+2016,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,8270715.0
+2016,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,47698861.0
+2016,4,reinsurer,GRAND TOTAL,Transfer To Reserves,691119.0
+2016,4,reinsurer,GRAND TOTAL,Other Appropriations,1289193.0
+2016,4,reinsurer,GRAND TOTAL,Dividend,1341174.0
+2016,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,52648089.0
+2017,3,insurer,TOTAL,Profit Transferred from Revenue,5505616.0
+2017,3,insurer,TOTAL,Investment Income,3162493.0
+2017,3,insurer,TOTAL,Other Income,252112.0
+2017,3,insurer,TOTAL,Total Income,8920219.0
+2017,3,insurer,TOTAL,Loss Transferred From Revenue,1600415.142
+2017,3,insurer,TOTAL,Management Expenses,444083.0
+2017,3,insurer,TOTAL,Total Outgo,2293664.0
+2017,3,insurer,TOTAL,Profit / (Loss) Before Taxation,6518865.858
+2017,3,insurer,TOTAL,Provision for Taxation,1807019.0
+2017,3,insurer,TOTAL,Profit/(Loss) After Taxation,4711848.858
+2017,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,28742891.0
+2017,3,insurer,TOTAL,Transfer To Reserves,27776.0
+2017,3,insurer,TOTAL,Other Appropriations,-5771.0
+2017,3,insurer,TOTAL,Dividend,672000.0
+2017,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,32760735.0
+2017,3,reinsurer,TOTAL,Profit Transferred from Revenue,2733211.0
+2017,3,reinsurer,TOTAL,Investment Income,0.0
+2017,3,reinsurer,TOTAL,Other Income,64769.0
+2017,3,reinsurer,TOTAL,Total Income,2797979.0
+2017,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2017,3,reinsurer,TOTAL,Management Expenses,108989.0
+2017,3,reinsurer,TOTAL,Total Outgo,143506.0
+2017,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,2654473.0
+2017,3,reinsurer,TOTAL,Provision for Taxation,810798.0
+2017,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,1843675.0
+2017,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,19510379.0
+2017,3,reinsurer,TOTAL,Transfer To Reserves,-43361.0
+2017,3,reinsurer,TOTAL,Other Appropriations,0.0
+2017,3,reinsurer,TOTAL,Dividend,619959.0
+2017,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,20777457.0
+2017,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,8238827.0
+2017,3,reinsurer,GRAND TOTAL,Investment Income,3162493.0
+2017,3,reinsurer,GRAND TOTAL,Other Income,316881.0
+2017,3,reinsurer,GRAND TOTAL,Total Income,11718198.0
+2017,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1600415.142
+2017,3,reinsurer,GRAND TOTAL,Management Expenses,553072.0
+2017,3,reinsurer,GRAND TOTAL,Total Outgo,2437170.0
+2017,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,9173338.858
+2017,3,reinsurer,GRAND TOTAL,Provision for Taxation,2617817.0
+2017,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,6555523.858
+2017,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,48253270.0
+2017,3,reinsurer,GRAND TOTAL,Transfer To Reserves,-15585.0
+2017,3,reinsurer,GRAND TOTAL,Other Appropriations,-5771.0
+2017,3,reinsurer,GRAND TOTAL,Dividend,1291959.0
+2017,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,53538192.0
+2018,1,insurer,TOTAL,Profit Transferred from Revenue,2098218.0
+2018,1,insurer,TOTAL,Investment Income,807466.0
+2018,1,insurer,TOTAL,Other Income,183856.0
+2018,1,insurer,TOTAL,Total Income,3089538.0
+2018,1,insurer,TOTAL,Loss Transferred From Revenue,1052152.0
+2018,1,insurer,TOTAL,Management Expenses,178352.0
+2018,1,insurer,TOTAL,Total Outgo,1340639.0
+2018,1,insurer,TOTAL,Profit / (Loss) Before Taxation,1748899.0
+2018,1,insurer,TOTAL,Provision for Taxation,543314.0
+2018,1,insurer,TOTAL,Profit/(Loss) After Taxation,1205591.0
+2018,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,24862004.0
+2018,1,insurer,TOTAL,Transfer To Reserves,45469.0
+2018,1,insurer,TOTAL,Other Appropriations,0.0
+2018,1,insurer,TOTAL,Dividend,1572000.0
+2018,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,24450124.0
+2018,1,reinsurer,TOTAL,Profit Transferred from Revenue,751215.0
+2018,1,reinsurer,TOTAL,Investment Income,136174.0
+2018,1,reinsurer,TOTAL,Other Income,20367.0
+2018,1,reinsurer,TOTAL,Total Income,907755.0
+2018,1,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2018,1,reinsurer,TOTAL,Management Expenses,7006.0
+2018,1,reinsurer,TOTAL,Total Outgo,51214.0
+2018,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,856541.0
+2018,1,reinsurer,TOTAL,Provision for Taxation,220535.0
+2018,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,636006.0
+2018,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22915808.0
+2018,1,reinsurer,TOTAL,Transfer To Reserves,0.0
+2018,1,reinsurer,TOTAL,Other Appropriations,-17670.0
+2018,1,reinsurer,TOTAL,Dividend,-100000.0
+2018,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,23669483.0
+2018,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,2849433.0
+2018,1,reinsurer,GRAND TOTAL,Investment Income,943640.0
+2018,1,reinsurer,GRAND TOTAL,Other Income,204223.0
+2018,1,reinsurer,GRAND TOTAL,Total Income,3997293.0
+2018,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1052152.0
+2018,1,reinsurer,GRAND TOTAL,Management Expenses,185358.0
+2018,1,reinsurer,GRAND TOTAL,Total Outgo,1391853.0
+2018,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,2605440.0
+2018,1,reinsurer,GRAND TOTAL,Provision for Taxation,763849.0
+2018,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,1841597.0
+2018,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,47777812.0
+2018,1,reinsurer,GRAND TOTAL,Transfer To Reserves,45469.0
+2018,1,reinsurer,GRAND TOTAL,Other Appropriations,-17670.0
+2018,1,reinsurer,GRAND TOTAL,Dividend,1472000.0
+2018,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,48119607.0
+2018,2,insurer,TOTAL,Profit Transferred from Revenue,2383068.0
+2018,2,insurer,TOTAL,Investment Income,2168971.0
+2018,2,insurer,TOTAL,Other Income,113142.0
+2018,2,insurer,TOTAL,Total Income,4665178.0
+2018,2,insurer,TOTAL,Loss Transferred From Revenue,1981201.0
+2018,2,insurer,TOTAL,Management Expenses,282145.0
+2018,2,insurer,TOTAL,Total Outgo,2453712.0
+2018,2,insurer,TOTAL,Profit / (Loss) Before Taxation,2211464.0
+2018,2,insurer,TOTAL,Provision for Taxation,718930.0
+2018,2,insurer,TOTAL,Profit/(Loss) After Taxation,1492536.0
+2018,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,31562281.0
+2018,2,insurer,TOTAL,Transfer To Reserves,418415.0
+2018,2,insurer,TOTAL,Other Appropriations,410170.0
+2018,2,insurer,TOTAL,Dividend,2226000.0
+2018,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,30000237.0
+2018,2,reinsurer,TOTAL,Profit Transferred from Revenue,1609699.0
+2018,2,reinsurer,TOTAL,Investment Income,251249.0
+2018,2,reinsurer,TOTAL,Other Income,44002.0
+2018,2,reinsurer,TOTAL,Total Income,1904951.0
+2018,2,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2018,2,reinsurer,TOTAL,Management Expenses,4593.0
+2018,2,reinsurer,TOTAL,Total Outgo,40161.0
+2018,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1864791.0
+2018,2,reinsurer,TOTAL,Provision for Taxation,564277.0
+2018,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,1300514.0
+2018,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22915808.0
+2018,2,reinsurer,TOTAL,Transfer To Reserves,0.0
+2018,2,reinsurer,TOTAL,Other Appropriations,-15898.0
+2018,2,reinsurer,TOTAL,Dividend,0.0
+2018,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,24232219.0
+2018,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,3992767.0
+2018,2,reinsurer,GRAND TOTAL,Investment Income,2420220.0
+2018,2,reinsurer,GRAND TOTAL,Other Income,157144.0
+2018,2,reinsurer,GRAND TOTAL,Total Income,6570129.0
+2018,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1981201.0
+2018,2,reinsurer,GRAND TOTAL,Management Expenses,286738.0
+2018,2,reinsurer,GRAND TOTAL,Total Outgo,2493873.0
+2018,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,4076255.0
+2018,2,reinsurer,GRAND TOTAL,Provision for Taxation,1283207.0
+2018,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,2793050.0
+2018,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,54478089.0
+2018,2,reinsurer,GRAND TOTAL,Transfer To Reserves,418415.0
+2018,2,reinsurer,GRAND TOTAL,Other Appropriations,394272.0
+2018,2,reinsurer,GRAND TOTAL,Dividend,2226000.0
+2018,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,54232456.0
+2018,3,insurer,TOTAL,Profit Transferred from Revenue,3917637.0
+2018,3,insurer,TOTAL,Investment Income,3001491.0
+2018,3,insurer,TOTAL,Other Income,47386.0
+2018,3,insurer,TOTAL,Total Income,6966515.0
+2018,3,insurer,TOTAL,Loss Transferred From Revenue,2573643.0
+2018,3,insurer,TOTAL,Management Expenses,403844.0
+2018,3,insurer,TOTAL,Total Outgo,3365712.0
+2018,3,insurer,TOTAL,Profit / (Loss) Before Taxation,3600805.0
+2018,3,insurer,TOTAL,Provision for Taxation,1222560.0
+2018,3,insurer,TOTAL,Profit/(Loss) After Taxation,2378244.0
+2018,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,32773477.0
+2018,3,insurer,TOTAL,Transfer To Reserves,-1048683.0
+2018,3,insurer,TOTAL,Other Appropriations,401954.0
+2018,3,insurer,TOTAL,Dividend,2568510.0
+2018,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,33229946.0
+2018,3,reinsurer,TOTAL,Profit Transferred from Revenue,2708141.0
+2018,3,reinsurer,TOTAL,Investment Income,364018.0
+2018,3,reinsurer,TOTAL,Other Income,52843.0
+2018,3,reinsurer,TOTAL,Total Income,3125003.0
+2018,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2018,3,reinsurer,TOTAL,Management Expenses,0.0
+2018,3,reinsurer,TOTAL,Total Outgo,59378.0
+2018,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,3065625.0
+2018,3,reinsurer,TOTAL,Provision for Taxation,737410.0
+2018,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,2328215.0
+2018,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22915808.0
+2018,3,reinsurer,TOTAL,Transfer To Reserves,-50792.0
+2018,3,reinsurer,TOTAL,Other Appropriations,-39633.0
+2018,3,reinsurer,TOTAL,Dividend,594957.0
+2018,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,24739490.0
+2018,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,6625778.0
+2018,3,reinsurer,GRAND TOTAL,Investment Income,3365509.0
+2018,3,reinsurer,GRAND TOTAL,Other Income,100229.0
+2018,3,reinsurer,GRAND TOTAL,Total Income,10091518.0
+2018,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2573643.0
+2018,3,reinsurer,GRAND TOTAL,Management Expenses,403844.0
+2018,3,reinsurer,GRAND TOTAL,Total Outgo,3425090.0
+2018,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,6666430.0
+2018,3,reinsurer,GRAND TOTAL,Provision for Taxation,1959970.0
+2018,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,4706459.0
+2018,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,55689285.0
+2018,3,reinsurer,GRAND TOTAL,Transfer To Reserves,-1099475.0
+2018,3,reinsurer,GRAND TOTAL,Other Appropriations,362321.0
+2018,3,reinsurer,GRAND TOTAL,Dividend,3163467.0
+2018,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,57969436.0
+2018,4,insurer,TOTAL,Profit Transferred from Revenue,6875271.0
+2018,4,insurer,TOTAL,Investment Income,3769357.0
+2018,4,insurer,TOTAL,Other Income,100696.0
+2018,4,insurer,TOTAL,Total Income,10745328.0
+2018,4,insurer,TOTAL,Loss Transferred From Revenue,2867437.0
+2018,4,insurer,TOTAL,Management Expenses,551525.0
+2018,4,insurer,TOTAL,Total Outgo,3652253.0
+2018,4,insurer,TOTAL,Profit / (Loss) Before Taxation,7093076.0
+2018,4,insurer,TOTAL,Provision for Taxation,2234422.0
+2018,4,insurer,TOTAL,Profit/(Loss) After Taxation,4858656.0
+2018,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,32742950.0
+2018,4,insurer,TOTAL,Transfer To Reserves,-1558574.0
+2018,4,insurer,TOTAL,Other Appropriations,1514112.0
+2018,4,insurer,TOTAL,Dividend,2578510.0
+2018,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,35067563.0
+2018,4,reinsurer,TOTAL,Profit Transferred from Revenue,2666369.0
+2018,4,reinsurer,TOTAL,Investment Income,598634.0
+2018,4,reinsurer,TOTAL,Other Income,63536.0
+2018,4,reinsurer,TOTAL,Total Income,3328539.0
+2018,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2018,4,reinsurer,TOTAL,Management Expenses,86302.0
+2018,4,reinsurer,TOTAL,Total Outgo,164754.0
+2018,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,3163785.0
+2018,4,reinsurer,TOTAL,Provision for Taxation,817996.0
+2018,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,2345789.0
+2018,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22952424.0
+2018,4,reinsurer,TOTAL,Transfer To Reserves,-76247.0
+2018,4,reinsurer,TOTAL,Other Appropriations,0.0
+2018,4,reinsurer,TOTAL,Dividend,594957.0
+2018,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,24779501.0
+2018,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,9541640.0
+2018,4,reinsurer,GRAND TOTAL,Investment Income,4367991.0
+2018,4,reinsurer,GRAND TOTAL,Other Income,164232.0
+2018,4,reinsurer,GRAND TOTAL,Total Income,14073867.0
+2018,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2867437.0
+2018,4,reinsurer,GRAND TOTAL,Management Expenses,637827.0
+2018,4,reinsurer,GRAND TOTAL,Total Outgo,3817007.0
+2018,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,10256861.0
+2018,4,reinsurer,GRAND TOTAL,Provision for Taxation,3052418.0
+2018,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,7204445.0
+2018,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,55695374.0
+2018,4,reinsurer,GRAND TOTAL,Transfer To Reserves,-1634821.0
+2018,4,reinsurer,GRAND TOTAL,Other Appropriations,1514112.0
+2018,4,reinsurer,GRAND TOTAL,Dividend,3173467.0
+2018,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,59847064.0
+2019,1,insurer,TOTAL,Profit Transferred from Revenue,1971068.0
+2019,1,insurer,TOTAL,Investment Income,1777190.0
+2019,1,insurer,TOTAL,Other Income,75728.0
+2019,1,insurer,TOTAL,Total Income,3823985.0
+2019,1,insurer,TOTAL,Loss Transferred From Revenue,962515.0
+2019,1,insurer,TOTAL,Management Expenses,154921.0
+2019,1,insurer,TOTAL,Total Outgo,1201250.0
+2019,1,insurer,TOTAL,Profit / (Loss) Before Taxation,2622738.0
+2019,1,insurer,TOTAL,Provision for Taxation,519784.0
+2019,1,insurer,TOTAL,Profit/(Loss) After Taxation,2102952.0
+2019,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,33362000.0
+2019,1,insurer,TOTAL,Transfer To Reserves,38540.0
+2019,1,insurer,TOTAL,Other Appropriations,73772.0
+2019,1,insurer,TOTAL,Dividend,1075000.0
+2019,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,34277640.0
+2019,1,reinsurer,TOTAL,Profit Transferred from Revenue,-670327.0
+2019,1,reinsurer,TOTAL,Investment Income,123401.0
+2019,1,reinsurer,TOTAL,Other Income,19080.0
+2019,1,reinsurer,TOTAL,Total Income,-527846.0
+2019,1,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2019,1,reinsurer,TOTAL,Management Expenses,15944.0
+2019,1,reinsurer,TOTAL,Total Outgo,54184.0
+2019,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,-582030.0
+2019,1,reinsurer,TOTAL,Provision for Taxation,7448.0
+2019,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,-589477.0
+2019,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24797411.0
+2019,1,reinsurer,TOTAL,Transfer To Reserves,-175602.0
+2019,1,reinsurer,TOTAL,Other Appropriations,0.0
+2019,1,reinsurer,TOTAL,Dividend,0.0
+2019,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,24383535.0
+2019,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,1300741.0
+2019,1,reinsurer,GRAND TOTAL,Investment Income,1900591.0
+2019,1,reinsurer,GRAND TOTAL,Other Income,94808.0
+2019,1,reinsurer,GRAND TOTAL,Total Income,3296139.0
+2019,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,962515.0
+2019,1,reinsurer,GRAND TOTAL,Management Expenses,170865.0
+2019,1,reinsurer,GRAND TOTAL,Total Outgo,1255434.0
+2019,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,2040708.0
+2019,1,reinsurer,GRAND TOTAL,Provision for Taxation,527232.0
+2019,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,1513475.0
+2019,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,58159411.0
+2019,1,reinsurer,GRAND TOTAL,Transfer To Reserves,-137062.0
+2019,1,reinsurer,GRAND TOTAL,Other Appropriations,73772.0
+2019,1,reinsurer,GRAND TOTAL,Dividend,1075000.0
+2019,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,58661175.0
+2019,2,insurer,TOTAL,Profit Transferred from Revenue,2880823.0
+2019,2,insurer,TOTAL,Investment Income,2940009.0
+2019,2,insurer,TOTAL,Other Income,38600.0
+2019,2,insurer,TOTAL,Total Income,5859436.0
+2019,2,insurer,TOTAL,Loss Transferred From Revenue,1474455.0
+2019,2,insurer,TOTAL,Management Expenses,291555.0
+2019,2,insurer,TOTAL,Total Outgo,2005822.0
+2019,2,insurer,TOTAL,Profit / (Loss) Before Taxation,3853612.0
+2019,2,insurer,TOTAL,Provision for Taxation,1290655.0
+2019,2,insurer,TOTAL,Profit/(Loss) After Taxation,2562959.0
+2019,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,35069336.0
+2019,2,insurer,TOTAL,Transfer To Reserves,34359.0
+2019,2,insurer,TOTAL,Other Appropriations,24940.0
+2019,2,insurer,TOTAL,Dividend,1603922.0
+2019,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,35969072.0
+2019,2,reinsurer,TOTAL,Profit Transferred from Revenue,970146.0
+2019,2,reinsurer,TOTAL,Investment Income,242918.0
+2019,2,reinsurer,TOTAL,Other Income,30301.0
+2019,2,reinsurer,TOTAL,Total Income,1243366.0
+2019,2,reinsurer,TOTAL,Loss Transferred From Revenue,60368.0
+2019,2,reinsurer,TOTAL,Management Expenses,10096.0
+2019,2,reinsurer,TOTAL,Total Outgo,109806.0
+2019,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1133560.0
+2019,2,reinsurer,TOTAL,Provision for Taxation,271433.0
+2019,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,862127.0
+2019,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24797410.0
+2019,2,reinsurer,TOTAL,Transfer To Reserves,-193318.0
+2019,2,reinsurer,TOTAL,Other Appropriations,0.0
+2019,2,reinsurer,TOTAL,Dividend,100000.0
+2019,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,25752854.0
+2019,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,3850969.0
+2019,2,reinsurer,GRAND TOTAL,Investment Income,3182927.0
+2019,2,reinsurer,GRAND TOTAL,Other Income,68901.0
+2019,2,reinsurer,GRAND TOTAL,Total Income,7102802.0
+2019,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1534823.0
+2019,2,reinsurer,GRAND TOTAL,Management Expenses,301651.0
+2019,2,reinsurer,GRAND TOTAL,Total Outgo,2115628.0
+2019,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,4987172.0
+2019,2,reinsurer,GRAND TOTAL,Provision for Taxation,1562088.0
+2019,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,3425086.0
+2019,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,59866746.0
+2019,2,reinsurer,GRAND TOTAL,Transfer To Reserves,-158959.0
+2019,2,reinsurer,GRAND TOTAL,Other Appropriations,24940.0
+2019,2,reinsurer,GRAND TOTAL,Dividend,1703922.0
+2019,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,61721926.0
+2019,3,insurer,TOTAL,Profit Transferred from Revenue,3264978.0
+2019,3,insurer,TOTAL,Investment Income,4202372.0
+2019,3,insurer,TOTAL,Other Income,100107.0
+2019,3,insurer,TOTAL,Total Income,7567456.0
+2019,3,insurer,TOTAL,Loss Transferred From Revenue,2069433.0
+2019,3,insurer,TOTAL,Management Expenses,423205.0
+2019,3,insurer,TOTAL,Total Outgo,2886147.0
+2019,3,insurer,TOTAL,Profit / (Loss) Before Taxation,4681310.0
+2019,3,insurer,TOTAL,Provision for Taxation,1730078.0
+2019,3,insurer,TOTAL,Profit/(Loss) After Taxation,2951232.0
+2019,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,34972950.0
+2019,3,insurer,TOTAL,Transfer To Reserves,-5526.0
+2019,3,insurer,TOTAL,Other Appropriations,24940.0
+2019,3,insurer,TOTAL,Dividend,1501922.0
+2019,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,36402844.0
+2019,3,reinsurer,TOTAL,Profit Transferred from Revenue,456254.0
+2019,3,reinsurer,TOTAL,Investment Income,397593.0
+2019,3,reinsurer,TOTAL,Other Income,65466.0
+2019,3,reinsurer,TOTAL,Total Income,919313.0
+2019,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2019,3,reinsurer,TOTAL,Management Expenses,4374.0
+2019,3,reinsurer,TOTAL,Total Outgo,43985.0
+2019,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,875327.0
+2019,3,reinsurer,TOTAL,Provision for Taxation,286399.0
+2019,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,588929.0
+2019,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24797410.0
+2019,3,reinsurer,TOTAL,Transfer To Reserves,-216251.0
+2019,3,reinsurer,TOTAL,Other Appropriations,0.0
+2019,3,reinsurer,TOTAL,Dividend,100000.0
+2019,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,25502592.0
+2019,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,3721232.0
+2019,3,reinsurer,GRAND TOTAL,Investment Income,4599965.0
+2019,3,reinsurer,GRAND TOTAL,Other Income,165573.0
+2019,3,reinsurer,GRAND TOTAL,Total Income,8486769.0
+2019,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2069433.0
+2019,3,reinsurer,GRAND TOTAL,Management Expenses,427579.0
+2019,3,reinsurer,GRAND TOTAL,Total Outgo,2930132.0
+2019,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,5556637.0
+2019,3,reinsurer,GRAND TOTAL,Provision for Taxation,2016477.0
+2019,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,3540161.0
+2019,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,59770360.0
+2019,3,reinsurer,GRAND TOTAL,Transfer To Reserves,-221777.0
+2019,3,reinsurer,GRAND TOTAL,Other Appropriations,24940.0
+2019,3,reinsurer,GRAND TOTAL,Dividend,1601922.0
+2019,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,61905436.0
+2019,4,insurer,TOTAL,Profit Transferred from Revenue,4486859.0
+2019,4,insurer,TOTAL,Investment Income,6105832.0
+2019,4,insurer,TOTAL,Other Income,234760.0
+2019,4,insurer,TOTAL,Total Income,10827452.0
+2019,4,insurer,TOTAL,Loss Transferred From Revenue,2402560.0
+2019,4,insurer,TOTAL,Management Expenses,724188.0
+2019,4,insurer,TOTAL,Total Outgo,3856490.0
+2019,4,insurer,TOTAL,Profit / (Loss) Before Taxation,6970962.0
+2019,4,insurer,TOTAL,Provision for Taxation,2396000.0
+2019,4,insurer,TOTAL,Profit/(Loss) After Taxation,4574959.0
+2019,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,34860764.0
+2019,4,insurer,TOTAL,Transfer To Reserves,687701.0
+2019,4,insurer,TOTAL,Other Appropriations,36630.0
+2019,4,insurer,TOTAL,Dividend,1724922.0
+2019,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,36986475.0
+2019,4,reinsurer,TOTAL,Profit Transferred from Revenue,977988.0
+2019,4,reinsurer,TOTAL,Investment Income,503644.0
+2019,4,reinsurer,TOTAL,Other Income,71761.0
+2019,4,reinsurer,TOTAL,Total Income,1553393.0
+2019,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2019,4,reinsurer,TOTAL,Management Expenses,30682.0
+2019,4,reinsurer,TOTAL,Total Outgo,63172.0
+2019,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1490220.0
+2019,4,reinsurer,TOTAL,Provision for Taxation,454210.0
+2019,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,1036010.0
+2019,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24797410.0
+2019,4,reinsurer,TOTAL,Transfer To Reserves,-256887.0
+2019,4,reinsurer,TOTAL,Other Appropriations,0.0
+2019,4,reinsurer,TOTAL,Dividend,100000.0
+2019,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,25990309.0
+2019,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,5464847.0
+2019,4,reinsurer,GRAND TOTAL,Investment Income,6609476.0
+2019,4,reinsurer,GRAND TOTAL,Other Income,306521.0
+2019,4,reinsurer,GRAND TOTAL,Total Income,12380845.0
+2019,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2402560.0
+2019,4,reinsurer,GRAND TOTAL,Management Expenses,754870.0
+2019,4,reinsurer,GRAND TOTAL,Total Outgo,3919662.0
+2019,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,8461182.0
+2019,4,reinsurer,GRAND TOTAL,Provision for Taxation,2850210.0
+2019,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,5610969.0
+2019,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,59658174.0
+2019,4,reinsurer,GRAND TOTAL,Transfer To Reserves,430814.0
+2019,4,reinsurer,GRAND TOTAL,Other Appropriations,36630.0
+2019,4,reinsurer,GRAND TOTAL,Dividend,1824922.0
+2019,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,62976784.0
+2020,1,insurer,TOTAL,Profit Transferred from Revenue,1111355.0
+2020,1,insurer,TOTAL,Investment Income,322530.0
+2020,1,insurer,TOTAL,Other Income,-7772.0
+2020,1,insurer,TOTAL,Total Income,1426112.0
+2020,1,insurer,TOTAL,Loss Transferred From Revenue,1857283.0
+2020,1,insurer,TOTAL,Management Expenses,216995.0
+2020,1,insurer,TOTAL,Total Outgo,2227786.0
+2020,1,insurer,TOTAL,Profit / (Loss) Before Taxation,-801674.0
+2020,1,insurer,TOTAL,Provision for Taxation,2605.0
+2020,1,insurer,TOTAL,Profit/(Loss) After Taxation,-804279.0
+2020,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,29609479.0
+2020,1,insurer,TOTAL,Transfer To Reserves,500000.0
+2020,1,insurer,TOTAL,Other Appropriations,8424.0
+2020,1,insurer,TOTAL,Dividend,850000.0
+2020,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,27446774.0
+2020,1,reinsurer,TOTAL,Profit Transferred from Revenue,1296295.0
+2020,1,reinsurer,TOTAL,Investment Income,122550.0
+2020,1,reinsurer,TOTAL,Other Income,13754.0
+2020,1,reinsurer,TOTAL,Total Income,1432600.0
+2020,1,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2020,1,reinsurer,TOTAL,Management Expenses,5500.0
+2020,1,reinsurer,TOTAL,Total Outgo,26398.0
+2020,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1406202.0
+2020,1,reinsurer,TOTAL,Provision for Taxation,481073.0
+2020,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,925129.0
+2020,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22386705.0
+2020,1,reinsurer,TOTAL,Transfer To Reserves,-165185.0
+2020,1,reinsurer,TOTAL,Other Appropriations,0.0
+2020,1,reinsurer,TOTAL,Dividend,0.0
+2020,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,23477019.0
+2020,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,2407650.0
+2020,1,reinsurer,GRAND TOTAL,Investment Income,445080.0
+2020,1,reinsurer,GRAND TOTAL,Other Income,5982.0
+2020,1,reinsurer,GRAND TOTAL,Total Income,2858712.0
+2020,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1857283.0
+2020,1,reinsurer,GRAND TOTAL,Management Expenses,222495.0
+2020,1,reinsurer,GRAND TOTAL,Total Outgo,2254184.0
+2020,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,604528.0
+2020,1,reinsurer,GRAND TOTAL,Provision for Taxation,483678.0
+2020,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,120850.0
+2020,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,51996184.0
+2020,1,reinsurer,GRAND TOTAL,Transfer To Reserves,334815.0
+2020,1,reinsurer,GRAND TOTAL,Other Appropriations,8424.0
+2020,1,reinsurer,GRAND TOTAL,Dividend,850000.0
+2020,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,50923793.0
+2020,2,insurer,TOTAL,Profit Transferred from Revenue,4484003.0
+2020,2,insurer,TOTAL,Investment Income,1300378.0
+2020,2,insurer,TOTAL,Other Income,7736.0
+2020,2,insurer,TOTAL,Total Income,5792114.0
+2020,2,insurer,TOTAL,Loss Transferred From Revenue,1381190.0
+2020,2,insurer,TOTAL,Management Expenses,251369.0
+2020,2,insurer,TOTAL,Total Outgo,1941943.0
+2020,2,insurer,TOTAL,Profit / (Loss) Before Taxation,3850173.0
+2020,2,insurer,TOTAL,Provision for Taxation,1336665.0
+2020,2,insurer,TOTAL,Profit/(Loss) After Taxation,2513508.0
+2020,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,29902115.0
+2020,2,insurer,TOTAL,Transfer To Reserves,0.0
+2020,2,insurer,TOTAL,Other Appropriations,1388612.0
+2020,2,insurer,TOTAL,Dividend,2187500.0
+2020,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,28839507.0
+2020,2,reinsurer,TOTAL,Profit Transferred from Revenue,2035736.0
+2020,2,reinsurer,TOTAL,Investment Income,259327.0
+2020,2,reinsurer,TOTAL,Other Income,30787.0
+2020,2,reinsurer,TOTAL,Total Income,2325851.0
+2020,2,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2020,2,reinsurer,TOTAL,Management Expenses,18484.0
+2020,2,reinsurer,TOTAL,Total Outgo,44043.0
+2020,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,2281808.0
+2020,2,reinsurer,TOTAL,Provision for Taxation,573777.0
+2020,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,1708031.0
+2020,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,22386705.0
+2020,2,reinsurer,TOTAL,Transfer To Reserves,-529.0
+2020,2,reinsurer,TOTAL,Other Appropriations,0.0
+2020,2,reinsurer,TOTAL,Dividend,100000.0
+2020,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,23995265.0
+2020,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,6519739.0
+2020,2,reinsurer,GRAND TOTAL,Investment Income,1559705.0
+2020,2,reinsurer,GRAND TOTAL,Other Income,38523.0
+2020,2,reinsurer,GRAND TOTAL,Total Income,8117965.0
+2020,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1381190.0
+2020,2,reinsurer,GRAND TOTAL,Management Expenses,269853.0
+2020,2,reinsurer,GRAND TOTAL,Total Outgo,1985986.0
+2020,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,6131981.0
+2020,2,reinsurer,GRAND TOTAL,Provision for Taxation,1910442.0
+2020,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,4221539.0
+2020,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52288820.0
+2020,2,reinsurer,GRAND TOTAL,Transfer To Reserves,-529.0
+2020,2,reinsurer,GRAND TOTAL,Other Appropriations,1388612.0
+2020,2,reinsurer,GRAND TOTAL,Dividend,2287500.0
+2020,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,52834772.0
+2020,3,insurer,TOTAL,Profit Transferred from Revenue,6060997.0
+2020,3,insurer,TOTAL,Investment Income,2227539.0
+2020,3,insurer,TOTAL,Other Income,42949.0
+2020,3,insurer,TOTAL,Total Income,8331483.0
+2020,3,insurer,TOTAL,Loss Transferred From Revenue,1850354.0
+2020,3,insurer,TOTAL,Management Expenses,411102.0
+2020,3,insurer,TOTAL,Total Outgo,2594990.0
+2020,3,insurer,TOTAL,Profit / (Loss) Before Taxation,5736492.0
+2020,3,insurer,TOTAL,Provision for Taxation,2134645.0
+2020,3,insurer,TOTAL,Profit/(Loss) After Taxation,3601845.0
+2020,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,29588785.0
+2020,3,insurer,TOTAL,Transfer To Reserves,500000.0
+2020,3,insurer,TOTAL,Other Appropriations,1138612.0
+2020,3,insurer,TOTAL,Dividend,2345000.0
+2020,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,29207016.0
+2020,3,reinsurer,TOTAL,Profit Transferred from Revenue,2319995.0
+2020,3,reinsurer,TOTAL,Investment Income,404844.0
+2020,3,reinsurer,TOTAL,Other Income,99826.0
+2020,3,reinsurer,TOTAL,Total Income,2824664.0
+2020,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2020,3,reinsurer,TOTAL,Management Expenses,1199.0
+2020,3,reinsurer,TOTAL,Total Outgo,71771.0
+2020,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,2752893.0
+2020,3,reinsurer,TOTAL,Provision for Taxation,703637.0
+2020,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,2049255.0
+2020,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,19591756.0
+2020,3,reinsurer,TOTAL,Transfer To Reserves,-42542.0
+2020,3,reinsurer,TOTAL,Other Appropriations,400000.0
+2020,3,reinsurer,TOTAL,Dividend,0.0
+2020,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,21283553.0
+2020,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,8380992.0
+2020,3,reinsurer,GRAND TOTAL,Investment Income,2632383.0
+2020,3,reinsurer,GRAND TOTAL,Other Income,142775.0
+2020,3,reinsurer,GRAND TOTAL,Total Income,11156147.0
+2020,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1850354.0
+2020,3,reinsurer,GRAND TOTAL,Management Expenses,412301.0
+2020,3,reinsurer,GRAND TOTAL,Total Outgo,2666761.0
+2020,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,8489385.0
+2020,3,reinsurer,GRAND TOTAL,Provision for Taxation,2838282.0
+2020,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,5651100.0
+2020,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,49180541.0
+2020,3,reinsurer,GRAND TOTAL,Transfer To Reserves,457458.0
+2020,3,reinsurer,GRAND TOTAL,Other Appropriations,1538612.0
+2020,3,reinsurer,GRAND TOTAL,Dividend,2345000.0
+2020,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,50490569.0
+2020,4,insurer,TOTAL,Profit Transferred from Revenue,6947963.0
+2020,4,insurer,TOTAL,Investment Income,3239496.0
+2020,4,insurer,TOTAL,Other Income,113871.0
+2020,4,insurer,TOTAL,Total Income,10301333.0
+2020,4,insurer,TOTAL,Loss Transferred From Revenue,1226185.0
+2020,4,insurer,TOTAL,Management Expenses,675245.0
+2020,4,insurer,TOTAL,Total Outgo,2300686.0
+2020,4,insurer,TOTAL,Profit / (Loss) Before Taxation,8000649.0
+2020,4,insurer,TOTAL,Provision for Taxation,2533771.0
+2020,4,insurer,TOTAL,Profit/(Loss) After Taxation,5466876.0
+2020,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,30262530.0
+2020,4,insurer,TOTAL,Transfer To Reserves,0.0
+2020,4,insurer,TOTAL,Other Appropriations,1788613.0
+2020,4,insurer,TOTAL,Dividend,2786281.0
+2020,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,31154511.0
+2020,4,reinsurer,TOTAL,Profit Transferred from Revenue,3421455.0
+2020,4,reinsurer,TOTAL,Investment Income,509771.0
+2020,4,reinsurer,TOTAL,Other Income,108563.0
+2020,4,reinsurer,TOTAL,Total Income,4039789.0
+2020,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2020,4,reinsurer,TOTAL,Management Expenses,35609.0
+2020,4,reinsurer,TOTAL,Total Outgo,102515.0
+2020,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,3937274.0
+2020,4,reinsurer,TOTAL,Provision for Taxation,1025444.0
+2020,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,2911830.0
+2020,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,19591756.0
+2020,4,reinsurer,TOTAL,Transfer To Reserves,-95294.0
+2020,4,reinsurer,TOTAL,Other Appropriations,400000.0
+2020,4,reinsurer,TOTAL,Dividend,280801.0
+2020,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,21918081.0
+2020,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,10369418.0
+2020,4,reinsurer,GRAND TOTAL,Investment Income,3749267.0
+2020,4,reinsurer,GRAND TOTAL,Other Income,222434.0
+2020,4,reinsurer,GRAND TOTAL,Total Income,14341122.0
+2020,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1226185.0
+2020,4,reinsurer,GRAND TOTAL,Management Expenses,710854.0
+2020,4,reinsurer,GRAND TOTAL,Total Outgo,2403201.0
+2020,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,11937923.0
+2020,4,reinsurer,GRAND TOTAL,Provision for Taxation,3559215.0
+2020,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,8378706.0
+2020,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,49854286.0
+2020,4,reinsurer,GRAND TOTAL,Transfer To Reserves,-95294.0
+2020,4,reinsurer,GRAND TOTAL,Other Appropriations,2188613.0
+2020,4,reinsurer,GRAND TOTAL,Dividend,3067082.0
+2020,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,53072592.0
+2021,1,insurer,TOTAL,Profit Transferred from Revenue,1252495.0
+2021,1,insurer,TOTAL,Investment Income,1329415.0
+2021,1,insurer,TOTAL,Other Income,40060.0
+2021,1,insurer,TOTAL,Total Income,2621970.0
+2021,1,insurer,TOTAL,Loss Transferred From Revenue,1541293.0
+2021,1,insurer,TOTAL,Management Expenses,252783.0
+2021,1,insurer,TOTAL,Total Outgo,1912465.0
+2021,1,insurer,TOTAL,Profit / (Loss) Before Taxation,709508.0
+2021,1,insurer,TOTAL,Provision for Taxation,383380.0
+2021,1,insurer,TOTAL,Profit/(Loss) After Taxation,326127.0
+2021,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,30583504.0
+2021,1,insurer,TOTAL,Transfer To Reserves,-204.0
+2021,1,insurer,TOTAL,Other Appropriations,0.0
+2021,1,insurer,TOTAL,Dividend,1050000.0
+2021,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,29859835.0
+2021,1,reinsurer,TOTAL,Profit Transferred from Revenue,-246485.0
+2021,1,reinsurer,TOTAL,Investment Income,141080.0
+2021,1,reinsurer,TOTAL,Other Income,30547.0
+2021,1,reinsurer,TOTAL,Total Income,-74859.0
+2021,1,reinsurer,TOTAL,Loss Transferred From Revenue,15539.0
+2021,1,reinsurer,TOTAL,Management Expenses,0.0
+2021,1,reinsurer,TOTAL,Total Outgo,24516.0
+2021,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,-99375.0
+2021,1,reinsurer,TOTAL,Provision for Taxation,412702.0
+2021,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,-512076.0
+2021,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,25456531.0
+2021,1,reinsurer,TOTAL,Transfer To Reserves,-394.0
+2021,1,reinsurer,TOTAL,Other Appropriations,0.0
+2021,1,reinsurer,TOTAL,Dividend,0.0
+2021,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,24944851.0
+2021,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,1006010.0
+2021,1,reinsurer,GRAND TOTAL,Investment Income,1470495.0
+2021,1,reinsurer,GRAND TOTAL,Other Income,70607.0
+2021,1,reinsurer,GRAND TOTAL,Total Income,2547111.0
+2021,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1556832.0
+2021,1,reinsurer,GRAND TOTAL,Management Expenses,252783.0
+2021,1,reinsurer,GRAND TOTAL,Total Outgo,1936981.0
+2021,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,610133.0
+2021,1,reinsurer,GRAND TOTAL,Provision for Taxation,796082.0
+2021,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,-185949.0
+2021,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,56040035.0
+2021,1,reinsurer,GRAND TOTAL,Transfer To Reserves,-598.0
+2021,1,reinsurer,GRAND TOTAL,Other Appropriations,0.0
+2021,1,reinsurer,GRAND TOTAL,Dividend,1050000.0
+2021,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,54804686.0
+2021,2,insurer,TOTAL,Profit Transferred from Revenue,3699772.0
+2021,2,insurer,TOTAL,Investment Income,2870311.0
+2021,2,insurer,TOTAL,Other Income,99684.0
+2021,2,insurer,TOTAL,Total Income,6669766.0
+2021,2,insurer,TOTAL,Loss Transferred From Revenue,1775212.0
+2021,2,insurer,TOTAL,Management Expenses,461413.0
+2021,2,insurer,TOTAL,Total Outgo,2387100.0
+2021,2,insurer,TOTAL,Profit / (Loss) Before Taxation,4282662.0
+2021,2,insurer,TOTAL,Provision for Taxation,1000999.0
+2021,2,insurer,TOTAL,Profit/(Loss) After Taxation,3281662.0
+2021,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,29525226.0
+2021,2,insurer,TOTAL,Transfer To Reserves,88427.0
+2021,2,insurer,TOTAL,Other Appropriations,0.0
+2021,2,insurer,TOTAL,Dividend,2434631.0
+2021,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,30283833.0
+2021,2,reinsurer,TOTAL,Profit Transferred from Revenue,939366.0
+2021,2,reinsurer,TOTAL,Investment Income,281996.0
+2021,2,reinsurer,TOTAL,Other Income,49543.0
+2021,2,reinsurer,TOTAL,Total Income,1270909.0
+2021,2,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2021,2,reinsurer,TOTAL,Management Expenses,462.0
+2021,2,reinsurer,TOTAL,Total Outgo,25164.0
+2021,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1245745.0
+2021,2,reinsurer,TOTAL,Provision for Taxation,373986.0
+2021,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,871757.0
+2021,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24573443.0
+2021,2,reinsurer,TOTAL,Transfer To Reserves,-788.0
+2021,2,reinsurer,TOTAL,Other Appropriations,0.0
+2021,2,reinsurer,TOTAL,Dividend,100000.0
+2021,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,25345988.0
+2021,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,4639138.0
+2021,2,reinsurer,GRAND TOTAL,Investment Income,3152307.0
+2021,2,reinsurer,GRAND TOTAL,Other Income,149227.0
+2021,2,reinsurer,GRAND TOTAL,Total Income,7940675.0
+2021,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1775212.0
+2021,2,reinsurer,GRAND TOTAL,Management Expenses,461875.0
+2021,2,reinsurer,GRAND TOTAL,Total Outgo,2412264.0
+2021,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,5528407.0
+2021,2,reinsurer,GRAND TOTAL,Provision for Taxation,1374985.0
+2021,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,4153419.0
+2021,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,54098669.0
+2021,2,reinsurer,GRAND TOTAL,Transfer To Reserves,87639.0
+2021,2,reinsurer,GRAND TOTAL,Other Appropriations,0.0
+2021,2,reinsurer,GRAND TOTAL,Dividend,2534631.0
+2021,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,55629821.0
+2021,3,insurer,TOTAL,Profit Transferred from Revenue,4251582.0
+2021,3,insurer,TOTAL,Investment Income,4287794.0
+2021,3,insurer,TOTAL,Other Income,203189.0
+2021,3,insurer,TOTAL,Total Income,8742566.0
+2021,3,insurer,TOTAL,Loss Transferred From Revenue,3041422.0
+2021,3,insurer,TOTAL,Management Expenses,447539.0
+2021,3,insurer,TOTAL,Total Outgo,3820011.0
+2021,3,insurer,TOTAL,Profit / (Loss) Before Taxation,4922557.0
+2021,3,insurer,TOTAL,Provision for Taxation,1323773.0
+2021,3,insurer,TOTAL,Profit/(Loss) After Taxation,3598780.0
+2021,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,29195294.0
+2021,3,insurer,TOTAL,Transfer To Reserves,87592.0
+2021,3,insurer,TOTAL,Other Appropriations,0.0
+2021,3,insurer,TOTAL,Dividend,2868619.0
+2021,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,29837858.0
+2021,3,reinsurer,TOTAL,Profit Transferred from Revenue,1998283.0
+2021,3,reinsurer,TOTAL,Investment Income,438359.0
+2021,3,reinsurer,TOTAL,Other Income,58016.0
+2021,3,reinsurer,TOTAL,Total Income,2494659.0
+2021,3,reinsurer,TOTAL,Loss Transferred From Revenue,34273.0
+2021,3,reinsurer,TOTAL,Management Expenses,134157.0
+2021,3,reinsurer,TOTAL,Total Outgo,219068.0
+2021,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,2275591.0
+2021,3,reinsurer,TOTAL,Provision for Taxation,682677.0
+2021,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,1592915.0
+2021,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24307089.0
+2021,3,reinsurer,TOTAL,Transfer To Reserves,-1183.0
+2021,3,reinsurer,TOTAL,Other Appropriations,0.0
+2021,3,reinsurer,TOTAL,Dividend,100000.0
+2021,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,25801186.0
+2021,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,6249865.0
+2021,3,reinsurer,GRAND TOTAL,Investment Income,4726153.0
+2021,3,reinsurer,GRAND TOTAL,Other Income,261205.0
+2021,3,reinsurer,GRAND TOTAL,Total Income,11237225.0
+2021,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,3075695.0
+2021,3,reinsurer,GRAND TOTAL,Management Expenses,581696.0
+2021,3,reinsurer,GRAND TOTAL,Total Outgo,4039079.0
+2021,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,7198148.0
+2021,3,reinsurer,GRAND TOTAL,Provision for Taxation,2006450.0
+2021,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,5191695.0
+2021,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,53502383.0
+2021,3,reinsurer,GRAND TOTAL,Transfer To Reserves,86409.0
+2021,3,reinsurer,GRAND TOTAL,Other Appropriations,0.0
+2021,3,reinsurer,GRAND TOTAL,Dividend,2968619.0
+2021,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,55639044.0
+2021,4,insurer,TOTAL,Profit Transferred from Revenue,5682135.0
+2021,4,insurer,TOTAL,Investment Income,4436073.0
+2021,4,insurer,TOTAL,Other Income,430681.0
+2021,4,insurer,TOTAL,Total Income,10548890.0
+2021,4,insurer,TOTAL,Loss Transferred From Revenue,5110738.0
+2021,4,insurer,TOTAL,Management Expenses,510646.0
+2021,4,insurer,TOTAL,Total Outgo,6526774.0
+2021,4,insurer,TOTAL,Profit / (Loss) Before Taxation,4022117.0
+2021,4,insurer,TOTAL,Provision for Taxation,1637278.0
+2021,4,insurer,TOTAL,Profit/(Loss) After Taxation,2384843.0
+2021,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,28929853.0
+2021,4,insurer,TOTAL,Transfer To Reserves,113934.0
+2021,4,insurer,TOTAL,Other Appropriations,1418.0
+2021,4,insurer,TOTAL,Dividend,3921119.0
+2021,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,27278225.0
+2021,4,reinsurer,TOTAL,Profit Transferred from Revenue,3656967.0
+2021,4,reinsurer,TOTAL,Investment Income,601060.0
+2021,4,reinsurer,TOTAL,Other Income,21842.0
+2021,4,reinsurer,TOTAL,Total Income,4279870.0
+2021,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2021,4,reinsurer,TOTAL,Management Expenses,165046.0
+2021,4,reinsurer,TOTAL,Total Outgo,231623.0
+2021,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,4048247.0
+2021,4,reinsurer,TOTAL,Provision for Taxation,1229335.0
+2021,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,2818911.0
+2021,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,24573443.0
+2021,4,reinsurer,TOTAL,Transfer To Reserves,-13186.0
+2021,4,reinsurer,TOTAL,Other Appropriations,0.0
+2021,4,reinsurer,TOTAL,Dividend,659959.0
+2021,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,26745582.0
+2021,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,9339102.0
+2021,4,reinsurer,GRAND TOTAL,Investment Income,5037133.0
+2021,4,reinsurer,GRAND TOTAL,Other Income,452523.0
+2021,4,reinsurer,GRAND TOTAL,Total Income,14828760.0
+2021,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,5110738.0
+2021,4,reinsurer,GRAND TOTAL,Management Expenses,675692.0
+2021,4,reinsurer,GRAND TOTAL,Total Outgo,6758397.0
+2021,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,8070364.0
+2021,4,reinsurer,GRAND TOTAL,Provision for Taxation,2866613.0
+2021,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,5203754.0
+2021,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,53503296.0
+2021,4,reinsurer,GRAND TOTAL,Transfer To Reserves,100748.0
+2021,4,reinsurer,GRAND TOTAL,Other Appropriations,1418.0
+2021,4,reinsurer,GRAND TOTAL,Dividend,4581078.0
+2021,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,54023807.0
+2022,1,insurer,TOTAL,Profit Transferred from Revenue,1715293.0
+2022,1,insurer,TOTAL,Investment Income,992508.0
+2022,1,insurer,TOTAL,Other Income,48355.0
+2022,1,insurer,TOTAL,Total Income,2756153.0
+2022,1,insurer,TOTAL,Loss Transferred From Revenue,822380.0
+2022,1,insurer,TOTAL,Management Expenses,190805.0
+2022,1,insurer,TOTAL,Total Outgo,1074879.0
+2022,1,insurer,TOTAL,Profit / (Loss) Before Taxation,1681274.0
+2022,1,insurer,TOTAL,Provision for Taxation,418679.0
+2022,1,insurer,TOTAL,Profit/(Loss) After Taxation,1262594.0
+2022,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,31619995.0
+2022,1,insurer,TOTAL,Transfer To Reserves,850.0
+2022,1,insurer,TOTAL,Other Appropriations,-3589.0
+2022,1,insurer,TOTAL,Dividend,398750.0
+2022,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,32486585.0
+2022,1,reinsurer,TOTAL,Profit Transferred from Revenue,1235632.0
+2022,1,reinsurer,TOTAL,Investment Income,169588.0
+2022,1,reinsurer,TOTAL,Other Income,32101.0
+2022,1,reinsurer,TOTAL,Total Income,1437321.0
+2022,1,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2022,1,reinsurer,TOTAL,Management Expenses,45189.0
+2022,1,reinsurer,TOTAL,Total Outgo,72714.0
+2022,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1364606.0
+2022,1,reinsurer,TOTAL,Provision for Taxation,409382.0
+2022,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,955225.0
+2022,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,26878111.0
+2022,1,reinsurer,TOTAL,Transfer To Reserves,0.0
+2022,1,reinsurer,TOTAL,Other Appropriations,0.0
+2022,1,reinsurer,TOTAL,Dividend,0.0
+2022,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,27833337.0
+2022,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,2950925.0
+2022,1,reinsurer,GRAND TOTAL,Investment Income,1162096.0
+2022,1,reinsurer,GRAND TOTAL,Other Income,80456.0
+2022,1,reinsurer,GRAND TOTAL,Total Income,4193474.0
+2022,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,822380.0
+2022,1,reinsurer,GRAND TOTAL,Management Expenses,235994.0
+2022,1,reinsurer,GRAND TOTAL,Total Outgo,1147593.0
+2022,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,3045880.0
+2022,1,reinsurer,GRAND TOTAL,Provision for Taxation,828061.0
+2022,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,2217819.0
+2022,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,58498106.0
+2022,1,reinsurer,GRAND TOTAL,Transfer To Reserves,850.0
+2022,1,reinsurer,GRAND TOTAL,Other Appropriations,-3589.0
+2022,1,reinsurer,GRAND TOTAL,Dividend,398750.0
+2022,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,60319922.0
+2022,2,insurer,TOTAL,Profit Transferred from Revenue,2929095.0
+2022,2,insurer,TOTAL,Investment Income,1575916.0
+2022,2,insurer,TOTAL,Other Income,136965.0
+2022,2,insurer,TOTAL,Total Income,4641975.0
+2022,2,insurer,TOTAL,Loss Transferred From Revenue,1362500.0
+2022,2,insurer,TOTAL,Management Expenses,339030.0
+2022,2,insurer,TOTAL,Total Outgo,1815602.0
+2022,2,insurer,TOTAL,Profit / (Loss) Before Taxation,2826371.0
+2022,2,insurer,TOTAL,Provision for Taxation,832395.0
+2022,2,insurer,TOTAL,Profit/(Loss) After Taxation,1993978.0
+2022,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,30543035.0
+2022,2,insurer,TOTAL,Transfer To Reserves,-3649.0
+2022,2,insurer,TOTAL,Other Appropriations,-3589.0
+2022,2,insurer,TOTAL,Dividend,1152500.0
+2022,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,31391753.0
+2022,2,reinsurer,TOTAL,Profit Transferred from Revenue,2128251.0
+2022,2,reinsurer,TOTAL,Investment Income,333180.0
+2022,2,reinsurer,TOTAL,Other Income,130896.0
+2022,2,reinsurer,TOTAL,Total Income,2592327.0
+2022,2,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2022,2,reinsurer,TOTAL,Management Expenses,33550.0
+2022,2,reinsurer,TOTAL,Total Outgo,121333.0
+2022,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,2470994.0
+2022,2,reinsurer,TOTAL,Provision for Taxation,740693.0
+2022,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,1730303.0
+2022,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,26878111.0
+2022,2,reinsurer,TOTAL,Transfer To Reserves,0.0
+2022,2,reinsurer,TOTAL,Other Appropriations,-207.0
+2022,2,reinsurer,TOTAL,Dividend,100000.0
+2022,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,28508622.0
+2022,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,5057346.0
+2022,2,reinsurer,GRAND TOTAL,Investment Income,1909096.0
+2022,2,reinsurer,GRAND TOTAL,Other Income,267861.0
+2022,2,reinsurer,GRAND TOTAL,Total Income,7234302.0
+2022,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1362500.0
+2022,2,reinsurer,GRAND TOTAL,Management Expenses,372580.0
+2022,2,reinsurer,GRAND TOTAL,Total Outgo,1936935.0
+2022,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,5297365.0
+2022,2,reinsurer,GRAND TOTAL,Provision for Taxation,1573088.0
+2022,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,3724281.0
+2022,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,57421146.0
+2022,2,reinsurer,GRAND TOTAL,Transfer To Reserves,-3649.0
+2022,2,reinsurer,GRAND TOTAL,Other Appropriations,-3796.0
+2022,2,reinsurer,GRAND TOTAL,Dividend,1252500.0
+2022,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,59900375.0
+2022,3,insurer,TOTAL,Profit Transferred from Revenue,4896666.0
+2022,3,insurer,TOTAL,Investment Income,3331930.0
+2022,3,insurer,TOTAL,Other Income,143137.0
+2022,3,insurer,TOTAL,Total Income,8371734.0
+2022,3,insurer,TOTAL,Loss Transferred From Revenue,2368751.0
+2022,3,insurer,TOTAL,Management Expenses,543959.0
+2022,3,insurer,TOTAL,Total Outgo,3223678.0
+2022,3,insurer,TOTAL,Profit / (Loss) Before Taxation,5148058.0
+2022,3,insurer,TOTAL,Provision for Taxation,1727844.0
+2022,3,insurer,TOTAL,Profit/(Loss) After Taxation,3420210.0
+2022,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,25610226.0
+2022,3,insurer,TOTAL,Transfer To Reserves,-2473.0
+2022,3,insurer,TOTAL,Other Appropriations,-3589.0
+2022,3,insurer,TOTAL,Dividend,1405361.0
+2022,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,27631141.0
+2022,3,reinsurer,TOTAL,Profit Transferred from Revenue,3517929.0
+2022,3,reinsurer,TOTAL,Investment Income,502969.0
+2022,3,reinsurer,TOTAL,Other Income,299342.0
+2022,3,reinsurer,TOTAL,Total Income,4320240.0
+2022,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2022,3,reinsurer,TOTAL,Management Expenses,136784.0
+2022,3,reinsurer,TOTAL,Total Outgo,252553.0
+2022,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,4067687.0
+2022,3,reinsurer,TOTAL,Provision for Taxation,1220306.0
+2022,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,2847380.0
+2022,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,26878111.0
+2022,3,reinsurer,TOTAL,Transfer To Reserves,0.0
+2022,3,reinsurer,TOTAL,Other Appropriations,279772.0
+2022,3,reinsurer,TOTAL,Dividend,100000.0
+2022,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,29345722.0
+2022,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,8414595.0
+2022,3,reinsurer,GRAND TOTAL,Investment Income,3834899.0
+2022,3,reinsurer,GRAND TOTAL,Other Income,442479.0
+2022,3,reinsurer,GRAND TOTAL,Total Income,12691974.0
+2022,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2368751.0
+2022,3,reinsurer,GRAND TOTAL,Management Expenses,680743.0
+2022,3,reinsurer,GRAND TOTAL,Total Outgo,3476231.0
+2022,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,9215745.0
+2022,3,reinsurer,GRAND TOTAL,Provision for Taxation,2948150.0
+2022,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,6267590.0
+2022,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52488337.0
+2022,3,reinsurer,GRAND TOTAL,Transfer To Reserves,-2473.0
+2022,3,reinsurer,GRAND TOTAL,Other Appropriations,276183.0
+2022,3,reinsurer,GRAND TOTAL,Dividend,1505361.0
+2022,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,56976863.0
+2022,4,insurer,TOTAL,Profit Transferred from Revenue,6949020.0
+2022,4,insurer,TOTAL,Investment Income,4731214.0
+2022,4,insurer,TOTAL,Other Income,322662.0
+2022,4,insurer,TOTAL,Total Income,12002894.0
+2022,4,insurer,TOTAL,Loss Transferred From Revenue,3701208.0
+2022,4,insurer,TOTAL,Management Expenses,730330.0
+2022,4,insurer,TOTAL,Total Outgo,4693803.0
+2022,4,insurer,TOTAL,Profit / (Loss) Before Taxation,7309093.0
+2022,4,insurer,TOTAL,Provision for Taxation,2585181.0
+2022,4,insurer,TOTAL,Profit/(Loss) After Taxation,4723910.0
+2022,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,25270072.0
+2022,4,insurer,TOTAL,Transfer To Reserves,496597.0
+2022,4,insurer,TOTAL,Other Appropriations,11336.0
+2022,4,insurer,TOTAL,Dividend,1759111.0
+2022,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,27726945.0
+2022,4,reinsurer,TOTAL,Profit Transferred from Revenue,4338283.0
+2022,4,reinsurer,TOTAL,Investment Income,609828.0
+2022,4,reinsurer,TOTAL,Other Income,322985.0
+2022,4,reinsurer,TOTAL,Total Income,5271095.0
+2022,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2022,4,reinsurer,TOTAL,Management Expenses,98646.0
+2022,4,reinsurer,TOTAL,Total Outgo,175832.0
+2022,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,5095264.0
+2022,4,reinsurer,TOTAL,Provision for Taxation,1469329.0
+2022,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,3625937.0
+2022,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,26881737.0
+2022,4,reinsurer,TOTAL,Transfer To Reserves,-18328.0
+2022,4,reinsurer,TOTAL,Other Appropriations,175561.0
+2022,4,reinsurer,TOTAL,Dividend,100000.0
+2022,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,30250442.0
+2022,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,11287303.0
+2022,4,reinsurer,GRAND TOTAL,Investment Income,5341042.0
+2022,4,reinsurer,GRAND TOTAL,Other Income,645647.0
+2022,4,reinsurer,GRAND TOTAL,Total Income,17273989.0
+2022,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,3701208.0
+2022,4,reinsurer,GRAND TOTAL,Management Expenses,828976.0
+2022,4,reinsurer,GRAND TOTAL,Total Outgo,4869635.0
+2022,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,12404357.0
+2022,4,reinsurer,GRAND TOTAL,Provision for Taxation,4054510.0
+2022,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,8349847.0
+2022,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52151809.0
+2022,4,reinsurer,GRAND TOTAL,Transfer To Reserves,478269.0
+2022,4,reinsurer,GRAND TOTAL,Other Appropriations,186897.0
+2022,4,reinsurer,GRAND TOTAL,Dividend,1859111.0
+2022,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,57977387.0
+2023,1,insurer,TOTAL,Profit Transferred from Revenue,1454434.0
+2023,1,insurer,TOTAL,Investment Income,1167202.0
+2023,1,insurer,TOTAL,Other Income,435636.0
+2023,1,insurer,TOTAL,Total Income,3057269.0
+2023,1,insurer,TOTAL,Loss Transferred From Revenue,1653677.0
+2023,1,insurer,TOTAL,Management Expenses,143899.0
+2023,1,insurer,TOTAL,Total Outgo,1822483.0
+2023,1,insurer,TOTAL,Profit / (Loss) Before Taxation,1234786.0
+2023,1,insurer,TOTAL,Provision for Taxation,364912.0
+2023,1,insurer,TOTAL,Profit/(Loss) After Taxation,869875.0
+2023,1,insurer,TOTAL,Unappropriated Profit/(Loss) BF,21831872.0
+2023,1,insurer,TOTAL,Transfer To Reserves,-860.0
+2023,1,insurer,TOTAL,Other Appropriations,0.0
+2023,1,insurer,TOTAL,Dividend,854500.0
+2023,1,insurer,TOTAL,Unappropriated Profit /(Loss) CF,21848107.0
+2023,1,reinsurer,TOTAL,Profit Transferred from Revenue,1396267.0
+2023,1,reinsurer,TOTAL,Investment Income,206286.0
+2023,1,reinsurer,TOTAL,Other Income,187118.0
+2023,1,reinsurer,TOTAL,Total Income,1789673.0
+2023,1,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2023,1,reinsurer,TOTAL,Management Expenses,51377.0
+2023,1,reinsurer,TOTAL,Total Outgo,57068.0
+2023,1,reinsurer,TOTAL,Profit / (Loss) Before Taxation,1732603.0
+2023,1,reinsurer,TOTAL,Provision for Taxation,521268.0
+2023,1,reinsurer,TOTAL,Profit/(Loss) After Taxation,1211337.0
+2023,1,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,30828054.0
+2023,1,reinsurer,TOTAL,Transfer To Reserves,0.0
+2023,1,reinsurer,TOTAL,Other Appropriations,0.0
+2023,1,reinsurer,TOTAL,Dividend,0.0
+2023,1,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,32039392.0
+2023,1,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,2850701.0
+2023,1,reinsurer,GRAND TOTAL,Investment Income,1373488.0
+2023,1,reinsurer,GRAND TOTAL,Other Income,622754.0
+2023,1,reinsurer,GRAND TOTAL,Total Income,4846942.0
+2023,1,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1653677.0
+2023,1,reinsurer,GRAND TOTAL,Management Expenses,195276.0
+2023,1,reinsurer,GRAND TOTAL,Total Outgo,1879551.0
+2023,1,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,2967389.0
+2023,1,reinsurer,GRAND TOTAL,Provision for Taxation,886180.0
+2023,1,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,2081212.0
+2023,1,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52659926.0
+2023,1,reinsurer,GRAND TOTAL,Transfer To Reserves,-860.0
+2023,1,reinsurer,GRAND TOTAL,Other Appropriations,0.0
+2023,1,reinsurer,GRAND TOTAL,Dividend,854500.0
+2023,1,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,53887499.0
+2023,2,insurer,TOTAL,Profit Transferred from Revenue,3841704.0
+2023,2,insurer,TOTAL,Investment Income,2541332.0
+2023,2,insurer,TOTAL,Other Income,659619.0
+2023,2,insurer,TOTAL,Total Income,7042657.0
+2023,2,insurer,TOTAL,Loss Transferred From Revenue,1474191.0
+2023,2,insurer,TOTAL,Management Expenses,326558.0
+2023,2,insurer,TOTAL,Total Outgo,1881208.0
+2023,2,insurer,TOTAL,Profit / (Loss) Before Taxation,5161448.0
+2023,2,insurer,TOTAL,Provision for Taxation,1119818.0
+2023,2,insurer,TOTAL,Profit/(Loss) After Taxation,4041627.0
+2023,2,insurer,TOTAL,Unappropriated Profit/(Loss) BF,21058911.0
+2023,2,insurer,TOTAL,Transfer To Reserves,-1720.0
+2023,2,insurer,TOTAL,Other Appropriations,0.0
+2023,2,insurer,TOTAL,Dividend,1409000.0
+2023,2,insurer,TOTAL,Unappropriated Profit /(Loss) CF,23693257.0
+2023,2,reinsurer,TOTAL,Profit Transferred from Revenue,3243962.0
+2023,2,reinsurer,TOTAL,Investment Income,319902.0
+2023,2,reinsurer,TOTAL,Other Income,403933.0
+2023,2,reinsurer,TOTAL,Total Income,3967796.0
+2023,2,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2023,2,reinsurer,TOTAL,Management Expenses,3189.0
+2023,2,reinsurer,TOTAL,Total Outgo,40274.0
+2023,2,reinsurer,TOTAL,Profit / (Loss) Before Taxation,3927522.0
+2023,2,reinsurer,TOTAL,Provision for Taxation,1233082.0
+2023,2,reinsurer,TOTAL,Profit/(Loss) After Taxation,2694440.0
+2023,2,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,30828054.0
+2023,2,reinsurer,TOTAL,Transfer To Reserves,0.0
+2023,2,reinsurer,TOTAL,Other Appropriations,-8438.0
+2023,2,reinsurer,TOTAL,Dividend,200000.0
+2023,2,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,33330933.0
+2023,2,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,7085666.0
+2023,2,reinsurer,GRAND TOTAL,Investment Income,2861234.0
+2023,2,reinsurer,GRAND TOTAL,Other Income,1063552.0
+2023,2,reinsurer,GRAND TOTAL,Total Income,11010453.0
+2023,2,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,1474191.0
+2023,2,reinsurer,GRAND TOTAL,Management Expenses,329747.0
+2023,2,reinsurer,GRAND TOTAL,Total Outgo,1921482.0
+2023,2,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,9088970.0
+2023,2,reinsurer,GRAND TOTAL,Provision for Taxation,2352900.0
+2023,2,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,6736067.0
+2023,2,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,51886965.0
+2023,2,reinsurer,GRAND TOTAL,Transfer To Reserves,-1720.0
+2023,2,reinsurer,GRAND TOTAL,Other Appropriations,-8438.0
+2023,2,reinsurer,GRAND TOTAL,Dividend,1609000.0
+2023,2,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,57024190.0
+2023,3,insurer,TOTAL,Profit Transferred from Revenue,5589046.0
+2023,3,insurer,TOTAL,Investment Income,3910697.0
+2023,3,insurer,TOTAL,Other Income,661475.0
+2023,3,insurer,TOTAL,Total Income,10161215.0
+2023,3,insurer,TOTAL,Loss Transferred From Revenue,2639083.0
+2023,3,insurer,TOTAL,Management Expenses,461387.0
+2023,3,insurer,TOTAL,Total Outgo,3248643.0
+2023,3,insurer,TOTAL,Profit / (Loss) Before Taxation,6912574.0
+2023,3,insurer,TOTAL,Provision for Taxation,1638823.0
+2023,3,insurer,TOTAL,Profit/(Loss) After Taxation,5273749.0
+2023,3,insurer,TOTAL,Unappropriated Profit/(Loss) BF,21733374.0
+2023,3,insurer,TOTAL,Transfer To Reserves,-2581.0
+2023,3,insurer,TOTAL,Other Appropriations,82482.0
+2023,3,insurer,TOTAL,Dividend,2386473.0
+2023,3,insurer,TOTAL,Unappropriated Profit /(Loss) CF,24540747.0
+2023,3,reinsurer,TOTAL,Profit Transferred from Revenue,2364341.0
+2023,3,reinsurer,TOTAL,Investment Income,630603.0
+2023,3,reinsurer,TOTAL,Other Income,1511329.0
+2023,3,reinsurer,TOTAL,Total Income,4506274.0
+2023,3,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2023,3,reinsurer,TOTAL,Management Expenses,16415.0
+2023,3,reinsurer,TOTAL,Total Outgo,68797.0
+2023,3,reinsurer,TOTAL,Profit / (Loss) Before Taxation,4437477.0
+2023,3,reinsurer,TOTAL,Provision for Taxation,1331243.0
+2023,3,reinsurer,TOTAL,Profit/(Loss) After Taxation,3106233.0
+2023,3,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,30828054.0
+2023,3,reinsurer,TOTAL,Transfer To Reserves,0.0
+2023,3,reinsurer,TOTAL,Other Appropriations,-26236.0
+2023,3,reinsurer,TOTAL,Dividend,766622.0
+2023,3,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,33193902.0
+2023,3,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,7953387.0
+2023,3,reinsurer,GRAND TOTAL,Investment Income,4541300.0
+2023,3,reinsurer,GRAND TOTAL,Other Income,2172804.0
+2023,3,reinsurer,GRAND TOTAL,Total Income,14667489.0
+2023,3,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,2639083.0
+2023,3,reinsurer,GRAND TOTAL,Management Expenses,477802.0
+2023,3,reinsurer,GRAND TOTAL,Total Outgo,3317440.0
+2023,3,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,11350051.0
+2023,3,reinsurer,GRAND TOTAL,Provision for Taxation,2970066.0
+2023,3,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,8379982.0
+2023,3,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52561428.0
+2023,3,reinsurer,GRAND TOTAL,Transfer To Reserves,-2581.0
+2023,3,reinsurer,GRAND TOTAL,Other Appropriations,56246.0
+2023,3,reinsurer,GRAND TOTAL,Dividend,3153095.0
+2023,3,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,57734649.0
+2023,4,insurer,TOTAL,Profit Transferred from Revenue,8766390.0
+2023,4,insurer,TOTAL,Investment Income,4968610.0
+2023,4,insurer,TOTAL,Other Income,2071947.0
+2023,4,insurer,TOTAL,Total Income,15806948.0
+2023,4,insurer,TOTAL,Loss Transferred From Revenue,4012055.0
+2023,4,insurer,TOTAL,Management Expenses,867349.0
+2023,4,insurer,TOTAL,Total Outgo,5274167.0
+2023,4,insurer,TOTAL,Profit / (Loss) Before Taxation,10532780.0
+2023,4,insurer,TOTAL,Provision for Taxation,2908486.0
+2023,4,insurer,TOTAL,Profit/(Loss) After Taxation,7624294.0
+2023,4,insurer,TOTAL,Unappropriated Profit/(Loss) BF,22030818.0
+2023,4,insurer,TOTAL,Transfer To Reserves,-82908.0
+2023,4,insurer,TOTAL,Other Appropriations,648354.0
+2023,4,insurer,TOTAL,Dividend,2830973.0
+2023,4,insurer,TOTAL,Unappropriated Profit /(Loss) CF,26258695.0
+2023,4,reinsurer,TOTAL,Profit Transferred from Revenue,4529487.0
+2023,4,reinsurer,TOTAL,Investment Income,886507.0
+2023,4,reinsurer,TOTAL,Other Income,1843001.0
+2023,4,reinsurer,TOTAL,Total Income,7258995.0
+2023,4,reinsurer,TOTAL,Loss Transferred From Revenue,0.0
+2023,4,reinsurer,TOTAL,Management Expenses,15631.0
+2023,4,reinsurer,TOTAL,Total Outgo,48029.0
+2023,4,reinsurer,TOTAL,Profit / (Loss) Before Taxation,7210966.0
+2023,4,reinsurer,TOTAL,Provision for Taxation,2163290.0
+2023,4,reinsurer,TOTAL,Profit/(Loss) After Taxation,5047675.0
+2023,4,reinsurer,TOTAL,Unappropriated Profit/(Loss) BF,30828054.0
+2023,4,reinsurer,TOTAL,Transfer To Reserves,-18328.0
+2023,4,reinsurer,TOTAL,Other Appropriations,-15101.0
+2023,4,reinsurer,TOTAL,Dividend,766622.0
+2023,4,reinsurer,TOTAL,Unappropriated Profit /(Loss) CF,35142538.0
+2023,4,reinsurer,GRAND TOTAL,Profit Transferred from Revenue,13295877.0
+2023,4,reinsurer,GRAND TOTAL,Investment Income,5855117.0
+2023,4,reinsurer,GRAND TOTAL,Other Income,3914948.0
+2023,4,reinsurer,GRAND TOTAL,Total Income,23065943.0
+2023,4,reinsurer,GRAND TOTAL,Loss Transferred From Revenue,4012055.0
+2023,4,reinsurer,GRAND TOTAL,Management Expenses,882980.0
+2023,4,reinsurer,GRAND TOTAL,Total Outgo,5322196.0
+2023,4,reinsurer,GRAND TOTAL,Profit / (Loss) Before Taxation,17743746.0
+2023,4,reinsurer,GRAND TOTAL,Provision for Taxation,5071776.0
+2023,4,reinsurer,GRAND TOTAL,Profit/(Loss) After Taxation,12671969.0
+2023,4,reinsurer,GRAND TOTAL,Unappropriated Profit/(Loss) BF,52858872.0
+2023,4,reinsurer,GRAND TOTAL,Transfer To Reserves,-101236.0
+2023,4,reinsurer,GRAND TOTAL,Other Appropriations,633253.0
+2023,4,reinsurer,GRAND TOTAL,Dividend,3597595.0
+2023,4,reinsurer,GRAND TOTAL,Unappropriated Profit /(Loss) CF,61401233.0
+2024,1,insurer,TOTAL,Insurance Revenue,46643906.74022023
+2024,1,insurer,TOTAL,Insurance Service Expense,41026343.3082624
+2024,1,insurer,TOTAL,Net expenses from reinsurance contracts held,4226682.238234789
+2024,1,insurer,TOTAL,Insurance Service Result,1390881.1937230416
+2024,1,insurer,TOTAL,Net Investment Income,4197723.046153137
+2024,1,insurer,TOTAL,Finance expenses from insurance contracts,1906253.5804787797
+2024,1,insurer,TOTAL,Finance income from reinsurance contracts,469489.045842004
+2024,1,insurer,TOTAL,Net Financial Result,2760958.5115163624
+2024,1,insurer,TOTAL,Asset management services revenue,-259.277
+2024,1,insurer,TOTAL,Other Income,191289.43068741087
+2024,1,insurer,TOTAL,Other finance costs,86996.04121076966
+2024,1,insurer,TOTAL,Other operating expenses,1961989.6762535295
+2024,1,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,32324.895
+2024,1,insurer,TOTAL,Profit before income tax,2326209.036462515
+2024,1,insurer,TOTAL,Income tax expense,420267.38644625386
+2024,1,insurer,TOTAL,Profit for the year,1905941.6500162606
+2024,1,reinsurer,TOTAL,Insurance Revenue,8786303.3914832
+2024,1,reinsurer,TOTAL,Insurance Service Expense,8972698.720529847
+2024,1,reinsurer,TOTAL,Net expenses from reinsurance contracts held,-133399.6238065968
+2024,1,reinsurer,TOTAL,Insurance Service Result,-52995.70524005077
+2024,1,reinsurer,TOTAL,Net Investment Income,1205923.81004
+2024,1,reinsurer,TOTAL,Finance expenses from insurance contracts,-117082.85111823177
+2024,1,reinsurer,TOTAL,Finance income from reinsurance contracts,109631.32337014547
+2024,1,reinsurer,TOTAL,Net Financial Result,1432637.9845283772
+2024,1,reinsurer,TOTAL,Asset management services revenue,0.0
+2024,1,reinsurer,TOTAL,Other Income,136760.00618792663
+2024,1,reinsurer,TOTAL,Other finance costs,72430.405
+2024,1,reinsurer,TOTAL,Other operating expenses,870946.3912755668
+2024,1,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2024,1,reinsurer,TOTAL,Profit before income tax,573025.4892006862
+2024,1,reinsurer,TOTAL,Income tax expense,287828.8324244064
+2024,1,reinsurer,TOTAL,Profit for the year,285196.6567762796
+2024,1,reinsurer,GRAND TOTAL,Insurance Revenue,55430210.13170343
+2024,1,reinsurer,GRAND TOTAL,Insurance Service Expense,49999042.02879225
+2024,1,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,4093282.6144281924
+2024,1,reinsurer,GRAND TOTAL,Insurance Service Result,1337885.4884829908
+2024,1,reinsurer,GRAND TOTAL,Net Investment Income,5403646.856193137
+2024,1,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,1789170.7293605478
+2024,1,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,579120.3692121495
+2024,1,reinsurer,GRAND TOTAL,Net Financial Result,4193596.4960447396
+2024,1,reinsurer,GRAND TOTAL,Asset management services revenue,-259.277
+2024,1,reinsurer,GRAND TOTAL,Other Income,328049.4368753375
+2024,1,reinsurer,GRAND TOTAL,Other finance costs,159426.44621076965
+2024,1,reinsurer,GRAND TOTAL,Other operating expenses,2832936.0675290963
+2024,1,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,32324.895
+2024,1,reinsurer,GRAND TOTAL,Profit before income tax,2899234.525663201
+2024,1,reinsurer,GRAND TOTAL,Income tax expense,708096.2188706603
+2024,1,reinsurer,GRAND TOTAL,Profit for the year,2191138.30679254
+2024,2,insurer,TOTAL,Insurance Revenue,97396150.16019306
+2024,2,insurer,TOTAL,Insurance Service Expense,88006600.99064888
+2024,2,insurer,TOTAL,Net expenses from reinsurance contracts held,6947858.375540474
+2024,2,insurer,TOTAL,Insurance Service Result,2441690.7940036957
+2024,2,insurer,TOTAL,Net Investment Income,7956930.674539304
+2024,2,insurer,TOTAL,Finance expenses from insurance contracts,3297724.1438536183
+2024,2,insurer,TOTAL,Finance income from reinsurance contracts,1141154.8730598965
+2024,2,insurer,TOTAL,Net Financial Result,5800361.403745582
+2024,2,insurer,TOTAL,Asset management services revenue,856628.74534542
+2024,2,insurer,TOTAL,Other Income,267227.26823339256
+2024,2,insurer,TOTAL,Other finance costs,410121.82508891146
+2024,2,insurer,TOTAL,Other operating expenses,3529847.784293311
+2024,2,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,53431.477816261104
+2024,2,insurer,TOTAL,Profit before income tax,5479370.07976213
+2024,2,insurer,TOTAL,Income tax expense,1418623.3906946334
+2024,2,insurer,TOTAL,Profit for the year,4060746.689067496
+2024,2,reinsurer,TOTAL,Insurance Revenue,16463764.0287413
+2024,2,reinsurer,TOTAL,Insurance Service Expense,15352838.403996957
+2024,2,reinsurer,TOTAL,Net expenses from reinsurance contracts held,-262203.20228241844
+2024,2,reinsurer,TOTAL,Insurance Service Result,1373128.8270267614
+2024,2,reinsurer,TOTAL,Net Investment Income,2718961.197751602
+2024,2,reinsurer,TOTAL,Finance expenses from insurance contracts,739550.7359704126
+2024,2,reinsurer,TOTAL,Finance income from reinsurance contracts,178555.12500950915
+2024,2,reinsurer,TOTAL,Net Financial Result,2157965.5867906986
+2024,2,reinsurer,TOTAL,Asset management services revenue,0.0
+2024,2,reinsurer,TOTAL,Other Income,-801990.639
+2024,2,reinsurer,TOTAL,Other finance costs,529538.546
+2024,2,reinsurer,TOTAL,Other operating expenses,1346579.4267288104
+2024,2,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2024,2,reinsurer,TOTAL,Profit before income tax,852985.802088649
+2024,2,reinsurer,TOTAL,Income tax expense,581204.7513696009
+2024,2,reinsurer,TOTAL,Profit for the year,271781.0507190485
+2024,2,reinsurer,GRAND TOTAL,Insurance Revenue,113859914.18893436
+2024,2,reinsurer,GRAND TOTAL,Insurance Service Expense,103359439.39464584
+2024,2,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,6685655.173258056
+2024,2,reinsurer,GRAND TOTAL,Insurance Service Result,3814819.6210304573
+2024,2,reinsurer,GRAND TOTAL,Net Investment Income,10675891.872290906
+2024,2,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,4037274.879824031
+2024,2,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,1319709.9980694056
+2024,2,reinsurer,GRAND TOTAL,Net Financial Result,7958326.990536281
+2024,2,reinsurer,GRAND TOTAL,Asset management services revenue,856628.74534542
+2024,2,reinsurer,GRAND TOTAL,Other Income,-534763.3707666073
+2024,2,reinsurer,GRAND TOTAL,Other finance costs,939660.3710889114
+2024,2,reinsurer,GRAND TOTAL,Other operating expenses,4876427.211022122
+2024,2,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,53431.477816261104
+2024,2,reinsurer,GRAND TOTAL,Profit before income tax,6332355.881850779
+2024,2,reinsurer,GRAND TOTAL,Income tax expense,1999828.1420642342
+2024,2,reinsurer,GRAND TOTAL,Profit for the year,4332527.739786545
+2024,3,insurer,TOTAL,Insurance Revenue,144591917.0660008
+2024,3,insurer,TOTAL,Insurance Service Expense,105461578.34330253
+2024,3,insurer,TOTAL,Net expenses from reinsurance contracts held,13928086.688113432
+2024,3,insurer,TOTAL,Insurance Service Result,25202252.03458479
+2024,3,insurer,TOTAL,Net Investment Income,13385051.955570698
+2024,3,insurer,TOTAL,Finance expenses from insurance contracts,2631942.360437626
+2024,3,insurer,TOTAL,Finance income from reinsurance contracts,1467372.1607674381
+2024,3,insurer,TOTAL,Net Financial Result,12220481.755900506
+2024,3,insurer,TOTAL,Asset management services revenue,0.0
+2024,3,insurer,TOTAL,Other Income,2123207.685395418
+2024,3,insurer,TOTAL,Other finance costs,447805.4370253907
+2024,3,insurer,TOTAL,Other operating expenses,5950097.708126173
+2024,3,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,71812.12733
+2024,3,insurer,TOTAL,Profit before income tax,33219850.458059173
+2024,3,insurer,TOTAL,Income tax expense,1930818.9083417638
+2024,3,insurer,TOTAL,Profit for the year,31289031.549717404
+2024,3,reinsurer,TOTAL,Insurance Revenue,24581218.236610997
+2024,3,reinsurer,TOTAL,Insurance Service Expense,22110932.675886855
+2024,3,reinsurer,TOTAL,Net expenses from reinsurance contracts held,341824.1342764606
+2024,3,reinsurer,TOTAL,Insurance Service Result,2128461.426447679
+2024,3,reinsurer,TOTAL,Net Investment Income,4105382.994280323
+2024,3,reinsurer,TOTAL,Finance expenses from insurance contracts,1071030.3236732266
+2024,3,reinsurer,TOTAL,Finance income from reinsurance contracts,295043.0989792767
+2024,3,reinsurer,TOTAL,Net Financial Result,3329395.769586373
+2024,3,reinsurer,TOTAL,Asset management services revenue,0.0
+2024,3,reinsurer,TOTAL,Other Income,353987.7319999999
+2024,3,reinsurer,TOTAL,Other finance costs,2515647.9105122145
+2024,3,reinsurer,TOTAL,Other operating expenses,1708489.494642291
+2024,3,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2024,3,reinsurer,TOTAL,Profit before income tax,1587707.5228795465
+2024,3,reinsurer,TOTAL,Income tax expense,529509.585
+2024,3,reinsurer,TOTAL,Profit for the year,1058197.9378795468
+2024,3,reinsurer,GRAND TOTAL,Insurance Revenue,169173135.3026118
+2024,3,reinsurer,GRAND TOTAL,Insurance Service Expense,127572511.01918939
+2024,3,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,14269910.822389893
+2024,3,reinsurer,GRAND TOTAL,Insurance Service Result,27330713.46103247
+2024,3,reinsurer,GRAND TOTAL,Net Investment Income,17490434.94985102
+2024,3,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,3702972.684110853
+2024,3,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,1762415.259746715
+2024,3,reinsurer,GRAND TOTAL,Net Financial Result,15549877.525486879
+2024,3,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2024,3,reinsurer,GRAND TOTAL,Other Income,2477195.417395418
+2024,3,reinsurer,GRAND TOTAL,Other finance costs,2963453.347537605
+2024,3,reinsurer,GRAND TOTAL,Other operating expenses,7658587.202768465
+2024,3,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,71812.12733
+2024,3,reinsurer,GRAND TOTAL,Profit before income tax,34807557.98093872
+2024,3,reinsurer,GRAND TOTAL,Income tax expense,2460328.4933417635
+2024,3,reinsurer,GRAND TOTAL,Profit for the year,32347229.48759695
+2024,4,insurer,TOTAL,Insurance Revenue,197184404.133121
+2024,4,insurer,TOTAL,Insurance Service Expense,168301915.61184353
+2024,4,insurer,TOTAL,Net expenses from reinsurance contracts held,18221957.90333191
+2024,4,insurer,TOTAL,Insurance Service Result,10660530.617945654
+2024,4,insurer,TOTAL,Net Investment Income,19272073.528326657
+2024,4,insurer,TOTAL,Finance expenses from insurance contracts,6151709.732241778
+2024,4,insurer,TOTAL,Finance income from reinsurance contracts,2511591.07381877
+2024,4,insurer,TOTAL,Net Financial Result,15631954.869903646
+2024,4,insurer,TOTAL,Asset management services revenue,0.0
+2024,4,insurer,TOTAL,Other Income,774349.9115171817
+2024,4,insurer,TOTAL,Other finance costs,2189347.699876346
+2024,4,insurer,TOTAL,Other operating expenses,7601563.841430373
+2024,4,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,83323.59066
+2024,4,insurer,TOTAL,Profit before income tax,17359247.448719766
+2024,4,insurer,TOTAL,Income tax expense,3455763.463404411
+2024,4,insurer,TOTAL,Profit for the year,13903483.98531535
+2024,4,micro,TOTAL,Insurance Revenue,214397.46933
+2024,4,micro,TOTAL,Insurance Service Expense,154198.88768921336
+2024,4,micro,TOTAL,Net expenses from reinsurance contracts held,75332.57907200001
+2024,4,micro,TOTAL,Insurance Service Result,-15133.997431213367
+2024,4,micro,TOTAL,Net Investment Income,9927.314
+2024,4,micro,TOTAL,Finance expenses from insurance contracts,1045.102812306
+2024,4,micro,TOTAL,Finance income from reinsurance contracts,895.9183387421995
+2024,4,micro,TOTAL,Net Financial Result,9778.129526436198
+2024,4,micro,TOTAL,Asset management services revenue,0.0
+2024,4,micro,TOTAL,Other Income,-5037.81328
+2024,4,micro,TOTAL,Other finance costs,0.0
+2024,4,micro,TOTAL,Other operating expenses,0.0
+2024,4,micro,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2024,4,micro,TOTAL,Profit before income tax,-10393.68118477717
+2024,4,micro,TOTAL,Income tax expense,261.973
+2024,4,micro,TOTAL,Profit for the year,-10655.65418477717
+2024,4,micro,TOTAL INSURERS,Insurance Revenue,197398801.60245103
+2024,4,micro,TOTAL INSURERS,Insurance Service Expense,168456114.49953273
+2024,4,micro,TOTAL INSURERS,Net expenses from reinsurance contracts held,18297290.482403908
+2024,4,micro,TOTAL INSURERS,Insurance Service Result,10645396.620514441
+2024,4,micro,TOTAL INSURERS,Net Investment Income,19282000.842326656
+2024,4,micro,TOTAL INSURERS,Finance expenses from insurance contracts,6152754.835054084
+2024,4,micro,TOTAL INSURERS,Finance income from reinsurance contracts,2512486.992157512
+2024,4,micro,TOTAL INSURERS,Net Financial Result,15641732.999430083
+2024,4,micro,TOTAL INSURERS,Asset management services revenue,0.0
+2024,4,micro,TOTAL INSURERS,Other Income,769312.0982371817
+2024,4,micro,TOTAL INSURERS,Other finance costs,2189347.699876346
+2024,4,micro,TOTAL INSURERS,Other operating expenses,7601563.841430373
+2024,4,micro,TOTAL INSURERS,Share of profit of associates and joint ventures accounted for using the equity method,83323.59066
+2024,4,micro,TOTAL INSURERS,Profit before income tax,17348853.76753499
+2024,4,micro,TOTAL INSURERS,Income tax expense,3456025.436404411
+2024,4,micro,TOTAL INSURERS,Profit for the year,13892828.331130574
+2024,4,reinsurer,TOTAL,Insurance Revenue,32533785.370925643
+2024,4,reinsurer,TOTAL,Insurance Service Expense,27485272.000040974
+2024,4,reinsurer,TOTAL,Net expenses from reinsurance contracts held,993002.5540062878
+2024,4,reinsurer,TOTAL,Insurance Service Result,4055510.8168783817
+2024,4,reinsurer,TOTAL,Net Investment Income,5999267.745052845
+2024,4,reinsurer,TOTAL,Finance expenses from insurance contracts,2513616.1755936462
+2024,4,reinsurer,TOTAL,Finance income from reinsurance contracts,423863.6060072579
+2024,4,reinsurer,TOTAL,Net Financial Result,3909515.1754664574
+2024,4,reinsurer,TOTAL,Asset management services revenue,0.0
+2024,4,reinsurer,TOTAL,Other Income,96653.41484999999
+2024,4,reinsurer,TOTAL,Other finance costs,2729808.2573516574
+2024,4,reinsurer,TOTAL,Other operating expenses,2469057.3904195637
+2024,4,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2024,4,reinsurer,TOTAL,Profit before income tax,2862813.759423619
+2024,4,reinsurer,TOTAL,Income tax expense,1181351.500339084
+2024,4,reinsurer,TOTAL,Profit for the year,1681462.2590845353
+2024,4,reinsurer,GRAND TOTAL,Insurance Revenue,229932586.97337666
+2024,4,reinsurer,GRAND TOTAL,Insurance Service Expense,195941386.4995737
+2024,4,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,19290293.036410198
+2024,4,reinsurer,GRAND TOTAL,Insurance Service Result,14700907.437392823
+2024,4,reinsurer,GRAND TOTAL,Net Investment Income,25281268.5873795
+2024,4,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,8666371.010647729
+2024,4,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,2936350.59816477
+2024,4,reinsurer,GRAND TOTAL,Net Financial Result,19551248.17489654
+2024,4,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2024,4,reinsurer,GRAND TOTAL,Other Income,865965.5130871816
+2024,4,reinsurer,GRAND TOTAL,Other finance costs,4919155.957228003
+2024,4,reinsurer,GRAND TOTAL,Other operating expenses,10070621.231849937
+2024,4,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,83323.59066
+2024,4,reinsurer,GRAND TOTAL,Profit before income tax,20211667.526958607
+2024,4,reinsurer,GRAND TOTAL,Income tax expense,4637376.936743495
+2024,4,reinsurer,GRAND TOTAL,Profit for the year,15574290.59021511
+2025,1,insurer,TOTAL,Insurance Revenue,51594232.71265075
+2025,1,insurer,TOTAL,Insurance Service Expense,42921945.70679488
+2025,1,insurer,TOTAL,Net expenses from reinsurance contracts held,5987188.864015272
+2025,1,insurer,TOTAL,Insurance Service Result,2685098.1418406246
+2025,1,insurer,TOTAL,Net Investment Income,4579029.848422742
+2025,1,insurer,TOTAL,Finance expenses from insurance contracts,4214617.58041888
+2025,1,insurer,TOTAL,Finance income from reinsurance contracts,1277381.1823137593
+2025,1,insurer,TOTAL,Net Financial Result,1641793.4503176217
+2025,1,insurer,TOTAL,Asset management services revenue,0.0
+2025,1,insurer,TOTAL,Other Income,183164.4112198656
+2025,1,insurer,TOTAL,Other finance costs,68541.11925186866
+2025,1,insurer,TOTAL,Other operating expenses,2073066.2136058363
+2025,1,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,-1548.3020800000013
+2025,1,insurer,TOTAL,Profit before income tax,2366900.3684404064
+2025,1,insurer,TOTAL,Income tax expense,556759.212668477
+2025,1,insurer,TOTAL,Profit for the year,1810141.1557719288
+2025,1,reinsurer,TOTAL,Insurance Revenue,8196745.449241965
+2025,1,reinsurer,TOTAL,Insurance Service Expense,7402603.435618318
+2025,1,reinsurer,TOTAL,Net expenses from reinsurance contracts held,562232.0879117209
+2025,1,reinsurer,TOTAL,Insurance Service Result,231909.92571192558
+2025,1,reinsurer,TOTAL,Net Investment Income,1512482.011072258
+2025,1,reinsurer,TOTAL,Finance expenses from insurance contracts,282051.2337394465
+2025,1,reinsurer,TOTAL,Finance income from reinsurance contracts,105715.81482927252
+2025,1,reinsurer,TOTAL,Net Financial Result,1336146.592162084
+2025,1,reinsurer,TOTAL,Asset management services revenue,0.0
+2025,1,reinsurer,TOTAL,Other Income,22697.772819999995
+2025,1,reinsurer,TOTAL,Other finance costs,-7529.496280308171
+2025,1,reinsurer,TOTAL,Other operating expenses,619843.8766126861
+2025,1,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2025,1,reinsurer,TOTAL,Profit before income tax,978439.9103616315
+2025,1,reinsurer,TOTAL,Income tax expense,275507.606161202
+2025,1,reinsurer,TOTAL,Profit for the year,702932.3042004295
+2025,1,reinsurer,GRAND TOTAL,Insurance Revenue,59790978.16189272
+2025,1,reinsurer,GRAND TOTAL,Insurance Service Expense,50324549.1424132
+2025,1,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,6549420.951926993
+2025,1,reinsurer,GRAND TOTAL,Insurance Service Result,2917008.06755255
+2025,1,reinsurer,GRAND TOTAL,Net Investment Income,6091511.859495001
+2025,1,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,4496668.814158327
+2025,1,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,1383096.9971430318
+2025,1,reinsurer,GRAND TOTAL,Net Financial Result,2977940.042479706
+2025,1,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2025,1,reinsurer,GRAND TOTAL,Other Income,205862.1840398656
+2025,1,reinsurer,GRAND TOTAL,Other finance costs,61011.622971560486
+2025,1,reinsurer,GRAND TOTAL,Other operating expenses,2692910.0902185226
+2025,1,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,-1548.3020800000013
+2025,1,reinsurer,GRAND TOTAL,Profit before income tax,3345340.278802038
+2025,1,reinsurer,GRAND TOTAL,Income tax expense,832266.8188296789
+2025,1,reinsurer,GRAND TOTAL,Profit for the year,2513073.4599723583
+2025,2,insurer,TOTAL,Insurance Revenue,108436345.7952717
+2025,2,insurer,TOTAL,Insurance Service Expense,92471804.10578176
+2025,2,insurer,TOTAL,Net expenses from reinsurance contracts held,12941345.55286415
+2025,2,insurer,TOTAL,Insurance Service Result,3023196.136625784
+2025,2,insurer,TOTAL,Net Investment Income,9513258.760569355
+2025,2,insurer,TOTAL,Finance expenses from insurance contracts,5137115.7317134505
+2025,2,insurer,TOTAL,Finance income from reinsurance contracts,1737298.78971432
+2025,2,insurer,TOTAL,Net Financial Result,6113441.8185702255
+2025,2,insurer,TOTAL,Asset management services revenue,0.0
+2025,2,insurer,TOTAL,Other Income,878581.1774975575
+2025,2,insurer,TOTAL,Other finance costs,533620.4452170762
+2025,2,insurer,TOTAL,Other operating expenses,4397916.075020856
+2025,2,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,21519.811680000006
+2025,2,insurer,TOTAL,Profit before income tax,5105202.424135633
+2025,2,insurer,TOTAL,Income tax expense,1125223.2823938834
+2025,2,insurer,TOTAL,Profit for the year,3979979.1417417503
+2025,2,reinsurer,TOTAL,Insurance Revenue,14307886.942560192
+2025,2,reinsurer,TOTAL,Insurance Service Expense,12728256.208436096
+2025,2,reinsurer,TOTAL,Net expenses from reinsurance contracts held,581447.737888345
+2025,2,reinsurer,TOTAL,Insurance Service Result,998182.996235753
+2025,2,reinsurer,TOTAL,Net Investment Income,2854988.1080128234
+2025,2,reinsurer,TOTAL,Finance expenses from insurance contracts,1020877.1245233434
+2025,2,reinsurer,TOTAL,Finance income from reinsurance contracts,232114.61189461182
+2025,2,reinsurer,TOTAL,Net Financial Result,2066225.5953840923
+2025,2,reinsurer,TOTAL,Asset management services revenue,0.0
+2025,2,reinsurer,TOTAL,Other Income,37567.125
+2025,2,reinsurer,TOTAL,Other finance costs,-11741.197462764289
+2025,2,reinsurer,TOTAL,Other operating expenses,949255.6265217261
+2025,2,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2025,2,reinsurer,TOTAL,Profit before income tax,2164461.2875608834
+2025,2,reinsurer,TOTAL,Income tax expense,633464.7903145035
+2025,2,reinsurer,TOTAL,Profit for the year,1530996.4972463797
+2025,2,reinsurer,GRAND TOTAL,Insurance Revenue,122744232.73783189
+2025,2,reinsurer,GRAND TOTAL,Insurance Service Expense,105200060.31421787
+2025,2,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,13522793.290752495
+2025,2,reinsurer,GRAND TOTAL,Insurance Service Result,4021379.132861537
+2025,2,reinsurer,GRAND TOTAL,Net Investment Income,12368246.868582178
+2025,2,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,6157992.856236794
+2025,2,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,1969413.4016089318
+2025,2,reinsurer,GRAND TOTAL,Net Financial Result,8179667.413954318
+2025,2,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2025,2,reinsurer,GRAND TOTAL,Other Income,916148.3024975575
+2025,2,reinsurer,GRAND TOTAL,Other finance costs,521879.24775431195
+2025,2,reinsurer,GRAND TOTAL,Other operating expenses,5347171.701542582
+2025,2,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,21519.811680000006
+2025,2,reinsurer,GRAND TOTAL,Profit before income tax,7269663.711696517
+2025,2,reinsurer,GRAND TOTAL,Income tax expense,1758688.072708387
+2025,2,reinsurer,GRAND TOTAL,Profit for the year,5510975.63898813
+2025,3,insurer,TOTAL,Insurance Revenue,164805314.23172992
+2025,3,insurer,TOTAL,Insurance Service Expense,143100661.46899515
+2025,3,insurer,TOTAL,Net expenses from reinsurance contracts held,18996860.254024748
+2025,3,insurer,TOTAL,Insurance Service Result,2707792.508709959
+2025,3,insurer,TOTAL,Net Investment Income,15859242.907845993
+2025,3,insurer,TOTAL,Finance expenses from insurance contracts,6898420.56645315
+2025,3,insurer,TOTAL,Finance income from reinsurance contracts,2225464.088282111
+2025,3,insurer,TOTAL,Net Financial Result,11186286.429674957
+2025,3,insurer,TOTAL,Asset management services revenue,0.0
+2025,3,insurer,TOTAL,Other Income,702680.851876794
+2025,3,insurer,TOTAL,Other finance costs,171207.63875132584
+2025,3,insurer,TOTAL,Other operating expenses,7565699.526236744
+2025,3,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,37041.10843
+2025,3,insurer,TOTAL,Profit before income tax,6896893.7337036375
+2025,3,insurer,TOTAL,Income tax expense,1750048.7680636158
+2025,3,insurer,TOTAL,Profit for the year,5146844.96564002
+2025,3,reinsurer,TOTAL,Insurance Revenue,21141045.97229768
+2025,3,reinsurer,TOTAL,Insurance Service Expense,18205356.151236765
+2025,3,reinsurer,TOTAL,Net expenses from reinsurance contracts held,1395059.2797329128
+2025,3,reinsurer,TOTAL,Insurance Service Result,1540630.5413280013
+2025,3,reinsurer,TOTAL,Net Investment Income,4113251.4534937907
+2025,3,reinsurer,TOTAL,Finance expenses from insurance contracts,1152019.9818970035
+2025,3,reinsurer,TOTAL,Finance income from reinsurance contracts,287586.1225370433
+2025,3,reinsurer,TOTAL,Net Financial Result,3248817.5941338306
+2025,3,reinsurer,TOTAL,Asset management services revenue,0.0
+2025,3,reinsurer,TOTAL,Other Income,81937.82175999999
+2025,3,reinsurer,TOTAL,Other finance costs,26699.34047674675
+2025,3,reinsurer,TOTAL,Other operating expenses,1335473.3633640436
+2025,3,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,197912.0
+2025,3,reinsurer,TOTAL,Profit before income tax,3707125.2533810413
+2025,3,reinsurer,TOTAL,Income tax expense,1088068.325394712
+2025,3,reinsurer,TOTAL,Profit for the year,2619056.9279863294
+2025,3,reinsurer,GRAND TOTAL,Insurance Revenue,185946360.2040276
+2025,3,reinsurer,GRAND TOTAL,Insurance Service Expense,161306017.62023193
+2025,3,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,20391919.53375766
+2025,3,reinsurer,GRAND TOTAL,Insurance Service Result,4248423.0500379605
+2025,3,reinsurer,GRAND TOTAL,Net Investment Income,19972494.361339785
+2025,3,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,8050440.5483501535
+2025,3,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,2513050.2108191545
+2025,3,reinsurer,GRAND TOTAL,Net Financial Result,14435104.023808789
+2025,3,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2025,3,reinsurer,GRAND TOTAL,Other Income,784618.673636794
+2025,3,reinsurer,GRAND TOTAL,Other finance costs,197906.9792280726
+2025,3,reinsurer,GRAND TOTAL,Other operating expenses,8901172.889600787
+2025,3,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,234953.10843
+2025,3,reinsurer,GRAND TOTAL,Profit before income tax,10604018.98708468
+2025,3,reinsurer,GRAND TOTAL,Income tax expense,2838117.0934583275
+2025,3,reinsurer,GRAND TOTAL,Profit for the year,7765901.893626349
+2025,4,insurer,TOTAL,Insurance Revenue,219412247.56871155
+2025,4,insurer,TOTAL,Insurance Service Expense,183334932.4435632
+2025,4,insurer,TOTAL,Net expenses from reinsurance contracts held,27360816.864995692
+2025,4,insurer,TOTAL,Insurance Service Result,8716498.260152692
+2025,4,insurer,TOTAL,Net Investment Income,20518347.950082198
+2025,4,insurer,TOTAL,Finance expenses from insurance contracts,7600534.708103197
+2025,4,insurer,TOTAL,Finance income from reinsurance contracts,2149047.0220123674
+2025,4,insurer,TOTAL,Net Financial Result,15066860.263991382
+2025,4,insurer,TOTAL,Asset management services revenue,2349.861
+2025,4,insurer,TOTAL,Other Income,1380568.9320785983
+2025,4,insurer,TOTAL,Other finance costs,157701.29144722066
+2025,4,insurer,TOTAL,Other operating expenses,11422492.830125596
+2025,4,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,148637.03999999998
+2025,4,insurer,TOTAL,Profit before income tax,13734720.23564986
+2025,4,insurer,TOTAL,Income tax expense,3027821.852196139
+2025,4,insurer,TOTAL,Profit for the year,10706898.383453723
+2025,4,reinsurer,TOTAL,Insurance Revenue,30945047.9106161
+2025,4,reinsurer,TOTAL,Insurance Service Expense,26257145.95232326
+2025,4,reinsurer,TOTAL,Net expenses from reinsurance contracts held,2822336.0440738956
+2025,4,reinsurer,TOTAL,Insurance Service Result,1865565.914218942
+2025,4,reinsurer,TOTAL,Net Investment Income,5596746.868496812
+2025,4,reinsurer,TOTAL,Finance expenses from insurance contracts,1766125.4659976042
+2025,4,reinsurer,TOTAL,Finance income from reinsurance contracts,428304.17129219114
+2025,4,reinsurer,TOTAL,Net Financial Result,4258925.5737914
+2025,4,reinsurer,TOTAL,Asset management services revenue,0.0
+2025,4,reinsurer,TOTAL,Other Income,332145.39097
+2025,4,reinsurer,TOTAL,Other finance costs,165872.39879
+2025,4,reinsurer,TOTAL,Other operating expenses,2491949.489115
+2025,4,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2025,4,reinsurer,TOTAL,Profit before income tax,3798814.9910753407
+2025,4,reinsurer,TOTAL,Income tax expense,1087190.8294793686
+2025,4,reinsurer,TOTAL,Profit for the year,2711624.1615959723
+2025,4,reinsurer,GRAND TOTAL,Insurance Revenue,250357295.47932765
+2025,4,reinsurer,GRAND TOTAL,Insurance Service Expense,209592078.39588645
+2025,4,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,30183152.909069587
+2025,4,reinsurer,GRAND TOTAL,Insurance Service Result,10582064.174371634
+2025,4,reinsurer,GRAND TOTAL,Net Investment Income,26115094.81857901
+2025,4,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,9366660.174100801
+2025,4,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,2577351.1933045583
+2025,4,reinsurer,GRAND TOTAL,Net Financial Result,19325785.83778278
+2025,4,reinsurer,GRAND TOTAL,Asset management services revenue,2349.861
+2025,4,reinsurer,GRAND TOTAL,Other Income,1712714.3230485984
+2025,4,reinsurer,GRAND TOTAL,Other finance costs,323573.69023722067
+2025,4,reinsurer,GRAND TOTAL,Other operating expenses,13914442.319240596
+2025,4,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,148637.03999999998
+2025,4,reinsurer,GRAND TOTAL,Profit before income tax,17533535.2267252
+2025,4,reinsurer,GRAND TOTAL,Income tax expense,4115012.6816755077
+2025,4,reinsurer,GRAND TOTAL,Profit for the year,13418522.545049695
+2026,1,insurer,TOTAL,Insurance Revenue,55312560.75950108
+2026,1,insurer,TOTAL,Insurance Service Expense,55655013.484688856
+2026,1,insurer,TOTAL,Expenses from reinsurance contracts held,5542954.944804524
+2026,1,insurer,TOTAL,Income from reinsurance contracts held,6660814.560045925
+2026,1,insurer,TOTAL,Net expenses from reinsurance contracts held,-1117859.6152414044
+2026,1,insurer,TOTAL,Insurance Service Result,775406.8900536068
+2026,1,insurer,TOTAL,Net Investment Income,5174267.4003574345
+2026,1,insurer,TOTAL,Finance expenses from insurance contracts,2837120.353070909
+2026,1,insurer,TOTAL,Finance income from reinsurance contracts,696032.0438115328
+2026,1,insurer,TOTAL,Net Financial Result,3033179.091098059
+2026,1,insurer,TOTAL,Asset management services revenue,0.0
+2026,1,insurer,TOTAL,Other Income,236668.92026423823
+2026,1,insurer,TOTAL,Other finance costs,20793.21060246159
+2026,1,insurer,TOTAL,Other operating expenses,2303939.892819043
+2026,1,insurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,16496.10875
+2026,1,insurer,TOTAL,Profit before income tax,1737017.906744401
+2026,1,insurer,TOTAL,Income tax expense,467549.29365450644
+2026,1,insurer,TOTAL,Profit for the year,1269468.6130898935
+2026,1,reinsurer,TOTAL,Insurance Revenue,8194327.10531582
+2026,1,reinsurer,TOTAL,Insurance Service Expense,7188095.254390648
+2026,1,reinsurer,TOTAL,Expenses from reinsurance contracts held,554714.0090838923
+2026,1,reinsurer,TOTAL,Income from reinsurance contracts held,674139.5760527804
+2026,1,reinsurer,TOTAL,Net expenses from reinsurance contracts held,-119425.56696888796
+2026,1,reinsurer,TOTAL,Insurance Service Result,1125657.4178940607
+2026,1,reinsurer,TOTAL,Net Investment Income,1389293.0932546204
+2026,1,reinsurer,TOTAL,Finance expenses from insurance contracts,400020.61017401563
+2026,1,reinsurer,TOTAL,Finance income from reinsurance contracts,96800.74797290137
+2026,1,reinsurer,TOTAL,Net Financial Result,1086073.2310535065
+2026,1,reinsurer,TOTAL,Asset management services revenue,0.0
+2026,1,reinsurer,TOTAL,Other Income,24258.36587599999
+2026,1,reinsurer,TOTAL,Other finance costs,-123925.38408364562
+2026,1,reinsurer,TOTAL,Other operating expenses,420321.3574162175
+2026,1,reinsurer,TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,0.0
+2026,1,reinsurer,TOTAL,Profit before income tax,1939593.0414909956
+2026,1,reinsurer,TOTAL,Income tax expense,573097.011886394
+2026,1,reinsurer,TOTAL,Profit for the year,1366496.0296046012
+2026,1,reinsurer,GRAND TOTAL,Insurance Revenue,63506887.8648169
+2026,1,reinsurer,GRAND TOTAL,Insurance Service Expense,62843108.739079505
+2026,1,reinsurer,GRAND TOTAL,Expenses from reinsurance contracts held,6097668.953888416
+2026,1,reinsurer,GRAND TOTAL,Income from reinsurance contracts held,7334954.136098705
+2026,1,reinsurer,GRAND TOTAL,Net expenses from reinsurance contracts held,-1237285.1822102924
+2026,1,reinsurer,GRAND TOTAL,Insurance Service Result,1901064.3079476675
+2026,1,reinsurer,GRAND TOTAL,Net Investment Income,6563560.493612055
+2026,1,reinsurer,GRAND TOTAL,Finance expenses from insurance contracts,3237140.963244925
+2026,1,reinsurer,GRAND TOTAL,Finance income from reinsurance contracts,792832.7917844341
+2026,1,reinsurer,GRAND TOTAL,Net Financial Result,4119252.3221515655
+2026,1,reinsurer,GRAND TOTAL,Asset management services revenue,0.0
+2026,1,reinsurer,GRAND TOTAL,Other Income,260927.28614023823
+2026,1,reinsurer,GRAND TOTAL,Other finance costs,-103132.17348118403
+2026,1,reinsurer,GRAND TOTAL,Other operating expenses,2724261.2502352605
+2026,1,reinsurer,GRAND TOTAL,Share of profit of associates and joint ventures accounted for using the equity method,16496.10875
+2026,1,reinsurer,GRAND TOTAL,Profit before income tax,3676610.9482353963
+2026,1,reinsurer,GRAND TOTAL,Income tax expense,1040646.3055409004
+2026,1,reinsurer,GRAND TOTAL,Profit for the year,2635964.6426944947
