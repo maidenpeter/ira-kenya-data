@@ -1,0 +1,10 @@
+# raw IRA files live in a GitHub release, not in git (see data/raw/manifest.csv)
+data/raw/**
+!data/raw/manifest.csv
+!data/raw/SOURCES.md
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*
+.DS_Store
+Thumbs.db
