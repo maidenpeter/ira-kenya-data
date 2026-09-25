@@ -11,6 +11,7 @@ BUPA GLOBAL INSURANCE,bupa_global,Bupa Global Insurance,insurer,0,first reported
 CANNON ASSURANCE COMPANY,cannon_general,Cannon General Insurance,insurer,0,renamed: Metropolitan International bought Cannon Assurance and it traded as Metropolitan Cannon,https://nation.africa/kenya/business/south-african-firm-metropolitan-international-takes-over-cannon-assurance-1042116
 METROPOLITAN CANNON INSURANCE,cannon_general,Cannon General Insurance,insurer,0,renamed,https://nation.africa/kenya/business/south-african-firm-metropolitan-international-takes-over-cannon-assurance-1042116
 METROPOLITAN CANNON GENERAL*,cannon_general,Cannon General Insurance,insurer,0,renamed: Momentum Metropolitan sold its 66.29% stake to local shareholders on 25 July 2022 and the company was renamed,https://www.momentumgroupltd.co.za/media/2022/07/new-shareholding-and-ownership-of-metropolitan-cannon-kenya
+METROPOLITAN CANNON GENERAL,cannon_general,Cannon General Insurance,insurer,0,"spelling: the same Q4 2022 name without the asterisk, used in some class tables",IRA listing
 CANNON GENERAL INSURANCE (K) LIMITED,cannon_general,Cannon General Insurance,insurer,0,renamed,https://www.momentumgroupltd.co.za/media/2022/07/new-shareholding-and-ownership-of-metropolitan-cannon-kenya
 CANNON GENERAL INSURANCE,cannon_general,Cannon General Insurance,insurer,0,spelling,IRA listing
 CIC GENERAL INSURANCE COMPANY,cic_general,CIC General Insurance,insurer,0,,
@@ -62,6 +63,21 @@ TURACO MICRO INSURANCE,turaco_micro,Turaco Micro Insurance,insurer,1,micro insur
 XPLICO INSURANCE COMPANY,xplico,Xplico Insurance Company,insurer,0,placed under statutory management; no business reported after Q3 2023,https://www.ira.go.ke/resource/xplico-insurance-company-placed-under-statutory-management/
 CONTINENTAL REINSURANCE,continental_re,Continental Reinsurance,reinsurer,0,,
 EAST AFRICA REINSURANCE,east_africa_re,East Africa Reinsurance,reinsurer,0,,
+EAST AFRICAN REINSURANCE,east_africa_re,East Africa Reinsurance,reinsurer,0,spelling: used in the gross premium class table up to 2023,IRA listing
 GHANA REINSURANCE COMPANY,ghana_re,Ghana Reinsurance Company (Kenya),reinsurer,0,first reported Q4 2018,
 KENYA REINSURANCE CORPORATION,kenya_re,Kenya Reinsurance Corporation,reinsurer,0,,
 WAICA REINSURANCE KENYA LIMITED,waica_re,WAICA Reinsurance Kenya,reinsurer,0,first reported Q1 2019,
+AFRICAN MERCHANT ASSURANCE COMPANY,amaco,African Merchant Assurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+BRITAM GENERAL INSURANCE COMPANY,britam_general,Britam General Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+DIRECT ASSURANCE COMPANY,directline,Directline Assurance Company,insurer,0,spelling: Directline printed as Direct Assurance on the 2018 balance sheets,IRA listing
+EAST AFRICA REINSURANCE COMPANY,east_africa_re,East Africa Reinsurance,reinsurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+FIDELITY SHIELD INSURANCE COMPANY,fidelity_shield,Fidelity Shield Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+GA GENERAL INSURANCE COMPANY,ga,GA Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+GEMINIA INSURANCE COMPANY LIMITED,geminia,Geminia Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+GHANA RE-INSURANCE COMPANY LIMITED,ghana_re,Ghana Reinsurance Company (Kenya),reinsurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+ICEA LION GENERAL INSURANCE COMPANY,icea_lion_general,ICEA Lion General Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+INTRA-AFRICA ASSURANCE COMPANY,intra_africa,Intra-Africa Assurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+KENYA ORIENT INSURANCE COMPANY,kenya_orient,Kenya Orient Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+PHOENIX OF EAST AFRICA ASSURANCE,mua,MUA Insurance (formerly Phoenix of East Africa),insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+THE KENYAN ALLIANCE INSURANCE COMPANY,kenyan_alliance,The Kenyan Alliance Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
+THE MONARCH INSURANCE COMPANY,monarch,The Monarch Insurance,insurer,0,spelling: longer form of the name used on the balance sheets,IRA listing
