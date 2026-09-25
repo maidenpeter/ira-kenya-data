@@ -40,3 +40,11 @@ The same figures pulled from the Q4 2023 and Q4 2024 PDF industry releases, inde
 | 2024 | medical_gross_premium_ksh_bn | 76.31 | 76.21 | -0.1 |
 
 Loss ratios agree to one decimal for all five years. The underwriting results for 2023 and 2024 and the 2024 medical premium differ slightly, by KSh 0.01bn to 0.1bn. The PDF figures are sums over classes of business while the workbook figures come from company revenue accounts; the source of the gap is still to be traced.
+
+## Company panel
+
+- Raw company names mapped to a company id: 66 of 66 (unmapped: 0)
+- 52 companies after the crosswalk
+- Company ids appearing twice in one quarter: 0
+- Company years where the four single quarters rebuild the Q4 year to date: 3300 of 3300
+- Single-quarter premium, earned premium or claims figures that come out negative: 52. Most are insurers' incurred claims, where a release of claims reserves in one quarter can outweigh the claims paid; a few are reinsurer premium moved between direct and inward business. All are kept as published.

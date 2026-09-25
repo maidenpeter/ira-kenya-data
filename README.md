@@ -24,14 +24,18 @@ The local reinsurers tell a different story. They made an underwriting profit in
 
 Full years only (Q4, year to date). Gross premium is gross direct plus inward reinsurance. Loss and combined ratios are on net earned premium. 2017 is missing because IRA has no Q4 2017 workbook online.
 
+Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers made an underwriting profit. By 2025 only 9 of 34 did. Five insurers made an underwriting profit in every full year from 2018 to 2025: GA Insurance, ICEA Lion General, Intra-Africa Assurance, Mayfair and Tausi Assurance.
+
 ## Tables
 
 | File | Rows | What it holds |
 |---|---|---|
 | `data/processed/general_revenue_accounts.csv` | 21,900 | The general business revenue account for every insurer and reinsurer: gross premium, inward and outward reinsurance, reserves, net earned premium, claims, commissions, expenses, underwriting result, investment income, operating result |
 | `data/processed/general_by_class.csv` | 211,785 | The same companies split by 14 classes of business (motor private, medical, fire industrial and so on) across up to ten tables: gross premium, gross direct premium, inward premium, net premium, net earned premium, claims paid, claims incurred, commissions, management expenses, underwriting result |
+| `data/processed/general_revenue_panel.csv` | 21,900 | The revenue accounts on stable company ids, with single-quarter figures derived from IRA's year-to-date numbers and a flag saying how each one was derived |
+| `reference/company_crosswalk.csv` | 66 | Every company name IRA has used, mapped to 52 companies, with the rename, merger or exit behind each change and a source link |
 
-35 quarters, 66 company names, two segments (insurer, reinsurer). Figures are in KSh thousands, year to date and unaudited, exactly as IRA published them. See `docs/data_dictionary.md` for every column.
+35 quarters, 66 company names resolving to 52 companies, two segments (insurer, reinsurer). Figures are in KSh thousands, year to date and unaudited, exactly as IRA published them. See `docs/data_dictionary.md` for every column.
 
 ## How it is checked
 
@@ -50,13 +54,26 @@ Every failure traces to an error in IRA's own publications, and each one is docu
 
 As an independent check, the figures were rebuilt a second way from the PDF industry releases. Market loss ratios agree to one decimal place for all five years tested, 2020 to 2024.
 
+## Following a company through its name changes
+
+IRA prints company names as they stood each quarter, so the same insurer can appear under three or four names. The crosswalk ties them together, and every link that rests on more than a spelling change cites a source:
+
+- Phoenix of East Africa became MUA Insurance, which later absorbed Saham Assurance Kenya
+- Cannon Assurance became Metropolitan Cannon, then Cannon General after Momentum Metropolitan sold out in 2022
+- UAP became Old Mutual General in 2022
+- AIG Kenya became NCBA Insurance after NCBA bought it in 2024
+- Jubilee General became Jubilee Allianz, and now reports as Sanlam Allianz General
+
+The panel's single-quarter figures add back to the full-year totals for all 3,300 company years checked. Quarters where IRA printed zeros because a company did not file are flagged and left blank, not turned into false swings.
+
 ## Layout
 
 ```
 data/
   raw/          IRA source files (not in git, see below) plus manifest.csv and SOURCES.md
   processed/    the clean tables
-src/ira_data/   extraction and validation code
+reference/      company crosswalk
+src/ira_data/   extraction, panel and validation code
 validation/     validation report, summary, published totals, PDF cross-check
 docs/           data dictionary
 ```
@@ -66,6 +83,7 @@ docs/           data dictionary
 ```
 pip install -r requirements.txt
 python src/ira_data/extract_quarterly_general.py
+python src/ira_data/build_panel.py
 python src/ira_data/validate.py
 ```
 
@@ -73,8 +91,6 @@ The raw files are about 400 MB, and one of them is over GitHub's 100 MB file lim
 
 ## Coming next
 
-- A company crosswalk, so renamed and merged insurers line up over time (for example AIG Insurance reappearing as NCBA Insurance, and the Jubilee Allianz combination)
-- Single-quarter figures derived from the year-to-date series
 - The annual statistics workbooks (2017 to 2025) and the reinsurance chapters of the annual reports
 - The 2008 to 2016 PDF-only years, extracted with Veridoc, an OCR and document extraction tool in development
 
