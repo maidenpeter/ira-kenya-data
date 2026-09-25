@@ -1,0 +1,67 @@
+company_raw,company_id,company_name,segment,is_micro,link,evidence
+AAR INSURANCE KENYA,aar,AAR Insurance Kenya,insurer,0,,
+AFRICAN MERCHANT ASSURANCE,amaco,African Merchant Assurance,insurer,0,,
+AIG INSURANCE COMPANY,ncba_insurance,NCBA Insurance (formerly AIG Kenya),insurer,0,renamed: AIG Insurance Company became NCBA Insurance after NCBA bought 100% of AIG Kenya in 2024; IRA lists the new name from Q4 2024,https://ncbagroup.com/wp-content/uploads/2024/07/PRESS-RELEASE-FINAL.pdf
+NCBA INSURANCE COMPANY,ncba_insurance,NCBA Insurance (formerly AIG Kenya),insurer,0,renamed,https://www.capitalfm.co.ke/business/2025/03/aig-kenya-rebrands-to-ncba-insurance-after-acquisition/
+ALLIANZ INSURANCE COMPANY,allianz_kenya,Allianz Insurance Company of Kenya,insurer,0,no business reported after Q2 2022 (listed with zeros to Q4 2022); what happened to its book is not yet confirmed,IRA listing
+APA INSURANCE COMPANY,apa,APA Insurance,insurer,0,spelling: IRA switched from Company to Limited in Q4 2024,IRA listing
+APA INSURANCE LIMITED,apa,APA Insurance,insurer,0,spelling,IRA listing
+BRITAM GENERAL INSURANCE,britam_general,Britam General Insurance,insurer,0,,
+BUPA GLOBAL INSURANCE,bupa_global,Bupa Global Insurance,insurer,0,first reported Q2 2025,
+CANNON ASSURANCE COMPANY,cannon_general,Cannon General Insurance,insurer,0,renamed: Metropolitan International bought Cannon Assurance and it traded as Metropolitan Cannon,https://nation.africa/kenya/business/south-african-firm-metropolitan-international-takes-over-cannon-assurance-1042116
+METROPOLITAN CANNON INSURANCE,cannon_general,Cannon General Insurance,insurer,0,renamed,https://nation.africa/kenya/business/south-african-firm-metropolitan-international-takes-over-cannon-assurance-1042116
+METROPOLITAN CANNON GENERAL*,cannon_general,Cannon General Insurance,insurer,0,renamed: Momentum Metropolitan sold its 66.29% stake to local shareholders on 25 July 2022 and the company was renamed,https://www.momentumgroupltd.co.za/media/2022/07/new-shareholding-and-ownership-of-metropolitan-cannon-kenya
+CANNON GENERAL INSURANCE (K) LIMITED,cannon_general,Cannon General Insurance,insurer,0,renamed,https://www.momentumgroupltd.co.za/media/2022/07/new-shareholding-and-ownership-of-metropolitan-cannon-kenya
+CANNON GENERAL INSURANCE,cannon_general,Cannon General Insurance,insurer,0,spelling,IRA listing
+CIC GENERAL INSURANCE COMPANY,cic_general,CIC General Insurance,insurer,0,,
+CORPORATE INSURANCE COMPANY,corporate,Corporate Insurance Company,insurer,0,no business reported after Q3 2025,IRA listing
+DEFINITE ASSURANCE COMPANY,definite,Definite Assurance Company,insurer,0,first reported Q1 2025,
+DIRECTLINE ASSURANCE COMPANY,directline,Directline Assurance Company,insurer,0,,
+EQUITY GENERAL INSURANCE LIMITED,equity_general,Equity General Insurance,insurer,0,first reported Q1 2025,
+EQUITY HEALTH INSURANCE LIMITED,equity_health,Equity Health Insurance,insurer,0,first reported Q3 2025,
+FIDELITY SHIELD INSURANCE,fidelity_shield,Fidelity Shield Insurance,insurer,0,,
+FIRST ASSURANCE COMPANY,first_assurance,First Assurance Company,insurer,0,,
+GA INSURANCE COMPANY,ga,GA Insurance,insurer,0,,
+GEMINIA INSURANCE COMPANY,geminia,Geminia Insurance,insurer,0,,
+HEALTHIER (K) MICRO INSURANCE,healthier_micro,Healthier (K) Micro Insurance,insurer,1,micro insurer listed in the general tables,IRA listing
+HERITAGE INSURANCE COMPANY,heritage,The Heritage Insurance Company,insurer,0,spelling: The added from Q1 2024,IRA listing
+THE HERITAGE INSURANCE COMPANY,heritage,The Heritage Insurance Company,insurer,0,spelling,IRA listing
+ICEA LION GENERAL INSURANCE,icea_lion_general,ICEA Lion General Insurance,insurer,0,,
+INTRA-AFRICA ASSURANCE,intra_africa,Intra-Africa Assurance,insurer,0,,
+INTRA AFRICA ASSURANCE,intra_africa,Intra-Africa Assurance,insurer,0,spelling: hyphen dropped in Q4 2024 only,IRA listing
+INVESCO ASSURANCE COMPANY,invesco,Invesco Assurance Company,insurer,0,placed under statutory management; no business reported after Q4 2023,https://www.ira.go.ke/resource/placement-invesco-assurance-under-statutory-management/
+JUBILEE INSURANCE COMPANY,jubilee_composite,Jubilee Insurance Company (general business before the 2020 split),insurer,0,split: from Q1 2020 IRA reports Jubilee General and Jubilee Health separately,IRA listing
+JUBILEE GENERAL INSURANCE,sanlam_allianz_general,Sanlam Allianz General Insurance (formerly Jubilee General / Jubilee Allianz General),insurer,0,renamed: Allianz took a majority stake in Jubilee General Insurance Kenya in 2021 and IRA lists it as Jubilee Allianz from Q3 2023,https://www.allianz.com/en/press/news/financials/stakes_investments/210504_Allianz-completes-acquisition-of-majority-stake-in-Jubilee-General-Insurance-Kenya.html
+JUBILEE ALLIANZ GENERAL INSURANCE,sanlam_allianz_general,Sanlam Allianz General Insurance (formerly Jubilee General / Jubilee Allianz General),insurer,0,renamed: inferred from IRA listings; Jubilee Allianz last appears Q3 2025 and Sanlam Allianz General first appears Q4 2025,IRA listing
+SANLAM ALLIANZ GENERAL INSURANCE,sanlam_allianz_general,Sanlam Allianz General Insurance (formerly Jubilee General / Jubilee Allianz General),insurer,0,renamed (inferred),IRA listing
+JUBILEE HEALTH INSURANCE,jubilee_health,Jubilee Health Insurance,insurer,0,first reported Q1 2020,
+KENINDIA ASSURANCE COMPANY,kenindia,Kenindia Assurance Company,insurer,0,,
+KENYA ORIENT INSURANCE,kenya_orient,Kenya Orient Insurance,insurer,0,,
+MADISON INSURANCE COMPANY,madison,Madison Insurance Company,insurer,0,,
+MAYFAIR INSURANCE COMPANY,mayfair,Mayfair Insurance Company,insurer,0,,
+PHOENIX OF EAST AFRICA,mua,MUA Insurance (formerly Phoenix of East Africa),insurer,0,renamed: Phoenix of East Africa Assurance became MUA Insurance; IRA switches names in Q3 2018,https://www.standardmedia.co.ke/article/2001299084/phoenix-assurance-ea-is-now-mua
+MUA INSURANCE COMPANY,mua,MUA Insurance (formerly Phoenix of East Africa),insurer,0,renamed,https://www.standardmedia.co.ke/article/2001299084/phoenix-assurance-ea-is-now-mua
+SAHAM INSURANCE COMPANY,saham,Saham Assurance Kenya,insurer,0,merged into MUA: MUA bought Saham Kenya and the two were consolidated into one entity in 2021,https://www.the-star.co.ke/business/kenya/2021-08-06-mua-kenya-and-saham-kenya-consolidated-to-one-entity/
+OCCIDENTAL INSURANCE COMPANY,occidental,Occidental Insurance Company,insurer,0,,
+UAP INSURANCE COMPANY,old_mutual_general,Old Mutual General Insurance (formerly UAP),insurer,0,renamed: UAP Old Mutual Group rebranded to Old Mutual in May 2022,https://www.capitalfm.co.ke/business/2022/05/uap-old-mutual-group-rebrands-to-old-mutual/
+OLD MUTUAL GENERAL INSURANCE,old_mutual_general,Old Mutual General Insurance (formerly UAP),insurer,0,renamed,https://www.capitalfm.co.ke/business/2022/05/uap-old-mutual-group-rebrands-to-old-mutual/
+PACIS INSURANCE COMPANY,pacis,Pacis Insurance Company,insurer,0,,
+PIONEER INSURANCE COMPANY,pioneer,Pioneer Insurance,insurer,0,spelling (inferred): IRA uses Pioneer General Insurance from Q3 2018 to Q3 2022 and Pioneer Insurance Company otherwise; the two names never appear in the same quarter,IRA listing
+PIONEER GENERAL INSURANCE,pioneer,Pioneer Insurance,insurer,0,spelling (inferred),IRA listing
+RESOLUTION INSURANCE COMPANY,resolution,Resolution Insurance Company,insurer,0,no business reported after Q4 2021,IRA listing
+SANLAM INSURANE COMPANY,sanlam_general,Sanlam General Insurance,insurer,0,spelling: typo in IRA's listing up to Q2 2018,IRA listing
+SANLAM INSURANCE COMPANY,sanlam_general,Sanlam General Insurance,insurer,0,merged into Sanlam Allianz General: IRA approved the transfer of Sanlam General's business to Jubilee Allianz General in September 2025; last reported Q3 2025,https://www.businessdailyafrica.com/bd/corporate/companies/sanlam-completes-transfer-of-business-to-jubilee-allianz-5252576
+STAR DISCOVER INSURANCE,star_discover,Star Discover Insurance,insurer,0,first reported Q4 2022,
+STAR DISCOVER MICRO INSURANCE,star_discover_micro,Star Discover Micro Insurance,insurer,1,micro insurer listed in the general tables,IRA listing
+TAKAFUL INSURANCE OF AFRICA,takaful,Takaful Insurance of Africa,insurer,0,,
+TAUSI ASSURANCE COMPANY,tausi,Tausi Assurance Company,insurer,0,,
+THE KENYAN ALLIANCE INSURANCE,kenyan_alliance,The Kenyan Alliance Insurance,insurer,0,no business reported in Q1 2026,IRA listing
+THE MONARCH INSURANCE,monarch,The Monarch Insurance,insurer,0,no business reported after Q3 2025,IRA listing
+TRIDENT INSURANCE COMPANY,trident,Trident Insurance Company,insurer,0,no business reported after Q2 2024,IRA listing
+TURACO MICRO INSURANCE,turaco_micro,Turaco Micro Insurance,insurer,1,micro insurer listed in the general tables in Q4 2024 only,IRA listing
+XPLICO INSURANCE COMPANY,xplico,Xplico Insurance Company,insurer,0,placed under statutory management; no business reported after Q3 2023,https://www.ira.go.ke/resource/xplico-insurance-company-placed-under-statutory-management/
+CONTINENTAL REINSURANCE,continental_re,Continental Reinsurance,reinsurer,0,,
+EAST AFRICA REINSURANCE,east_africa_re,East Africa Reinsurance,reinsurer,0,,
+GHANA REINSURANCE COMPANY,ghana_re,Ghana Reinsurance Company (Kenya),reinsurer,0,first reported Q4 2018,
+KENYA REINSURANCE CORPORATION,kenya_re,Kenya Reinsurance Corporation,reinsurer,0,,
+WAICA REINSURANCE KENYA LIMITED,waica_re,WAICA Reinsurance Kenya,reinsurer,0,first reported Q1 2019,
