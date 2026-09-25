@@ -164,3 +164,30 @@ for _, r in xr.iterrows():
 lines += ["", "Loss ratios agree to one decimal for all five years. The underwriting results for 2023 and 2024 and the 2024 medical premium differ slightly, by KSh 0.01bn to 0.1bn. "
           "The PDF figures are sums over classes of business while the workbook figures come from company revenue accounts; the source of the gap is still to be traced."]
 open(os.path.join(V, "SUMMARY.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
+
+# 6. company panel checks (needs build_panel.py to have run)
+panel_path = os.path.join(P, "general_revenue_panel.csv")
+if os.path.exists(panel_path):
+    cw = pd.read_csv(os.path.join(ROOT, "reference", "company_crosswalk.csv"))
+    pan = pd.read_csv(panel_path)
+    unmapped = sorted(set(rev.company.str.strip()) - set(cw.company_raw))
+    dup = pan[pan.line == "gross_direct_premium"].groupby(["year", "quarter", "company_id"]).size()
+    dup = dup[dup > 1]
+    flows = pan[(pan.quarter_basis != "balance") & (pan.year.between(2018, 2025))]
+    sq = flows.groupby(["company_id", "year", "line"]).quarter_ksh_000.sum(min_count=1)
+    q4 = flows[flows.quarter == 4].set_index(["company_id", "year", "line"]).ytd_ksh_000
+    complete = flows.groupby(["company_id", "year", "line"]).quarter_ksh_000.count() == 4
+    both = q4.index.intersection(complete[complete].index)
+    gap = (sq.reindex(both) - q4.reindex(both)).abs()
+    neg = pan[pan.line.isin(["gross_direct_premium", "incurred_claims", "net_earned_premium"]) & (pan.quarter_ksh_000 < 0)]
+    panel_lines = ["", "## Company panel", "",
+                   f"- Raw company names mapped to a company id: {len(set(rev.company.str.strip())) - len(unmapped)} of {rev.company.str.strip().nunique()} (unmapped: {len(unmapped)})",
+                   f"- {cw.company_id.nunique()} companies after the crosswalk",
+                   f"- Company ids appearing twice in one quarter: {len(dup)}",
+                   f"- Company years where the four single quarters rebuild the Q4 year to date: {int((gap <= 1e-6).sum())} of {len(gap)}",
+                   f"- Single-quarter premium, earned premium or claims figures that come out negative: {len(neg)}. "
+                   "Most are insurers' incurred claims, where a release of claims reserves in one quarter can outweigh the claims paid; "
+                   "a few are reinsurer premium moved between direct and inward business. All are kept as published."]
+    with open(os.path.join(V, "SUMMARY.md"), "a", encoding="utf-8") as f:
+        f.write("\n".join(panel_lines) + "\n")
+    print("\n".join(panel_lines))

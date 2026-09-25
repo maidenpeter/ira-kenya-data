@@ -55,3 +55,26 @@ All money figures are KSh thousands, year to date to the period end, from IRA's 
 `class_of_business`: Aviation, Engineering, Fire Domestic, Fire Industrial, Liability, Marine, Motor Private, Motor Commercial, Motor Commercial PSV, Personal Accident, Theft, Workmen's Compensation, Medical, Miscellaneous, and Total.
 
 IRA's own incurred claims ratio tables are not copied, since they can be recomputed from these columns.
+
+## general_revenue_panel.csv
+
+The revenue accounts joined to the company crosswalk, with single-quarter figures.
+
+| Column | Meaning |
+|---|---|
+| `company_id`, `company_name` | Stable id and current name from `reference/company_crosswalk.csv` |
+| `company_as_published` | The name IRA printed that quarter |
+| `is_micro` | 1 for micro insurers that IRA lists in the general tables |
+| `ytd_ksh_000` | Year to date, as published |
+| `quarter_ksh_000` | That quarter alone |
+| `quarter_basis` | `derived` (this year to date minus last quarter's), `q1` (Q1 equals its year to date), `new_in_quarter` (no row in the previous workbook, so treated as starting from zero), `not_filed` (IRA printed zeros for the whole account; left blank), `prior_not_filed` (last quarter was zeros; left blank), `no_prior_workbook` (previous workbook not online; left blank), `balance` (reserve balances are not differenced) |
+
+## company_crosswalk.csv
+
+| Column | Meaning |
+|---|---|
+| `company_raw` | Name exactly as IRA printed it |
+| `company_id`, `company_name` | The company it belongs to |
+| `is_micro` | Micro insurer flag |
+| `link` | Why names were joined, or what happened to the company |
+| `evidence` | Source for the link, or `IRA listing` where it rests on the pattern of names in IRA's own tables |
