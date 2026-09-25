@@ -1,0 +1,364 @@
+<title>Kenya Insurer Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#f4f6f3; --surface:#ffffff; --ink:#15202b; --ink-2:#4f5a64; --muted:#6d7780;
+  --rule:#d9dfdb; --rule-soft:#e8ece9; --accent:#184f95; --accent-soft:#e3ecf8;
+  --s1:#2a78d6; --s2:#eb6834; --crit:#d03b3b; --warn:#b98100; --warn-dot:#fab219; --good:#0a7d0a;
+  --hatch:#d03b3b;
+  --serif:"EB Garamond", Garamond, "Adobe Garamond Pro", Georgia, serif;
+  --ui:"IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#10161c; --surface:#172029; --ink:#e7ebee; --ink-2:#b4bdc5; --muted:#8f99a3;
+    --rule:#2b3640; --rule-soft:#222c35; --accent:#86b6ef; --accent-soft:#1d2a3a;
+    --s1:#3987e5; --s2:#d95926; --crit:#e66767; --warn:#fab219; --warn-dot:#fab219; --good:#3fbf3f; --hatch:#e66767;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#10161c; --surface:#172029; --ink:#e7ebee; --ink-2:#b4bdc5; --muted:#8f99a3;
+  --rule:#2b3640; --rule-soft:#222c35; --accent:#86b6ef; --accent-soft:#1d2a3a;
+  --s1:#3987e5; --s2:#d95926; --crit:#e66767; --warn:#fab219; --warn-dot:#fab219; --good:#3fbf3f; --hatch:#e66767;
+}
+*{box-sizing:border-box}
+body{background:var(--ground); color:var(--ink); font-family:var(--serif); font-size:17px; line-height:1.45;}
+.wrap{max-width:1180px; margin:0 auto; padding-inline:20px; padding-block:28px 56px; display:flex; flex-direction:column; gap:28px}
+header.top{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px 24px; border-bottom:1px solid var(--rule); padding-bottom:18px}
+.eyebrow{font-family:var(--ui); font-size:12px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted)}
+h1{font-size:clamp(30px,4.2vw,44px); font-weight:500; line-height:1.05; margin:4px 0 6px; text-wrap:balance; letter-spacing:-.005em}
+.lede{margin:0; color:var(--ink-2); max-width:62ch}
+.stamp{font-family:var(--ui); font-size:13px; color:var(--muted); text-align:right; line-height:1.5}
+.controls{display:flex; flex-wrap:wrap; gap:12px 16px; align-items:flex-end}
+.field{display:flex; flex-direction:column; gap:4px; min-width:0}
+.field label{font-family:var(--ui); font-size:12px; letter-spacing:.07em; text-transform:uppercase; color:var(--muted)}
+select{font-family:var(--ui); font-size:15px; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:8px 10px; max-width:100%}
+select:focus-visible,button:focus-visible,th button:focus-visible,tr[tabindex]:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.tabs{display:flex; gap:4px; margin-left:auto; background:var(--rule-soft); padding:3px; border-radius:8px}
+.tabs button{font-family:var(--ui); font-size:14px; border:0; background:transparent; color:var(--ink-2); padding:7px 14px; border-radius:6px; cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--surface); color:var(--ink); box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.ident{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:baseline}
+.ident h2{font-size:30px; font-weight:500; margin:0; line-height:1.1}
+.chip{font-family:var(--ui); font-size:12px; letter-spacing:.04em; padding:3px 8px; border-radius:999px; border:1px solid var(--rule); color:var(--ink-2); white-space:nowrap}
+.chip.crit{border-color:var(--crit); color:var(--crit)}
+.chip.warn{border-color:var(--warn); color:var(--warn)}
+.trail{margin:6px 0 0; color:var(--ink-2); font-size:16px; max-width:80ch}
+.trail a{color:var(--accent)}
+.kpis{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:8px; overflow:hidden}
+.kpi{background:var(--surface); padding:14px 16px; display:flex; flex-direction:column; gap:2px; min-width:0}
+.kpi .k{font-family:var(--ui); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+.kpi .v{font-size:28px; font-variant-numeric:tabular-nums lining-nums; line-height:1.15}
+.kpi .s{font-family:var(--ui); font-size:13px; color:var(--muted)}
+.grid2{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px}
+.panel{background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:18px 18px 14px; min-width:0}
+.panel h3{font-size:21px; font-weight:500; margin:0 0 2px}
+.panel .sub{font-family:var(--ui); font-size:13px; color:var(--muted); margin:0 0 10px}
+.legend{display:flex; flex-wrap:wrap; gap:6px 16px; font-family:var(--ui); font-size:13px; color:var(--ink-2); margin-bottom:6px}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+.sw{width:12px; height:12px; border-radius:3px; display:inline-block}
+.chart svg{display:block; width:100%; height:auto; overflow:visible}
+.chart text{font-family:var(--ui); font-size:11px; fill:var(--muted); font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse; width:100%; font-family:var(--ui); font-size:14px; font-variant-numeric:tabular-nums}
+th{font-weight:500; color:var(--muted); text-align:right; font-size:12px; letter-spacing:.05em; text-transform:uppercase; padding:8px 10px; border-bottom:1px solid var(--rule); white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+td{text-align:right; padding:7px 10px; border-bottom:1px solid var(--rule-soft); white-space:nowrap; color:var(--ink)}
+th button{all:unset; cursor:pointer}
+th button[data-dir]::after{content:" ↓"; }
+th button[data-dir="asc"]::after{content:" ↑"}
+tr[tabindex]{cursor:pointer}
+tr[tabindex]:hover td{background:var(--accent-soft)}
+.bar{display:inline-block; height:8px; border-radius:0 4px 4px 0; background:var(--s1); vertical-align:middle; margin-left:8px; opacity:.85}
+.neg{color:var(--crit)}
+.flags{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px}
+.flags li{display:grid; grid-template-columns:92px 1fr; gap:4px 14px; font-size:16px; padding:10px 12px; border:1px solid var(--rule); border-radius:6px; background:var(--surface)}
+.flags .when{font-family:var(--ui); font-size:13px; color:var(--muted)}
+.flags .what{font-family:var(--ui); font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:.05em}
+.flags .error .what{color:var(--crit)} .flags .warning .what{color:var(--warn)}
+.note{font-family:var(--ui); font-size:13px; color:var(--muted); max-width:90ch; margin:0}
+.tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--ground); font-family:var(--ui); font-size:13px; line-height:1.4; padding:8px 10px; border-radius:6px; max-width:280px; z-index:10; box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.tip b{font-weight:600}
+footer{border-top:1px solid var(--rule); padding-top:16px; display:flex; flex-direction:column; gap:6px}
+@media (max-width:860px){ .grid2{grid-template-columns:1fr} .kpis{grid-template-columns:repeat(2,minmax(0,1fr))} .tabs{margin-left:0} .stamp{text-align:left} }
+@media (max-width:420px){ .kpi .v{font-size:23px} .flags li{grid-template-columns:1fr} }
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Insurance Regulatory Authority statistics, rebuilt</div>
+      <h1>Kenya Insurer Explorer</h1>
+      <p class="lede">Every general insurer and reinsurer in Kenya, quarter by quarter, from IRA's own returns. Figures are checked against themselves; returns that do not add up across quarters are flagged, not hidden.</p>
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </header>
+
+  <div class="controls">
+    <div class="field"><label for="company">Company</label><select id="company"></select></div>
+    <div class="field"><label for="year">Full year</label><select id="year"></select></div>
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-company" aria-selected="true">Company</button>
+      <button role="tab" id="tab-league" aria-selected="false">League table</button>
+    </div>
+  </div>
+
+  <section id="view-company" style="display:flex;flex-direction:column;gap:24px">
+    <div>
+      <div class="ident"><h2 id="cname"></h2><span id="cchips" style="display:flex;gap:6px;flex-wrap:wrap"></span></div>
+      <p class="trail" id="ctrail"></p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Underwriting against investments</h3>
+        <p class="sub">Full years, KSh millions. Underwriting result is earned premium less claims, commissions and expenses.</p>
+        <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>Underwriting result</span><span><i class="sw" style="background:var(--s2)"></i>Investment income</span></div>
+        <div class="chart" id="chartA"></div>
+      </div>
+      <div class="panel">
+        <h3>Quarter by quarter</h3>
+        <p class="sub">Underwriting result in each quarter alone, KSh millions, derived from IRA's year-to-date figures. The scale ignores unreliable returns; a bar cut off at the edge is marked !…</p>
+        <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>Single quarter</span><span><i class="sw" style="background:repeating-linear-gradient(45deg,var(--hatch) 0 2px,transparent 2px 5px);border:1px solid var(--hatch)"></i>Unreliable return</span><span><i class="sw" style="border:1px dashed var(--muted)"></i>Not derivable</span></div>
+        <div class="chart" id="chartB"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <h3 id="classTitle">Classes of business</h3>
+      <p class="sub" id="classSub"></p>
+      <div class="tablewrap"><table id="classTable"></table></div>
+    </div>
+    <div>
+      <h3 style="font-size:21px;font-weight:500;margin:0 0 10px">Return quality</h3>
+      <ul class="flags" id="flags"></ul>
+    </div>
+  </section>
+
+  <section id="view-league" hidden>
+    <div class="panel">
+      <h3 id="leagueTitle"></h3>
+      <p class="sub">Full-year figures. Click a column to sort, click a company to open it. Written premium is gross direct plus inward reinsurance; ratios are on net earned premium.</p>
+      <div class="field" style="margin-bottom:10px;max-width:220px"><label for="segment">Segment</label><select id="segment"><option value="insurer">Insurers</option><option value="reinsurer">Reinsurers</option></select></div>
+      <div class="tablewrap"><table id="league"></table></div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="note">Source: Insurance Regulatory Authority, Kenya, quarterly industry statistics Q4 2016 to Q1 2026 (unaudited returns, amounts in thousands of shillings, shown here in millions). Q4 2017 and some earlier quarters are not online, so a few single-quarter figures cannot be derived. Company names are joined across renames using a sourced crosswalk. Extraction, validation and this page: Marion Peter, ira-kenya-data.</p>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('data').textContent);
+const P = D.periods;
+const $ = id => document.getElementById(id);
+const fmtM = v => v==null ? '·' : (v<0?'-':'') + Math.abs(v).toLocaleString('en-US',{maximumFractionDigits:0});
+const fmtBn = v => v==null ? 'n/a' : (v<0?'-':'') + 'KSh ' + (Math.abs(v)/1000).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1}) + 'bn';
+const pct = v => (v==null||!isFinite(v)) ? 'n/a' : (v*100).toFixed(1) + '%';
+const years = [...new Set(P.filter(p=>p.endsWith('Q4')).map(p=>p.slice(0,4)))];
+const byId = Object.fromEntries(D.companies.map(c=>[c.id,c]));
+const FLAGNAMES = {premium_reversal:'Premium reversal', premium_spike:'Premium spike', claims_collapse:'Claims collapse',
+  claims_reversal:'Negative claims', loss_ratio_outlier:'Loss ratio outlier', direct_inward_reclass:'Direct to inward move'};
+
+// whole-market virtual companies: year-to-date sums over all, single quarters over reliable returns only
+function marketCompany(seg){
+  const cs = D.companies.filter(c=>c.segment===seg);
+  const sum = (key, field, relOnly) => P.map((_,i)=>{ let s=0,n=0; cs.forEach(c=>{ const v=c[key][field][i]; if(v!=null && (!relOnly || c.reliable[i])){s+=v;n++;} }); return n? s : null; });
+  const sumArr = key => P.map((_,i)=>{ let s=0,n=0; cs.forEach(c=>{ const v=c[key][i]; if(v!=null){s+=v;n++;} }); return n? s:null; });
+  const ytd={}, q={}; Object.keys(cs[0].ytd).forEach(k=>{ ytd[k]=sum('ytd',k,false); q[k]=sum('q',k,true); });
+  const classes={};
+  cs.forEach(c=>Object.entries(c.classes).forEach(([y,t])=>Object.entries(t).forEach(([tb,cl])=>Object.entries(cl).forEach(([k,v])=>{
+    classes[y]=classes[y]||{}; classes[y][tb]=classes[y][tb]||{}; classes[y][tb][k]=(classes[y][tb][k]||0)+(v||0); }))));
+  return {id:'market_'+seg, name: seg==='insurer'?'All general insurers':'All reinsurers', segment:seg, micro:0, market:true,
+    aliases:[], links:[], evidence:[], ytd, q, basis:P.map(()=> 'derived'), reliable:P.map(()=>true),
+    assets:sumArr('assets'), equity:sumArr('equity'), profit:sumArr('profit'), classes, flags:[], not_filed:[], n:cs.length};
+}
+const MK = {insurer:marketCompany('insurer'), reinsurer:marketCompany('reinsurer')};
+
+// controls
+const sel = $('company');
+const addGroup = (label, items) => { const g=document.createElement('optgroup'); g.label=label; items.forEach(([v,t])=>{const o=document.createElement('option'); o.value=v; o.textContent=t; g.appendChild(o);}); sel.appendChild(g); };
+addGroup('Whole market', [['market_insurer','All general insurers'],['market_reinsurer','All reinsurers']]);
+const sortName = (a,b)=>a.name.localeCompare(b.name);
+addGroup('Insurers', D.companies.filter(c=>c.segment==='insurer').sort(sortName).map(c=>[c.id, c.name + (c.micro?' (micro)':'')]));
+addGroup('Reinsurers', D.companies.filter(c=>c.segment==='reinsurer').sort(sortName).map(c=>[c.id, c.name]));
+years.slice().reverse().forEach(y=>{ const o=document.createElement('option'); o.value=y; o.textContent=y; $('year').appendChild(o); });
+$('stamp').innerHTML = `${D.companies.length} companies · ${P.length} quarters<br>${P[0]} to ${P[P.length-1]} · KSh millions`;
+
+const state = {company:'market_insurer', year: years[years.length-1], sortKey:'wp', sortDir:'desc', tab:'company'};
+try{ const s=JSON.parse(localStorage.getItem('kie-state')||'{}'); if(s.company && (byId[s.company]||MK[s.company?.replace('market_','')])) state.company=s.company; if(s.year && years.includes(s.year)) state.year=s.year; }catch(e){}
+const save = () => { try{ localStorage.setItem('kie-state', JSON.stringify({company:state.company, year:state.year})); }catch(e){} };
+const getC = id => id.startsWith('market_') ? MK[id.slice(7)] : byId[id];
+
+// tooltip
+const tip = $('tip');
+function showTip(e, html){ tip.innerHTML=html; tip.hidden=false; const r=tip.getBoundingClientRect(); let x=e.clientX+14, y=e.clientY+14; if(x+r.width>innerWidth-8) x=e.clientX-r.width-14; if(y+r.height>innerHeight-8) y=e.clientY-r.height-14; tip.style.left=x+'px'; tip.style.top=y+'px'; }
+function hideTip(){ tip.hidden=true; }
+
+// figures for a full year
+function fy(c, y){
+  const i = P.indexOf(y+' Q4'); if(i<0) return null;
+  const g = k => c.ytd[k][i];
+  if([g('gdp'),g('nep'),g('uw')].every(v=>v==null || v===0)) return null;
+  const wp=(g('gdp')||0)+(g('inw')||0), nep=g('nep');
+  return {i, wp, nep, lr: nep? g('clm')/nep : null, cr: nep? ((g('clm')||0)+(g('com')||0)+(g('exp')||0))/nep : null,
+    uw:g('uw'), inv:g('inv'), op:g('op'), profit:c.profit[i], assets:c.assets[i], equity:c.equity[i]};
+}
+
+function niceTicks(min, max, n){ const span=max-min||1; const step0=span/n; const mag=Math.pow(10,Math.floor(Math.log10(step0))); const step=[1,2,2.5,5,10].map(m=>m*mag).find(s=>span/s<=n)||10*mag; const lo=Math.floor(min/step)*step, hi=Math.ceil(max/step)*step; const t=[]; for(let v=lo; v<=hi+step/2; v+=step) t.push(Math.round(v/step)*step); return t; }
+const esc = s => String(s).replace(/[&<>"]/g, ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+
+function barChart(el, labels, series, opts){
+  const W=560, H=260, ml=52, mr=8, mt=12, mb=34;
+  const vals = series.flatMap((se,k)=>se.values.filter((v,i)=>v!=null && !(opts.meta && opts.meta(i,k).bad)));
+  if(!vals.length) series.forEach(se=>se.values.forEach(v=>{ if(v!=null) vals.push(v); }));
+  let min=Math.min(0,...vals), max=Math.max(0,...vals); if(min===max){max=1;}
+  const ticks=niceTicks(min,max,5); min=ticks[0]; max=ticks[ticks.length-1];
+  const y=v=> mt + (max-v)/(max-min)*(H-mt-mb);
+  const band=(W-ml-mr)/labels.length, gap=2, inner=band*0.72, bw=Math.max(2,(inner-(series.length-1)*gap)/series.length);
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(opts.aria)}"><defs><pattern id="hatch-${el.id}" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><rect width="5" height="5" fill="var(--surface)"/><rect width="2" height="5" fill="var(--hatch)"/></pattern></defs>`;
+  ticks.forEach(t=>{ s+=`<line x1="${ml}" x2="${W-mr}" y1="${y(t)}" y2="${y(t)}" stroke="var(--rule-soft)" stroke-width="1"/><text x="${ml-6}" y="${y(t)+3.5}" text-anchor="end">${fmtM(t)}</text>`; });
+  s+=`<line x1="${ml}" x2="${W-mr}" y1="${y(0)}" y2="${y(0)}" stroke="var(--ink-2)" stroke-width="1"/>`;
+  const every = Math.ceil(labels.length/ (opts.maxLabels||12));
+  labels.forEach((lab,i)=>{
+    const x0 = ml + i*band + (band-inner)/2;
+    series.forEach((se,k)=>{
+      const v=se.values[i], x=x0+k*(bw+gap);
+      const meta = opts.meta ? opts.meta(i,k) : {};
+      if(v==null){ if(meta.missing) s+=`<rect x="${x}" y="${y(0)-6}" width="${bw}" height="12" fill="none" stroke="var(--muted)" stroke-dasharray="2 2" stroke-width="1" data-i="${i}" data-k="${k}" class="hit"/>`; return; }
+      const vc=Math.max(min,Math.min(max,v)), clipped = vc!==v;
+      const top=Math.min(y(vc),y(0)), h=Math.max(1,Math.abs(y(vc)-y(0))), r=Math.min(4,bw/2,h);
+      const fill = meta.bad ? `url(#hatch-${el.id})` : se.color;
+      const stroke = meta.bad ? `stroke="var(--hatch)" stroke-width="1"` : '';
+      // rounded data-end, square at the baseline
+      const d = v>=0 ? `M${x},${top+h} V${top+r} Q${x},${top} ${x+r},${top} H${x+bw-r} Q${x+bw},${top} ${x+bw},${top+r} V${top+h} Z`
+                     : `M${x},${top} V${top+h-r} Q${x},${top+h} ${x+r},${top+h} H${x+bw-r} Q${x+bw},${top+h} ${x+bw},${top+h-r} V${top} Z`;
+      s+=`<path d="${d}" fill="${fill}" ${stroke}/>`;
+      if(meta.bad) s+=`<text x="${x+bw/2}" y="${v>=0? top-4 : top+h+11}" text-anchor="middle" style="fill:var(--crit);font-weight:600">${clipped?'!…':'!'}</text>`;
+      s+=`<rect x="${x-1}" y="${mt}" width="${bw+2}" height="${H-mt-mb}" fill="transparent" class="hit" data-i="${i}" data-k="${k}"/>`;
+    });
+    if(i%every===0) s+=`<text x="${ml+i*band+band/2}" y="${H-mb+16}" text-anchor="middle">${esc(lab)}</text>`;
+  });
+  s+='</svg>'; el.innerHTML=s;
+  el.querySelectorAll('.hit').forEach(h=>{ h.addEventListener('mousemove',e=>showTip(e, opts.tip(+h.dataset.i,+h.dataset.k))); h.addEventListener('mouseleave',hideTip); });
+}
+
+function renderCompany(){
+  const c=getC(state.company), y=state.year, f=fy(c,y);
+  $('cname').textContent=c.name;
+  const chips=[]; chips.push(`<span class="chip">${c.segment==='insurer'?'General insurer':'Reinsurer'}</span>`);
+  if(c.micro) chips.push('<span class="chip">Micro insurer</span>');
+  if(c.market) chips.push(`<span class="chip">${c.n} companies combined</span>`);
+  const errs=c.flags.filter(x=>x.severity==='error').length, warns=c.flags.filter(x=>x.severity==='warning').length;
+  if(errs) chips.push(`<span class="chip crit">! ${errs} unreliable return${errs>1?'s':''}</span>`);
+  if(warns) chips.push(`<span class="chip warn">△ ${warns} warning${warns>1?'s':''}</span>`);
+  $('cchips').innerHTML=chips.join('');
+  let trail='';
+  if(c.market) trail='Year-to-date figures add up every company IRA lists. Single-quarter figures leave out returns flagged as unreliable, so a bad filing cannot move the market line.';
+  else{
+    const parts=[]; if(c.aliases.length>1) parts.push('Reported by IRA as '+c.aliases.map(a=>'<i>'+esc(a.toLowerCase().replace(/\b\w/g,m=>m.toUpperCase()))+'</i>').join(', ')+'.');
+    c.links.forEach(l=>parts.push(esc(l.charAt(0).toUpperCase()+l.slice(1))+'.'));
+    if(c.evidence.length) parts.push('Sources: '+c.evidence.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${i+1}</a>`).join(', ')+'.');
+    trail=parts.join(' ');
+  }
+  $('ctrail').innerHTML=trail; $('ctrail').hidden=!trail;
+
+  const K=(k,v,s)=>`<div class="kpi"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s||'&nbsp;'}</span></div>`;
+  if(!f){ $('kpis').innerHTML = K('Full year '+y,'n/a','No return for this year'); }
+  else{
+    const prev=fy(c,String(+y-1));
+    const growth = prev && prev.wp ? (f.wp/prev.wp-1) : null;
+    $('kpis').innerHTML = [
+      K('Written premium '+y, fmtBn(f.wp), growth==null?(y==='2018'?'No 2017 full year to compare':''):`${growth>=0?'+':''}${(growth*100).toFixed(1)}% on ${+y-1}`),
+      K('Loss ratio', pct(f.lr), 'Net claims over earned premium'),
+      K('Combined ratio', pct(f.cr), f.cr!=null ? (f.cr>1?'Above 100%: underwriting loss':'Below 100%: underwriting profit') : ''),
+      K('Underwriting result', fmtBn(f.uw), ''),
+      K('Investment income', fmtBn(f.inv), 'Allocated to general business'),
+      K('Profit after tax', fmtBn(f.profit), 'General business, whole company'),
+      K('Total assets', fmtBn(f.assets), 'At 31 December '+y),
+      K('Equity', fmtBn(f.equity), f.assets? 'Equity to assets '+pct(f.equity/f.assets):'' )].join('');
+  }
+
+  // chart A: full years
+  const fys=years.map(yy=>fy(c,yy));
+  barChart($('chartA'), years, [{name:'Underwriting result', color:'var(--s1)', values:fys.map(x=>x?x.uw:null)},{name:'Investment income', color:'var(--s2)', values:fys.map(x=>x?x.inv:null)}],
+    {aria:'Full-year underwriting result and investment income', tip:(i,k)=>{ const x=fys[i]; if(!x) return `<b>${years[i]}</b><br>No return`; return `<b>${years[i]}</b><br>Underwriting result: ${fmtM(x.uw)}m<br>Investment income: ${fmtM(x.inv)}m<br>Combined ratio: ${pct(x.cr)}`; }});
+
+  // chart B: quarters from 2018
+  const start=P.indexOf('2018 Q1'), qi=P.slice(start).map((_,j)=>start+j);
+  const flagAt = p => c.flags.filter(x=>x.period===p);
+  const labB=qi.map(i=>P[i].endsWith('Q1')? P[i].slice(0,4) : '');
+  barChart($('chartB'), qi.map(i=>P[i]), [{name:'Underwriting result', color:'var(--s1)', values:qi.map(i=>c.q.uw[i])}],
+    {aria:'Single-quarter underwriting result', maxLabels:qi.length,
+     meta:(j)=>{ const i=qi[j]; return {bad: !c.market && c.reliable[i]===false && c.q.uw[i]!=null, missing: c.q.uw[i]==null}; },
+     tip:(j)=>{ const i=qi[j], p=P[i], v=c.q.uw[i], fl=flagAt(p);
+       let h=`<b>${p}</b><br>`; h+= v==null ? (c.basis[i]==='not_filed'?'Listed with an all-zero return':'Cannot be derived for this quarter') : `Underwriting result: ${fmtM(v)}m`;
+       fl.forEach(x=>h+=`<br>${x.severity==='error'?'! ':'△ '}${FLAGNAMES[x.flag]||x.flag}: ${esc(x.detail)}`); return h; }});
+  $('chartB').querySelectorAll('svg text').forEach(t=>{ const m=t.textContent.match(/^(\d{4}) Q(\d)$/); if(m){ if(m[2]==='1') t.textContent=m[1]; else t.remove(); } });
+
+  // class table
+  const cy=c.classes[y];
+  $('classTitle').textContent='Classes of business, '+y;
+  if(!cy||!cy.gross_premium){ $('classSub').textContent='No class split for this year.'; $('classTable').innerHTML=''; }
+  else{
+    $('classSub').textContent='Full year, KSh millions. Loss ratio is net incurred claims over net earned premium, shown where earned premium is at least KSh 50m.';
+    const gp=cy.gross_premium, tot=gp.Total||Object.entries(gp).filter(([k])=>k!=='Total').reduce((a,[,v])=>a+v,0);
+    const rows=Object.keys(gp).filter(k=>k!=='Total' && (gp[k]||0)!==0).sort((a,b)=>gp[b]-gp[a]);
+    const maxgp=Math.max(...rows.map(k=>gp[k]));
+    let h='<thead><tr><th>Class</th><th>Gross premium</th><th>Share</th><th>Loss ratio</th><th>Underwriting result</th></tr></thead><tbody>';
+    rows.forEach(k=>{ const nep=cy.net_earned_premium?.[k], cl=cy.claims_incurred?.[k], uw=cy.underwriting_result?.[k];
+      const lr = nep>50 ? cl/nep : null;
+      h+=`<tr><td>${esc(k)}</td><td>${fmtM(gp[k])}<span class="bar" style="width:${Math.max(2,70*gp[k]/maxgp)}px"></span></td><td>${pct(gp[k]/tot)}</td><td>${lr==null?'<span style="color:var(--muted)">n/a</span>':pct(lr)}</td><td class="${uw<0?'neg':''}">${uw==null?'·':fmtM(uw)}</td></tr>`; });
+    h+=`</tbody><tfoot><tr><td><b>Total</b></td><td><b>${fmtM(tot)}</b></td><td>100.0%</td><td>${cy.net_earned_premium?.Total? pct(cy.claims_incurred.Total/cy.net_earned_premium.Total):'n/a'}</td><td class="${(cy.underwriting_result?.Total||0)<0?'neg':''}">${cy.underwriting_result? fmtM(cy.underwriting_result.Total):'·'}</td></tr></tfoot>`;
+    $('classTable').innerHTML=h;
+  }
+
+  // flags
+  const fl=$('flags');
+  if(c.market){ fl.innerHTML='<li><span class="when">All</span><span>Switch to a single company to see its return-quality checks. Unreliable returns are already excluded from the single-quarter market line.</span></li>'; }
+  else{
+    const items=c.flags.slice().sort((a,b)=>P.indexOf(b.period)-P.indexOf(a.period));
+    let h=items.map(x=>`<li class="${x.severity}"><span class="when">${x.period}</span><span><span class="what">${x.severity==='error'?'! ':'△ '}${FLAGNAMES[x.flag]||x.flag}</span><br>${esc(x.detail.charAt(0).toUpperCase()+x.detail.slice(1))}.</span></li>`).join('');
+    if(c.not_filed.length) h+=`<li><span class="when">${c.not_filed.length} quarter${c.not_filed.length>1?'s':''}</span><span>Listed with an all-zero return, usually a missing filing: ${c.not_filed.join(', ')}.</span></li>`;
+    fl.innerHTML = h || '<li><span class="when">Clean</span><span>No return-quality problems found across its quarters.</span></li>';
+  }
+}
+
+function renderLeague(){
+  const seg=$('segment').value, y=state.year;
+  $('leagueTitle').textContent=(seg==='insurer'?'General insurers':'Reinsurers')+', '+y;
+  const rows=D.companies.filter(c=>c.segment===seg).map(c=>({c,f:fy(c,y)})).filter(r=>r.f && r.f.wp>0);
+  const tot=rows.reduce((a,r)=>a+r.f.wp,0);
+  rows.forEach(r=>{ r.wp=r.f.wp; r.share=r.f.wp/tot; r.lr=r.f.lr; r.cr=r.f.cr; r.uw=r.f.uw; r.profit=r.f.profit;
+    r.flags=r.c.flags.filter(x=>x.period.startsWith(y)&&x.severity!=='info').length; r.name=r.c.name; });
+  const k=state.sortKey, dir=state.sortDir==='asc'?1:-1;
+  rows.sort((a,b)=> k==='name' ? dir*a.name.localeCompare(b.name) : dir*(((a[k]??-Infinity))-((b[k]??-Infinity))));
+  const cols=[['name','Company'],['wp','Written premium'],['share','Share'],['lr','Loss ratio'],['cr','Combined ratio'],['uw','Underwriting result'],['profit','Profit after tax'],['flags','Flags']];
+  let h='<thead><tr>'+cols.map(([key,lab])=>`<th><button data-key="${key}" ${state.sortKey===key?`data-dir="${state.sortDir}"`:''}>${lab}</button></th>`).join('')+'</tr></thead><tbody>';
+  rows.forEach(r=>{ h+=`<tr tabindex="0" data-id="${r.c.id}"><td>${esc(r.name)}${r.c.micro?' <span style="color:var(--muted)">(micro)</span>':''}</td><td>${fmtM(r.wp)}</td><td>${pct(r.share)}</td><td>${pct(r.lr)}</td><td>${pct(r.cr)}</td><td class="${r.uw<0?'neg':''}">${fmtM(r.uw)}</td><td class="${r.profit<0?'neg':''}">${fmtM(r.profit)}</td><td>${r.flags? `<span style="color:var(--crit)">! ${r.flags}</span>`:''}</td></tr>`; });
+  const m=MK[seg], mf=fy(m,y);
+  if(mf) h+=`</tbody><tfoot><tr><td><b>Market</b></td><td><b>${fmtM(mf.wp)}</b></td><td>100.0%</td><td>${pct(mf.lr)}</td><td>${pct(mf.cr)}</td><td class="${mf.uw<0?'neg':''}"><b>${fmtM(mf.uw)}</b></td><td>${fmtM(mf.profit)}</td><td></td></tr></tfoot>`;
+  $('league').innerHTML=h;
+  $('league').querySelectorAll('th button').forEach(b=>b.addEventListener('click',()=>{ const kk=b.dataset.key; state.sortDir = state.sortKey===kk && state.sortDir==='desc' ? 'asc':'desc'; state.sortKey=kk; renderLeague(); }));
+  $('league').querySelectorAll('tr[data-id]').forEach(tr=>{ const go=()=>{ state.company=tr.dataset.id; sel.value=state.company; setTab('company'); }; tr.addEventListener('click',go); tr.addEventListener('keydown',e=>{ if(e.key==='Enter') go(); }); });
+}
+
+function setTab(t){ state.tab=t; $('tab-company').setAttribute('aria-selected',t==='company'); $('tab-league').setAttribute('aria-selected',t==='league');
+  $('view-company').hidden = t!=='company'; $('view-company').style.display = t==='company'?'flex':'none'; $('view-league').hidden = t!=='league'; render(); }
+function render(){ save(); if(state.tab==='company') renderCompany(); else renderLeague(); }
+sel.value=state.company; $('year').value=state.year;
+sel.addEventListener('change',()=>{ state.company=sel.value; render(); });
+$('year').addEventListener('change',()=>{ state.year=$('year').value; render(); });
+$('segment').addEventListener('change',renderLeague);
+$('tab-company').addEventListener('click',()=>setTab('company'));
+$('tab-league').addEventListener('click',()=>setTab('league'));
+if(location.hash==='#league') setTab('league'); else render();
+})();
+</script>

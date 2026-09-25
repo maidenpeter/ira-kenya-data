@@ -191,3 +191,79 @@ if os.path.exists(panel_path):
     with open(os.path.join(V, "SUMMARY.md"), "a", encoding="utf-8") as f:
         f.write("\n".join(panel_lines) + "\n")
     print("\n".join(panel_lines))
+
+# 7. balance sheets and profit and loss accounts (extract_statements.py)
+bs_path, pl_path = os.path.join(P, "general_balance_sheets.csv"), os.path.join(P, "general_profit_loss.csv")
+if os.path.exists(bs_path):
+    bsd = pd.read_csv(bs_path); pld = pd.read_csv(pl_path)
+    st = []
+    ctx = (None, None, None)
+    def sadd(kind, ok_):
+        st.append(dict(check=kind, year=ctx[0], quarter=ctx[1], company=ctx[2], passed=bool(ok_)))
+    for (y, q, c), g in bsd.groupby(["year", "quarter", "company_id"]):
+        ctx = (y, q, c)
+        g = g.sort_values("line_order").reset_index(drop=True); v = g.value_ksh_000.fillna(0)
+        if v.abs().sum() == 0:
+            continue
+        it = list(g.line_item); iE, iL, iA = it.index("Total Equity"), it.index("Total Equity And Liabilities"), it.index("Total Assets")
+        sadd("bs_equity_components", ok(v[:iE].sum(), v[iE]))
+        sadd("bs_liabilities_plus_equity", ok(v[iE] + v[iE + 1:iL].sum(), v[iL]))
+        sadd("bs_asset_components", ok(v[iL + 1:iA].sum(), v[iA]))
+        sadd("bs_assets_equal_equity_and_liabilities", ok(v[iA], v[iL]))
+    rvw = rev.assign(company=rev.company.str.strip()).pivot_table(index=["year", "quarter", "company"], columns="line",
+                                                                  values="value_ksh_000", aggfunc="first")
+    for (y, q, c, b), g in pld.groupby(["year", "quarter", "company", "reporting_basis"]):
+        ctx = (y, q, c)
+        v = g.drop_duplicates("line_item").set_index("line_item").value_ksh_000.fillna(0)
+        if v.abs().sum() == 0:
+            continue
+        if b == "IFRS 4":
+            sadd("pl4_total_income", ok(v["Profit Transferred from Revenue"] + v["Investment Income"] + v["Other Income"], v["Total Income"]))
+            sadd("pl4_profit_before_tax", ok(v["Total Income"] - v["Total Outgo"], v["Profit / (Loss) Before Taxation"]))
+            sadd("pl4_profit_after_tax", ok(v["Profit / (Loss) Before Taxation"] - v["Provision for Taxation"], v["Profit/(Loss) After Taxation"]))
+            if (y, q, c) in rvw.index:
+                sadd("pl4_transfer_equals_revenue_operating_result",
+                     ok(v["Profit Transferred from Revenue"] - v["Loss Transferred From Revenue"], rvw.loc[(y, q, c), "operating_result"]))
+        else:
+            sadd("pl17_insurance_service_result", ok(v["Insurance Revenue"] - v["Insurance Service Expense"]
+                                                     - v.get("Net expenses from reinsurance contracts held", 0), v["Insurance Service Result"]))
+            sadd("pl17_profit_after_tax", ok(v["Profit before income tax"] - v["Income tax expense"], v["Profit for the year"]))
+    sr = pd.DataFrame(st).groupby("check").passed.agg(["count", "sum"])
+    names2 = {"bs_equity_components": "Balance sheet: equity items add to total equity",
+              "bs_liabilities_plus_equity": "Balance sheet: liabilities plus equity add to the total",
+              "bs_asset_components": "Balance sheet: asset items add to total assets",
+              "bs_assets_equal_equity_and_liabilities": "Balance sheet: total assets equal equity and liabilities",
+              "pl4_total_income": "P&L (IFRS 4): income items add to total income",
+              "pl4_profit_before_tax": "P&L (IFRS 4): total income less total outgo is profit before tax",
+              "pl4_profit_after_tax": "P&L (IFRS 4): profit before tax less tax is profit after tax",
+              "pl4_transfer_equals_revenue_operating_result": "P&L (IFRS 4): transfer from revenue equals the revenue account's operating result",
+              "pl17_insurance_service_result": "P&L (IFRS 17): revenue less service expense less net reinsurance is the insurance service result",
+              "pl17_profit_after_tax": "P&L (IFRS 17): profit before tax less tax is profit for the year"}
+    lines3 = ["", "## Balance sheets and profit and loss accounts", "",
+              "| Check | Checks run | Passed | Pass rate |", "|---|---|---|---|"]
+    for k, r_ in sr.iterrows():
+        lines3.append(f"| {names2.get(k, k)} | {int(r_['count']):,} | {int(r_['sum']):,} | {100*r_['sum']/r_['count']:.1f}% |")
+    lines3 += ["", "IRA's IFRS 4 profit and loss accounts do not itemise everything inside Total Outgo, so outgo is not checked item by item. "
+               "The transfer-from-revenue check links two separate IRA tables; the companies where it misses are listed for follow-up in validation_statements.csv."]
+    pd.DataFrame(st).to_csv(os.path.join(V, "validation_statements.csv"), index=False, lineterminator="\n")
+    with open(os.path.join(V, "SUMMARY.md"), "a", encoding="utf-8") as f:
+        f.write("\n".join(lines3) + "\n")
+    print("\n".join(lines3))
+
+# 8. quarter-to-quarter return quality (quality_flags.py)
+qf_path = os.path.join(V, "quality_flags.csv")
+if os.path.exists(qf_path):
+    qf = pd.read_csv(qf_path)
+    c = qf.groupby(["severity", "flag"]).size()
+    lines4 = ["", "## Return quality across quarters", "",
+              "Every quarter above adds up on its own. These checks look along each company's quarters for returns that add up but cannot be right. "
+              "Single-quarter figures from quarters flagged as errors are marked unreliable in the panels and left out of market single-quarter totals. "
+              "Full list: `quality_flags.csv`.", "",
+              "| Severity | Flag | Company quarters |", "|---|---|---|"]
+    for (sev, fl), n in c.items():
+        lines4.append(f"| {sev} | {fl} | {n} |")
+    errs = qf[qf.severity == "error"]
+    lines4 += ["", "Errors: " + "; ".join(f"{r.company_id} {r.year} Q{r.quarter} ({r.flag})" for r in errs.drop_duplicates(['company_id','year','quarter']).itertuples()) + "."]
+    with open(os.path.join(V, "SUMMARY.md"), "a", encoding="utf-8") as f:
+        f.write("\n".join(lines4) + "\n")
+    print("\n".join(lines4))
