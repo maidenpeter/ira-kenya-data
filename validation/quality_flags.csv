@@ -23,6 +23,7 @@ xplico,insurer,2021,1,not_filed,info,listed with an all-zero account
 invesco,insurer,2021,2,not_filed,info,listed with an all-zero account
 takaful,insurer,2021,2,not_filed,info,listed with an all-zero account
 invesco,insurer,2021,3,not_filed,info,listed with an all-zero account
+mua,insurer,2021,3,merger_step,info,"took over the book of Saham Assurance Kenya this quarter; the single quarter includes its earlier 2021 business (2,118m written premium in the quarter). Source: https://www.the-star.co.ke/business/kenya/2021-08-06-mua-kenya-and-saham-kenya-consolidated-to-one-entity/"
 saham,insurer,2021,3,not_filed,info,listed with an all-zero account
 takaful,insurer,2021,3,not_filed,info,listed with an all-zero account
 invesco,insurer,2021,4,not_filed,info,listed with an all-zero account
@@ -107,6 +108,7 @@ directline,insurer,2025,4,claims_reversal,warning,"single-quarter incurred claim
 directline,insurer,2025,4,loss_ratio_outlier,warning,single-quarter loss ratio -270%
 kenya_re,reinsurer,2025,4,direct_inward_reclass,info,"direct premium down 9,825m while inward premium up 12,837m"
 monarch,insurer,2025,4,not_filed,info,listed with an all-zero account
+sanlam_allianz_general,insurer,2025,4,merger_step,info,"took over the book of Sanlam General Insurance this quarter; the single quarter includes its earlier 2025 business (3,644m written premium in the quarter). Source: https://www.businessdailyafrica.com/bd/corporate/companies/sanlam-completes-transfer-of-business-to-jubilee-allianz-5252576"
 trident,insurer,2025,4,not_filed,info,listed with an all-zero account
 definite,insurer,2026,1,not_filed,info,listed with an all-zero account
 kenyan_alliance,insurer,2026,1,not_filed,info,listed with an all-zero account

@@ -98,4 +98,8 @@ As the balance sheets, with `segment` (insurer, reinsurer, micro) and year-to-da
 
 ## quality_flags.csv
 
-One row per company, quarter and problem: `flag`, `severity` (error, warning, info) and a plain-language `detail`. The rules are at the top of `src/ira_data/quality_flags.py`. The panels carry the same information as `quality_flags` and `reliable_quarter`.
+One row per company, quarter and problem: `flag`, `severity` (error, warning, info) and a plain-language `detail`. The rules are at the top of `src/ira_data/quality_flags.py`. The panels carry the same information as `quality_flags` and `reliable_quarter`. `reliable_quarter` is false for any error quarter and for a `merger_step` quarter, where the year-to-date figures take in an absorbed company's earlier quarters.
+
+## transfer_from_revenue.csv
+
+One row per company and quarter on IFRS 4 (to Q4 2023): the P&L's transfer from revenue next to the revenue account's operating and underwriting results, and `matches`, which says how the two tables line up: operating result, underwriting result (the company books investment income in the P&L instead), sign of a loss reversed, no transfer entered, or does not match either table.

@@ -21,6 +21,10 @@ Flags (severity):
   not_filed (info)           the company is listed but every figure is zero.
   direct_inward_reclass (info) a reinsurer's direct premium falls while its inward premium rises by a
                              similar amount; the two are combined as written premium for all checks.
+  merger_step (info)         the quarter in which a company absorbed another insurer's book. Its
+                             year-to-date figures take in the absorbed company's earlier quarters,
+                             which the market total already counted, so the single quarter is left
+                             out of market totals. The full year is unaffected. Listed in MERGERS.
 
 Written premium = gross direct premium + inward reinsurance.
 """
@@ -31,6 +35,14 @@ import pandas as pd
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 P = os.path.join(ROOT, "data", "processed")
 V = os.path.join(ROOT, "validation")
+
+# absorbing company, year, quarter of the step, absorbed company, source
+MERGERS = [
+    ("mua", 2021, 3, "saham",
+     "https://www.the-star.co.ke/business/kenya/2021-08-06-mua-kenya-and-saham-kenya-consolidated-to-one-entity/"),
+    ("sanlam_allianz_general", 2025, 4, "sanlam_general",
+     "https://www.businessdailyafrica.com/bd/corporate/companies/sanlam-completes-transfer-of-business-to-jubilee-allianz-5252576"),
+]
 
 
 def build(pan):
@@ -89,6 +101,15 @@ def build(pan):
                 lr = qc / qn
                 if lr < -0.5 or lr > 3:
                     add(r, "loss_ratio_outlier", "warning", f"single-quarter loss ratio {lr:.0%}")
+    names = pan.drop_duplicates("company_id").set_index("company_id").company_name
+    for cid, y, q, absorbed, src in MERGERS:
+        absorbed = names.get(absorbed, absorbed)
+        r = w[(w.company_id == cid) & (w.year == y) & (w.quarter == q)]
+        if len(r):
+            r = r.iloc[0]
+            add(r, "merger_step", "info",
+                f"took over the book of {absorbed} this quarter; the single quarter includes its earlier "
+                f"{y} business ({r.q_written/1e3:,.0f}m written premium in the quarter). Source: {src}")
     f = pd.DataFrame(flags).drop_duplicates(["company_id", "year", "quarter", "flag"])
     return f.sort_values(["year", "quarter", "company_id", "flag"])
 
@@ -104,7 +125,8 @@ def main():
     pan = pan.drop(columns=[c for c in ["quality_flags", "reliable_quarter"] if c in pan.columns])
     pan = pan.join(agg, on=["company_id", "year", "quarter"])
     pan["quality_flags"] = pan["quality_flags"].fillna("")
-    pan["reliable_quarter"] = (pan["worst"] != "error") & pan["quarter_ksh_000"].notna()
+    pan["reliable_quarter"] = ((pan["worst"] != "error") & ~pan["quality_flags"].str.contains("merger_step")
+                               & pan["quarter_ksh_000"].notna())
     pan = pan.drop(columns=["worst"])
     pan.to_csv(os.path.join(P, "general_revenue_panel.csv"), index=False, lineterminator="\n")
     print(f.groupby(["severity", "flag"]).size().to_string())
