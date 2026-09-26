@@ -143444,156 +143444,156 @@ mua,insurer,2021,2,underwriting_result,Personal Accident,987.000,derived,,True,4
 mua,insurer,2021,2,underwriting_result,Theft,2363.000,derived,,True,879.0
 mua,insurer,2021,2,underwriting_result,Total,-55571.000,derived,,True,-40947.0
 mua,insurer,2021,2,underwriting_result,Workmen's Compensation,-2765.000,derived,,True,-6131.0
-mua,insurer,2021,3,claims_incurred,Aviation,1102.000,derived,,True,793.0
-mua,insurer,2021,3,claims_incurred,Engineering,2397.000,derived,,True,2231.0
-mua,insurer,2021,3,claims_incurred,Fire Domestic,16788.000,derived,,True,16506.0
-mua,insurer,2021,3,claims_incurred,Fire Industrial,5959.000,derived,,True,4496.0
-mua,insurer,2021,3,claims_incurred,Liability,41654.000,derived,,True,43002.0
-mua,insurer,2021,3,claims_incurred,Marine,6146.000,derived,,True,4390.0
-mua,insurer,2021,3,claims_incurred,Medical,132109.000,derived,,True,132109.0
-mua,insurer,2021,3,claims_incurred,Miscellaneous,3495.000,derived,,True,1401.0
-mua,insurer,2021,3,claims_incurred,Motor Commercial,149337.000,derived,,True,118996.0
-mua,insurer,2021,3,claims_incurred,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,claims_incurred,Motor Private,617950.000,derived,,True,530222.0
-mua,insurer,2021,3,claims_incurred,Personal Accident,2378.000,derived,,True,2525.0
-mua,insurer,2021,3,claims_incurred,Theft,17085.000,derived,,True,16876.0
-mua,insurer,2021,3,claims_incurred,Total,1026798.000,derived,,True,897084.0
-mua,insurer,2021,3,claims_incurred,Workmen's Compensation,30398.000,derived,,True,23538.0
-mua,insurer,2021,3,claims_paid,Aviation,920.000,derived,,True,553.0
-mua,insurer,2021,3,claims_paid,Engineering,2889.000,derived,,True,2459.0
-mua,insurer,2021,3,claims_paid,Fire Domestic,7175.000,derived,,True,5766.0
-mua,insurer,2021,3,claims_paid,Fire Industrial,1500.000,derived,,True,644.0
-mua,insurer,2021,3,claims_paid,Liability,29533.000,derived,,True,23071.0
-mua,insurer,2021,3,claims_paid,Marine,8101.000,derived,,True,4307.0
-mua,insurer,2021,3,claims_paid,Medical,126447.000,derived,,True,126447.0
-mua,insurer,2021,3,claims_paid,Miscellaneous,2313.000,derived,,True,153.0
-mua,insurer,2021,3,claims_paid,Motor Commercial,105908.000,derived,,True,75967.0
-mua,insurer,2021,3,claims_paid,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,claims_paid,Motor Private,511650.000,derived,,True,428283.0
-mua,insurer,2021,3,claims_paid,Personal Accident,778.000,derived,,True,758.0
-mua,insurer,2021,3,claims_paid,Theft,11291.000,derived,,True,10878.0
-mua,insurer,2021,3,claims_paid,Total,839358.000,derived,,True,702669.0
-mua,insurer,2021,3,claims_paid,Workmen's Compensation,30854.000,derived,,True,23385.0
-mua,insurer,2021,3,commissions,Aviation,-11704.000,derived,,True,-4623.0
-mua,insurer,2021,3,commissions,Engineering,1546.000,derived,,True,744.0
-mua,insurer,2021,3,commissions,Fire Domestic,3356.000,derived,,True,2644.0
-mua,insurer,2021,3,commissions,Fire Industrial,-6852.000,derived,,True,-7874.0
-mua,insurer,2021,3,commissions,Liability,4219.000,derived,,True,-951.0
-mua,insurer,2021,3,commissions,Marine,-4701.000,derived,,True,-4154.0
-mua,insurer,2021,3,commissions,Medical,-11101.000,derived,,True,-11101.0
-mua,insurer,2021,3,commissions,Miscellaneous,109.000,derived,,True,-925.0
-mua,insurer,2021,3,commissions,Motor Commercial,27178.000,derived,,True,20290.0
-mua,insurer,2021,3,commissions,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,commissions,Motor Private,64934.000,derived,,True,54367.0
-mua,insurer,2021,3,commissions,Personal Accident,-779.000,derived,,True,-1148.0
-mua,insurer,2021,3,commissions,Theft,2764.000,derived,,True,1856.0
-mua,insurer,2021,3,commissions,Total,127733.000,derived,,True,106576.0
-mua,insurer,2021,3,commissions,Workmen's Compensation,58763.000,derived,,True,57449.0
-mua,insurer,2021,3,gross_direct_premium,Aviation,217895.000,derived,,True,32056.0
-mua,insurer,2021,3,gross_direct_premium,Engineering,24812.000,derived,,True,16585.0
-mua,insurer,2021,3,gross_direct_premium,Fire Domestic,22308.000,derived,,True,17325.0
-mua,insurer,2021,3,gross_direct_premium,Fire Industrial,111483.000,derived,,True,83263.0
-mua,insurer,2021,3,gross_direct_premium,Liability,53702.000,derived,,True,44237.0
-mua,insurer,2021,3,gross_direct_premium,Marine,55301.000,derived,,True,33912.0
-mua,insurer,2021,3,gross_direct_premium,Medical,426213.000,derived,,True,426213.0
-mua,insurer,2021,3,gross_direct_premium,Miscellaneous,54146.000,derived,,True,32141.0
-mua,insurer,2021,3,gross_direct_premium,Motor Commercial,300906.000,derived,,True,228230.0
-mua,insurer,2021,3,gross_direct_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,gross_direct_premium,Motor Private,690538.000,derived,,True,580782.0
-mua,insurer,2021,3,gross_direct_premium,Personal Accident,35804.000,derived,,True,31832.0
-mua,insurer,2021,3,gross_direct_premium,Theft,42388.000,derived,,True,36162.0
-mua,insurer,2021,3,gross_direct_premium,Total,2106707.000,derived,,True,1622173.0
-mua,insurer,2021,3,gross_direct_premium,Workmen's Compensation,71211.000,derived,,True,59436.0
-mua,insurer,2021,3,gross_premium,Aviation,217895.000,derived,,True,32056.0
-mua,insurer,2021,3,gross_premium,Engineering,27358.000,derived,,True,16918.0
-mua,insurer,2021,3,gross_premium,Fire Domestic,22308.000,derived,,True,17325.0
-mua,insurer,2021,3,gross_premium,Fire Industrial,128149.000,derived,,True,94790.0
-mua,insurer,2021,3,gross_premium,Liability,53766.000,derived,,True,44268.0
-mua,insurer,2021,3,gross_premium,Marine,55301.000,derived,,True,33912.0
-mua,insurer,2021,3,gross_premium,Medical,426213.000,derived,,True,426213.0
-mua,insurer,2021,3,gross_premium,Miscellaneous,54513.000,derived,,True,32141.0
-mua,insurer,2021,3,gross_premium,Motor Commercial,300906.000,derived,,True,228230.0
-mua,insurer,2021,3,gross_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,gross_premium,Motor Private,690538.000,derived,,True,580782.0
-mua,insurer,2021,3,gross_premium,Personal Accident,37793.000,derived,,True,33821.0
-mua,insurer,2021,3,gross_premium,Theft,42604.000,derived,,True,36378.0
-mua,insurer,2021,3,gross_premium,Total,2610002.000,derived,,True,2117717.0
-mua,insurer,2021,3,gross_premium,Workmen's Compensation,552658.000,derived,,True,540883.0
-mua,insurer,2021,3,inward_premium,Aviation,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Engineering,2546.000,derived,,True,333.0
-mua,insurer,2021,3,inward_premium,Fire Domestic,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Fire Industrial,16666.000,derived,,True,11527.0
-mua,insurer,2021,3,inward_premium,Liability,64.000,derived,,True,31.0
-mua,insurer,2021,3,inward_premium,Marine,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Medical,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Miscellaneous,367.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Motor Commercial,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Motor Private,0.000,derived,,True,0.0
-mua,insurer,2021,3,inward_premium,Personal Accident,1989.000,derived,,True,1989.0
-mua,insurer,2021,3,inward_premium,Theft,216.000,derived,,True,216.0
-mua,insurer,2021,3,inward_premium,Total,503295.000,derived,,True,495543.0
-mua,insurer,2021,3,inward_premium,Workmen's Compensation,481447.000,derived,,True,481447.0
-mua,insurer,2021,3,management_expenses,Aviation,84986.000,derived,,True,23526.0
-mua,insurer,2021,3,management_expenses,Engineering,6719.000,derived,,True,3266.0
-mua,insurer,2021,3,management_expenses,Fire Domestic,6592.000,derived,,True,4944.0
-mua,insurer,2021,3,management_expenses,Fire Industrial,25747.000,derived,,True,14714.0
-mua,insurer,2021,3,management_expenses,Liability,8335.000,derived,,True,5194.0
-mua,insurer,2021,3,management_expenses,Marine,20356.000,derived,,True,13282.0
-mua,insurer,2021,3,management_expenses,Medical,59755.000,derived,,True,59755.0
-mua,insurer,2021,3,management_expenses,Miscellaneous,9903.000,derived,,True,2504.0
-mua,insurer,2021,3,management_expenses,Motor Commercial,94590.000,derived,,True,70555.0
-mua,insurer,2021,3,management_expenses,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,management_expenses,Motor Private,226779.000,derived,,True,190481.0
-mua,insurer,2021,3,management_expenses,Personal Accident,2115.000,derived,,True,801.0
-mua,insurer,2021,3,management_expenses,Theft,9382.000,derived,,True,7323.0
-mua,insurer,2021,3,management_expenses,Total,642281.000,derived,,True,479474.0
-mua,insurer,2021,3,management_expenses,Workmen's Compensation,87024.000,derived,,True,83130.0
-mua,insurer,2021,3,net_earned_premium,Aviation,6544.000,derived,,True,2210.0
-mua,insurer,2021,3,net_earned_premium,Engineering,11827.000,derived,,True,7380.0
-mua,insurer,2021,3,net_earned_premium,Fire Domestic,18191.000,derived,,True,14147.0
-mua,insurer,2021,3,net_earned_premium,Fire Industrial,24064.000,derived,,True,16548.0
-mua,insurer,2021,3,net_earned_premium,Liability,33839.000,derived,,True,14390.0
-mua,insurer,2021,3,net_earned_premium,Marine,14272.000,derived,,True,5670.0
-mua,insurer,2021,3,net_earned_premium,Medical,177325.000,derived,,True,177325.0
-mua,insurer,2021,3,net_earned_premium,Miscellaneous,5259.000,derived,,True,-5563.0
-mua,insurer,2021,3,net_earned_premium,Motor Commercial,267819.000,derived,,True,194725.0
-mua,insurer,2021,3,net_earned_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,net_earned_premium,Motor Private,654970.000,derived,,True,546536.0
-mua,insurer,2021,3,net_earned_premium,Personal Accident,4635.000,derived,,True,2112.0
-mua,insurer,2021,3,net_earned_premium,Theft,25677.000,derived,,True,20139.0
-mua,insurer,2021,3,net_earned_premium,Total,1497240.000,derived,,True,1239133.0
-mua,insurer,2021,3,net_earned_premium,Workmen's Compensation,252818.000,derived,,True,243515.0
-mua,insurer,2021,3,net_premium,Aviation,6637.000,derived,,True,983.0
-mua,insurer,2021,3,net_premium,Engineering,14495.000,derived,,True,9153.0
-mua,insurer,2021,3,net_premium,Fire Domestic,20359.000,derived,,True,15625.0
-mua,insurer,2021,3,net_premium,Fire Industrial,26642.000,derived,,True,16989.0
-mua,insurer,2021,3,net_premium,Liability,17893.000,derived,,True,9931.0
-mua,insurer,2021,3,net_premium,Marine,15311.000,derived,,True,7634.0
-mua,insurer,2021,3,net_premium,Medical,142121.000,derived,,True,142121.0
-mua,insurer,2021,3,net_premium,Miscellaneous,3860.000,derived,,True,-15269.0
-mua,insurer,2021,3,net_premium,Motor Commercial,285829.000,derived,,True,217887.0
-mua,insurer,2021,3,net_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,net_premium,Motor Private,673799.000,derived,,True,567964.0
-mua,insurer,2021,3,net_premium,Personal Accident,8390.000,derived,,True,4418.0
-mua,insurer,2021,3,net_premium,Theft,26669.000,derived,,True,20443.0
-mua,insurer,2021,3,net_premium,Total,1712877.000,derived,,True,1456977.0
-mua,insurer,2021,3,net_premium,Workmen's Compensation,470872.000,derived,,True,459097.0
-mua,insurer,2021,3,underwriting_result,Aviation,-67839.000,derived,,True,-17484.0
-mua,insurer,2021,3,underwriting_result,Engineering,1166.000,derived,,True,1140.0
-mua,insurer,2021,3,underwriting_result,Fire Domestic,-8545.000,derived,,True,-9947.0
-mua,insurer,2021,3,underwriting_result,Fire Industrial,-789.000,derived,,True,5212.0
-mua,insurer,2021,3,underwriting_result,Liability,-20369.000,derived,,True,-32856.0
-mua,insurer,2021,3,underwriting_result,Marine,-7530.000,derived,,True,-7850.0
-mua,insurer,2021,3,underwriting_result,Medical,-3438.000,derived,,True,-3438.0
-mua,insurer,2021,3,underwriting_result,Miscellaneous,-8249.000,derived,,True,-8544.0
-mua,insurer,2021,3,underwriting_result,Motor Commercial,-3286.000,derived,,True,-15116.0
-mua,insurer,2021,3,underwriting_result,Motor Commercial PSV,0.000,derived,,True,0.0
-mua,insurer,2021,3,underwriting_result,Motor Private,-254693.000,derived,,True,-228534.0
-mua,insurer,2021,3,underwriting_result,Personal Accident,920.000,derived,,True,-67.0
-mua,insurer,2021,3,underwriting_result,Theft,-3553.000,derived,,True,-5916.0
-mua,insurer,2021,3,underwriting_result,Total,-299572.000,derived,,True,-244001.0
-mua,insurer,2021,3,underwriting_result,Workmen's Compensation,76633.000,derived,,True,79398.0
+mua,insurer,2021,3,claims_incurred,Aviation,1102.000,derived,merger_step,False,793.0
+mua,insurer,2021,3,claims_incurred,Engineering,2397.000,derived,merger_step,False,2231.0
+mua,insurer,2021,3,claims_incurred,Fire Domestic,16788.000,derived,merger_step,False,16506.0
+mua,insurer,2021,3,claims_incurred,Fire Industrial,5959.000,derived,merger_step,False,4496.0
+mua,insurer,2021,3,claims_incurred,Liability,41654.000,derived,merger_step,False,43002.0
+mua,insurer,2021,3,claims_incurred,Marine,6146.000,derived,merger_step,False,4390.0
+mua,insurer,2021,3,claims_incurred,Medical,132109.000,derived,merger_step,False,132109.0
+mua,insurer,2021,3,claims_incurred,Miscellaneous,3495.000,derived,merger_step,False,1401.0
+mua,insurer,2021,3,claims_incurred,Motor Commercial,149337.000,derived,merger_step,False,118996.0
+mua,insurer,2021,3,claims_incurred,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,claims_incurred,Motor Private,617950.000,derived,merger_step,False,530222.0
+mua,insurer,2021,3,claims_incurred,Personal Accident,2378.000,derived,merger_step,False,2525.0
+mua,insurer,2021,3,claims_incurred,Theft,17085.000,derived,merger_step,False,16876.0
+mua,insurer,2021,3,claims_incurred,Total,1026798.000,derived,merger_step,False,897084.0
+mua,insurer,2021,3,claims_incurred,Workmen's Compensation,30398.000,derived,merger_step,False,23538.0
+mua,insurer,2021,3,claims_paid,Aviation,920.000,derived,merger_step,False,553.0
+mua,insurer,2021,3,claims_paid,Engineering,2889.000,derived,merger_step,False,2459.0
+mua,insurer,2021,3,claims_paid,Fire Domestic,7175.000,derived,merger_step,False,5766.0
+mua,insurer,2021,3,claims_paid,Fire Industrial,1500.000,derived,merger_step,False,644.0
+mua,insurer,2021,3,claims_paid,Liability,29533.000,derived,merger_step,False,23071.0
+mua,insurer,2021,3,claims_paid,Marine,8101.000,derived,merger_step,False,4307.0
+mua,insurer,2021,3,claims_paid,Medical,126447.000,derived,merger_step,False,126447.0
+mua,insurer,2021,3,claims_paid,Miscellaneous,2313.000,derived,merger_step,False,153.0
+mua,insurer,2021,3,claims_paid,Motor Commercial,105908.000,derived,merger_step,False,75967.0
+mua,insurer,2021,3,claims_paid,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,claims_paid,Motor Private,511650.000,derived,merger_step,False,428283.0
+mua,insurer,2021,3,claims_paid,Personal Accident,778.000,derived,merger_step,False,758.0
+mua,insurer,2021,3,claims_paid,Theft,11291.000,derived,merger_step,False,10878.0
+mua,insurer,2021,3,claims_paid,Total,839358.000,derived,merger_step,False,702669.0
+mua,insurer,2021,3,claims_paid,Workmen's Compensation,30854.000,derived,merger_step,False,23385.0
+mua,insurer,2021,3,commissions,Aviation,-11704.000,derived,merger_step,False,-4623.0
+mua,insurer,2021,3,commissions,Engineering,1546.000,derived,merger_step,False,744.0
+mua,insurer,2021,3,commissions,Fire Domestic,3356.000,derived,merger_step,False,2644.0
+mua,insurer,2021,3,commissions,Fire Industrial,-6852.000,derived,merger_step,False,-7874.0
+mua,insurer,2021,3,commissions,Liability,4219.000,derived,merger_step,False,-951.0
+mua,insurer,2021,3,commissions,Marine,-4701.000,derived,merger_step,False,-4154.0
+mua,insurer,2021,3,commissions,Medical,-11101.000,derived,merger_step,False,-11101.0
+mua,insurer,2021,3,commissions,Miscellaneous,109.000,derived,merger_step,False,-925.0
+mua,insurer,2021,3,commissions,Motor Commercial,27178.000,derived,merger_step,False,20290.0
+mua,insurer,2021,3,commissions,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,commissions,Motor Private,64934.000,derived,merger_step,False,54367.0
+mua,insurer,2021,3,commissions,Personal Accident,-779.000,derived,merger_step,False,-1148.0
+mua,insurer,2021,3,commissions,Theft,2764.000,derived,merger_step,False,1856.0
+mua,insurer,2021,3,commissions,Total,127733.000,derived,merger_step,False,106576.0
+mua,insurer,2021,3,commissions,Workmen's Compensation,58763.000,derived,merger_step,False,57449.0
+mua,insurer,2021,3,gross_direct_premium,Aviation,217895.000,derived,merger_step,False,32056.0
+mua,insurer,2021,3,gross_direct_premium,Engineering,24812.000,derived,merger_step,False,16585.0
+mua,insurer,2021,3,gross_direct_premium,Fire Domestic,22308.000,derived,merger_step,False,17325.0
+mua,insurer,2021,3,gross_direct_premium,Fire Industrial,111483.000,derived,merger_step,False,83263.0
+mua,insurer,2021,3,gross_direct_premium,Liability,53702.000,derived,merger_step,False,44237.0
+mua,insurer,2021,3,gross_direct_premium,Marine,55301.000,derived,merger_step,False,33912.0
+mua,insurer,2021,3,gross_direct_premium,Medical,426213.000,derived,merger_step,False,426213.0
+mua,insurer,2021,3,gross_direct_premium,Miscellaneous,54146.000,derived,merger_step,False,32141.0
+mua,insurer,2021,3,gross_direct_premium,Motor Commercial,300906.000,derived,merger_step,False,228230.0
+mua,insurer,2021,3,gross_direct_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,gross_direct_premium,Motor Private,690538.000,derived,merger_step,False,580782.0
+mua,insurer,2021,3,gross_direct_premium,Personal Accident,35804.000,derived,merger_step,False,31832.0
+mua,insurer,2021,3,gross_direct_premium,Theft,42388.000,derived,merger_step,False,36162.0
+mua,insurer,2021,3,gross_direct_premium,Total,2106707.000,derived,merger_step,False,1622173.0
+mua,insurer,2021,3,gross_direct_premium,Workmen's Compensation,71211.000,derived,merger_step,False,59436.0
+mua,insurer,2021,3,gross_premium,Aviation,217895.000,derived,merger_step,False,32056.0
+mua,insurer,2021,3,gross_premium,Engineering,27358.000,derived,merger_step,False,16918.0
+mua,insurer,2021,3,gross_premium,Fire Domestic,22308.000,derived,merger_step,False,17325.0
+mua,insurer,2021,3,gross_premium,Fire Industrial,128149.000,derived,merger_step,False,94790.0
+mua,insurer,2021,3,gross_premium,Liability,53766.000,derived,merger_step,False,44268.0
+mua,insurer,2021,3,gross_premium,Marine,55301.000,derived,merger_step,False,33912.0
+mua,insurer,2021,3,gross_premium,Medical,426213.000,derived,merger_step,False,426213.0
+mua,insurer,2021,3,gross_premium,Miscellaneous,54513.000,derived,merger_step,False,32141.0
+mua,insurer,2021,3,gross_premium,Motor Commercial,300906.000,derived,merger_step,False,228230.0
+mua,insurer,2021,3,gross_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,gross_premium,Motor Private,690538.000,derived,merger_step,False,580782.0
+mua,insurer,2021,3,gross_premium,Personal Accident,37793.000,derived,merger_step,False,33821.0
+mua,insurer,2021,3,gross_premium,Theft,42604.000,derived,merger_step,False,36378.0
+mua,insurer,2021,3,gross_premium,Total,2610002.000,derived,merger_step,False,2117717.0
+mua,insurer,2021,3,gross_premium,Workmen's Compensation,552658.000,derived,merger_step,False,540883.0
+mua,insurer,2021,3,inward_premium,Aviation,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Engineering,2546.000,derived,merger_step,False,333.0
+mua,insurer,2021,3,inward_premium,Fire Domestic,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Fire Industrial,16666.000,derived,merger_step,False,11527.0
+mua,insurer,2021,3,inward_premium,Liability,64.000,derived,merger_step,False,31.0
+mua,insurer,2021,3,inward_premium,Marine,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Medical,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Miscellaneous,367.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Motor Commercial,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Motor Private,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,inward_premium,Personal Accident,1989.000,derived,merger_step,False,1989.0
+mua,insurer,2021,3,inward_premium,Theft,216.000,derived,merger_step,False,216.0
+mua,insurer,2021,3,inward_premium,Total,503295.000,derived,merger_step,False,495543.0
+mua,insurer,2021,3,inward_premium,Workmen's Compensation,481447.000,derived,merger_step,False,481447.0
+mua,insurer,2021,3,management_expenses,Aviation,84986.000,derived,merger_step,False,23526.0
+mua,insurer,2021,3,management_expenses,Engineering,6719.000,derived,merger_step,False,3266.0
+mua,insurer,2021,3,management_expenses,Fire Domestic,6592.000,derived,merger_step,False,4944.0
+mua,insurer,2021,3,management_expenses,Fire Industrial,25747.000,derived,merger_step,False,14714.0
+mua,insurer,2021,3,management_expenses,Liability,8335.000,derived,merger_step,False,5194.0
+mua,insurer,2021,3,management_expenses,Marine,20356.000,derived,merger_step,False,13282.0
+mua,insurer,2021,3,management_expenses,Medical,59755.000,derived,merger_step,False,59755.0
+mua,insurer,2021,3,management_expenses,Miscellaneous,9903.000,derived,merger_step,False,2504.0
+mua,insurer,2021,3,management_expenses,Motor Commercial,94590.000,derived,merger_step,False,70555.0
+mua,insurer,2021,3,management_expenses,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,management_expenses,Motor Private,226779.000,derived,merger_step,False,190481.0
+mua,insurer,2021,3,management_expenses,Personal Accident,2115.000,derived,merger_step,False,801.0
+mua,insurer,2021,3,management_expenses,Theft,9382.000,derived,merger_step,False,7323.0
+mua,insurer,2021,3,management_expenses,Total,642281.000,derived,merger_step,False,479474.0
+mua,insurer,2021,3,management_expenses,Workmen's Compensation,87024.000,derived,merger_step,False,83130.0
+mua,insurer,2021,3,net_earned_premium,Aviation,6544.000,derived,merger_step,False,2210.0
+mua,insurer,2021,3,net_earned_premium,Engineering,11827.000,derived,merger_step,False,7380.0
+mua,insurer,2021,3,net_earned_premium,Fire Domestic,18191.000,derived,merger_step,False,14147.0
+mua,insurer,2021,3,net_earned_premium,Fire Industrial,24064.000,derived,merger_step,False,16548.0
+mua,insurer,2021,3,net_earned_premium,Liability,33839.000,derived,merger_step,False,14390.0
+mua,insurer,2021,3,net_earned_premium,Marine,14272.000,derived,merger_step,False,5670.0
+mua,insurer,2021,3,net_earned_premium,Medical,177325.000,derived,merger_step,False,177325.0
+mua,insurer,2021,3,net_earned_premium,Miscellaneous,5259.000,derived,merger_step,False,-5563.0
+mua,insurer,2021,3,net_earned_premium,Motor Commercial,267819.000,derived,merger_step,False,194725.0
+mua,insurer,2021,3,net_earned_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,net_earned_premium,Motor Private,654970.000,derived,merger_step,False,546536.0
+mua,insurer,2021,3,net_earned_premium,Personal Accident,4635.000,derived,merger_step,False,2112.0
+mua,insurer,2021,3,net_earned_premium,Theft,25677.000,derived,merger_step,False,20139.0
+mua,insurer,2021,3,net_earned_premium,Total,1497240.000,derived,merger_step,False,1239133.0
+mua,insurer,2021,3,net_earned_premium,Workmen's Compensation,252818.000,derived,merger_step,False,243515.0
+mua,insurer,2021,3,net_premium,Aviation,6637.000,derived,merger_step,False,983.0
+mua,insurer,2021,3,net_premium,Engineering,14495.000,derived,merger_step,False,9153.0
+mua,insurer,2021,3,net_premium,Fire Domestic,20359.000,derived,merger_step,False,15625.0
+mua,insurer,2021,3,net_premium,Fire Industrial,26642.000,derived,merger_step,False,16989.0
+mua,insurer,2021,3,net_premium,Liability,17893.000,derived,merger_step,False,9931.0
+mua,insurer,2021,3,net_premium,Marine,15311.000,derived,merger_step,False,7634.0
+mua,insurer,2021,3,net_premium,Medical,142121.000,derived,merger_step,False,142121.0
+mua,insurer,2021,3,net_premium,Miscellaneous,3860.000,derived,merger_step,False,-15269.0
+mua,insurer,2021,3,net_premium,Motor Commercial,285829.000,derived,merger_step,False,217887.0
+mua,insurer,2021,3,net_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,net_premium,Motor Private,673799.000,derived,merger_step,False,567964.0
+mua,insurer,2021,3,net_premium,Personal Accident,8390.000,derived,merger_step,False,4418.0
+mua,insurer,2021,3,net_premium,Theft,26669.000,derived,merger_step,False,20443.0
+mua,insurer,2021,3,net_premium,Total,1712877.000,derived,merger_step,False,1456977.0
+mua,insurer,2021,3,net_premium,Workmen's Compensation,470872.000,derived,merger_step,False,459097.0
+mua,insurer,2021,3,underwriting_result,Aviation,-67839.000,derived,merger_step,False,-17484.0
+mua,insurer,2021,3,underwriting_result,Engineering,1166.000,derived,merger_step,False,1140.0
+mua,insurer,2021,3,underwriting_result,Fire Domestic,-8545.000,derived,merger_step,False,-9947.0
+mua,insurer,2021,3,underwriting_result,Fire Industrial,-789.000,derived,merger_step,False,5212.0
+mua,insurer,2021,3,underwriting_result,Liability,-20369.000,derived,merger_step,False,-32856.0
+mua,insurer,2021,3,underwriting_result,Marine,-7530.000,derived,merger_step,False,-7850.0
+mua,insurer,2021,3,underwriting_result,Medical,-3438.000,derived,merger_step,False,-3438.0
+mua,insurer,2021,3,underwriting_result,Miscellaneous,-8249.000,derived,merger_step,False,-8544.0
+mua,insurer,2021,3,underwriting_result,Motor Commercial,-3286.000,derived,merger_step,False,-15116.0
+mua,insurer,2021,3,underwriting_result,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+mua,insurer,2021,3,underwriting_result,Motor Private,-254693.000,derived,merger_step,False,-228534.0
+mua,insurer,2021,3,underwriting_result,Personal Accident,920.000,derived,merger_step,False,-67.0
+mua,insurer,2021,3,underwriting_result,Theft,-3553.000,derived,merger_step,False,-5916.0
+mua,insurer,2021,3,underwriting_result,Total,-299572.000,derived,merger_step,False,-244001.0
+mua,insurer,2021,3,underwriting_result,Workmen's Compensation,76633.000,derived,merger_step,False,79398.0
 mua,insurer,2021,4,claims_incurred,Aviation,2520.000,derived,,True,1418.0
 mua,insurer,2021,4,claims_incurred,Engineering,4046.000,derived,,True,1649.0
 mua,insurer,2021,4,claims_incurred,Fire Domestic,16548.000,derived,,True,-240.0
@@ -180434,156 +180434,156 @@ sanlam_allianz_general,insurer,2025,3,underwriting_result,Personal Accident,-120
 sanlam_allianz_general,insurer,2025,3,underwriting_result,Theft,-22798.194,derived,,True,-13480.904999999999
 sanlam_allianz_general,insurer,2025,3,underwriting_result,Total,-485391.665,derived,,True,-34763.163
 sanlam_allianz_general,insurer,2025,3,underwriting_result,Workmen's Compensation,-83821.406,derived,,True,64914.798999999985
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Aviation,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Engineering,21896.695,derived,,True,17517.945
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Fire Domestic,109698.674,derived,,True,71098.59
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Fire Industrial,203547.630,derived,,True,185691.532
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Liability,93207.031,derived,,True,-9111.345000000001
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Marine,32888.678,derived,,True,37616.601
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Medical,9861.773,derived,,True,9861.773
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Miscellaneous,46197.389,derived,,True,63555.937000000005
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Commercial,852846.689,derived,,True,451796.335
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Commercial PSV,92043.619,derived,,True,92043.619
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Private,1430659.405,derived,,True,717354.125
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Personal Accident,28687.232,derived,,True,22408.316
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Theft,15703.321,derived,,True,-8190.655999999999
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Total,2885252.118,derived,,True,1483445.9929999998
-sanlam_allianz_general,insurer,2025,4,claims_incurred,Workmen's Compensation,-51986.018,derived,,True,-168196.77899999998
-sanlam_allianz_general,insurer,2025,4,claims_paid,Aviation,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,claims_paid,Engineering,7821.397,derived,,True,7673.092
-sanlam_allianz_general,insurer,2025,4,claims_paid,Fire Domestic,90833.265,derived,,True,53566.053
-sanlam_allianz_general,insurer,2025,4,claims_paid,Fire Industrial,161687.712,derived,,True,83064.723
-sanlam_allianz_general,insurer,2025,4,claims_paid,Liability,30539.968,derived,,True,11651.547000000002
-sanlam_allianz_general,insurer,2025,4,claims_paid,Marine,34264.128,derived,,True,24191.087999999996
-sanlam_allianz_general,insurer,2025,4,claims_paid,Medical,9809.365,derived,,True,9809.365
-sanlam_allianz_general,insurer,2025,4,claims_paid,Miscellaneous,47220.201,derived,,True,38433.801
-sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Commercial,851571.075,derived,,True,615819.494
-sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Commercial PSV,125250.142,derived,,True,125250.142
-sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Private,1363028.271,derived,,True,845957.269
-sanlam_allianz_general,insurer,2025,4,claims_paid,Personal Accident,14202.233,derived,,True,6510.677000000001
-sanlam_allianz_general,insurer,2025,4,claims_paid,Theft,18442.443,derived,,True,3256.008
-sanlam_allianz_general,insurer,2025,4,claims_paid,Total,2928084.180,derived,,True,1916949.094
-sanlam_allianz_general,insurer,2025,4,claims_paid,Workmen's Compensation,173413.980,derived,,True,91765.835
-sanlam_allianz_general,insurer,2025,4,commissions,Aviation,-848.735,derived,,True,-217.02200000000005
-sanlam_allianz_general,insurer,2025,4,commissions,Engineering,-4032.157,derived,,True,315.72599999999966
-sanlam_allianz_general,insurer,2025,4,commissions,Fire Domestic,31087.061,derived,,True,22214.196000000004
-sanlam_allianz_general,insurer,2025,4,commissions,Fire Industrial,89977.088,derived,,True,112095.136
-sanlam_allianz_general,insurer,2025,4,commissions,Liability,-27614.115,derived,,True,2791.3669999999984
-sanlam_allianz_general,insurer,2025,4,commissions,Marine,-10648.218,derived,,True,-1895.446
-sanlam_allianz_general,insurer,2025,4,commissions,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,commissions,Miscellaneous,-10957.984,derived,,True,-4693.3330000000005
-sanlam_allianz_general,insurer,2025,4,commissions,Motor Commercial,130008.876,derived,,True,85430.19
-sanlam_allianz_general,insurer,2025,4,commissions,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,commissions,Motor Private,196594.823,derived,,True,105539.706
-sanlam_allianz_general,insurer,2025,4,commissions,Personal Accident,2905.669,derived,,True,1838.072
-sanlam_allianz_general,insurer,2025,4,commissions,Theft,-4144.917,derived,,True,-5924.537
-sanlam_allianz_general,insurer,2025,4,commissions,Total,413444.785,derived,,True,331633.908
-sanlam_allianz_general,insurer,2025,4,commissions,Workmen's Compensation,21117.394,derived,,True,14139.853
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Aviation,1182.834,derived,,True,322.9860000000001
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Engineering,213707.523,derived,,True,153033.145
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Fire Domestic,159272.586,derived,,True,87456.68100000001
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Fire Industrial,2178486.819,derived,,True,839132.2680000002
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Liability,663403.607,derived,,True,139123.16699999996
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Marine,245260.034,derived,,True,69459.581
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Miscellaneous,158207.264,derived,,True,55366.311
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Commercial,1391969.961,derived,,True,912059.4859999999
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Private,2139797.863,derived,,True,1153751.4929999998
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Personal Accident,32359.126,derived,,True,22018.968
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Theft,39259.358,derived,,True,17945.522
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Total,7726888.808,derived,,True,3644197.461
-sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Workmen's Compensation,503981.833,derived,,True,194527.853
-sanlam_allianz_general,insurer,2025,4,gross_premium,Aviation,1182.834,derived,,True,322.9860000000001
-sanlam_allianz_general,insurer,2025,4,gross_premium,Engineering,213707.523,derived,,True,153033.145
-sanlam_allianz_general,insurer,2025,4,gross_premium,Fire Domestic,159272.586,derived,,True,87456.68100000001
-sanlam_allianz_general,insurer,2025,4,gross_premium,Fire Industrial,2178486.819,derived,,True,839132.2680000002
-sanlam_allianz_general,insurer,2025,4,gross_premium,Liability,663403.607,derived,,True,139123.16699999996
-sanlam_allianz_general,insurer,2025,4,gross_premium,Marine,245260.034,derived,,True,69459.581
-sanlam_allianz_general,insurer,2025,4,gross_premium,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,gross_premium,Miscellaneous,158207.264,derived,,True,55366.311
-sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Commercial,1391969.961,derived,,True,912059.4859999999
-sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Private,2139797.863,derived,,True,1153751.4929999998
-sanlam_allianz_general,insurer,2025,4,gross_premium,Personal Accident,32359.126,derived,,True,22018.968
-sanlam_allianz_general,insurer,2025,4,gross_premium,Theft,39259.358,derived,,True,17945.522
-sanlam_allianz_general,insurer,2025,4,gross_premium,Total,7726888.808,derived,,True,3644197.460999999
-sanlam_allianz_general,insurer,2025,4,gross_premium,Workmen's Compensation,503981.833,derived,,True,194527.853
-sanlam_allianz_general,insurer,2025,4,inward_premium,Aviation,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Engineering,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Fire Domestic,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Fire Industrial,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Liability,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Marine,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Miscellaneous,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Commercial,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Private,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Personal Accident,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Theft,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Total,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,inward_premium,Workmen's Compensation,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,management_expenses,Aviation,11.828,derived,,True,3.2299999999999986
-sanlam_allianz_general,insurer,2025,4,management_expenses,Engineering,66675.232,derived,,True,49605.489
-sanlam_allianz_general,insurer,2025,4,management_expenses,Fire Domestic,52355.442,derived,,True,28387.844
-sanlam_allianz_general,insurer,2025,4,management_expenses,Fire Industrial,728044.811,derived,,True,602518.095
-sanlam_allianz_general,insurer,2025,4,management_expenses,Liability,226287.214,derived,,True,136243.348
-sanlam_allianz_general,insurer,2025,4,management_expenses,Marine,83292.911,derived,,True,54689.06499999999
-sanlam_allianz_general,insurer,2025,4,management_expenses,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,management_expenses,Miscellaneous,53715.960,derived,,True,30648.345999999998
-sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Commercial,449716.206,derived,,True,261860.797
-sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Private,705438.878,derived,,True,294788.62200000003
-sanlam_allianz_general,insurer,2025,4,management_expenses,Personal Accident,15529.975,derived,,True,2309.821249999999
-sanlam_allianz_general,insurer,2025,4,management_expenses,Theft,12918.392,derived,,True,-3415.656000000001
-sanlam_allianz_general,insurer,2025,4,management_expenses,Total,2561103.504,derived,,True,1527449.2332500003
-sanlam_allianz_general,insurer,2025,4,management_expenses,Workmen's Compensation,167116.655,derived,,True,69810.232
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Aviation,0.000,derived,,True,0.001
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Engineering,53225.157,derived,,True,34272.070999999996
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Fire Domestic,180759.359,derived,,True,128878.372
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Fire Industrial,555269.879,derived,,True,308960.801
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Liability,180826.000,derived,,True,77902.09
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Marine,72309.595,derived,,True,20620.124000000003
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Miscellaneous,41497.821,derived,,True,13872.226000000002
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Commercial,1290327.138,derived,,True,866953.4280000001
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Private,2021941.674,derived,,True,1077208.2570000002
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Personal Accident,22304.429,derived,,True,13796.844000000001
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Theft,25839.082,derived,,True,6629.630999999998
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Total,4745283.082,derived,,True,2713403.4740000004
-sanlam_allianz_general,insurer,2025,4,net_earned_premium,Workmen's Compensation,300982.948,derived,,True,164309.629
-sanlam_allianz_general,insurer,2025,4,net_premium,Aviation,0.000,derived,,True,0.001
-sanlam_allianz_general,insurer,2025,4,net_premium,Engineering,50081.329,derived,,True,28604.645999999997
-sanlam_allianz_general,insurer,2025,4,net_premium,Fire Domestic,136760.918,derived,,True,75554.938
-sanlam_allianz_general,insurer,2025,4,net_premium,Fire Industrial,623697.099,derived,,True,328497.68700000003
-sanlam_allianz_general,insurer,2025,4,net_premium,Liability,144318.151,derived,,True,33691.55500000001
-sanlam_allianz_general,insurer,2025,4,net_premium,Marine,54304.719,derived,,True,16144.801999999996
-sanlam_allianz_general,insurer,2025,4,net_premium,Medical,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,net_premium,Miscellaneous,46954.295,derived,,True,18203.214
-sanlam_allianz_general,insurer,2025,4,net_premium,Motor Commercial,1327073.452,derived,,True,877103.3570000001
-sanlam_allianz_general,insurer,2025,4,net_premium,Motor Commercial PSV,0.000,derived,,True,0.0
-sanlam_allianz_general,insurer,2025,4,net_premium,Motor Private,2107934.711,derived,,True,1122754.648
-sanlam_allianz_general,insurer,2025,4,net_premium,Personal Accident,22261.420,derived,,True,11921.261999999999
-sanlam_allianz_general,insurer,2025,4,net_premium,Theft,22593.890,derived,,True,1563.4749999999985
-sanlam_allianz_general,insurer,2025,4,net_premium,Total,4794216.438,derived,,True,2649372.6240000003
-sanlam_allianz_general,insurer,2025,4,net_premium,Workmen's Compensation,258236.454,derived,,True,135333.039
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Aviation,836.907,derived,,True,213.793
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Engineering,-31314.613,derived,,True,-33167.089
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Fire Domestic,-12381.818,derived,,True,7177.742000000002
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Fire Industrial,-466299.650,derived,,True,-591343.962
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Liability,-111054.130,derived,,True,-52021.280000000006
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Marine,-33223.776,derived,,True,-69790.09599999999
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Medical,-9861.773,derived,,True,-9861.773
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Miscellaneous,-47457.544,derived,,True,-75638.724
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Commercial,-142244.633,derived,,True,67866.106
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Commercial PSV,-92043.619,derived,,True,-92043.619
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Private,-310751.432,derived,,True,-40474.195999999996
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Personal Accident,-24818.447,derived,,True,-12759.36525
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Theft,1362.286,derived,,True,24160.48
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Total,-1114517.325,derived,,True,-629125.66025
-sanlam_allianz_general,insurer,2025,4,underwriting_result,Workmen's Compensation,164734.917,derived,,True,248556.32299999997
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Aviation,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Engineering,21896.695,derived,merger_step,False,17517.945
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Fire Domestic,109698.674,derived,merger_step,False,71098.59
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Fire Industrial,203547.630,derived,merger_step,False,185691.532
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Liability,93207.031,derived,merger_step,False,-9111.345000000001
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Marine,32888.678,derived,merger_step,False,37616.601
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Medical,9861.773,derived,merger_step,False,9861.773
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Miscellaneous,46197.389,derived,merger_step,False,63555.937000000005
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Commercial,852846.689,derived,merger_step,False,451796.335
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Commercial PSV,92043.619,derived,merger_step,False,92043.619
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Motor Private,1430659.405,derived,merger_step,False,717354.125
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Personal Accident,28687.232,derived,merger_step,False,22408.316
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Theft,15703.321,derived,merger_step,False,-8190.655999999999
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Total,2885252.118,derived,merger_step,False,1483445.9929999998
+sanlam_allianz_general,insurer,2025,4,claims_incurred,Workmen's Compensation,-51986.018,derived,merger_step,False,-168196.77899999998
+sanlam_allianz_general,insurer,2025,4,claims_paid,Aviation,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,claims_paid,Engineering,7821.397,derived,merger_step,False,7673.092
+sanlam_allianz_general,insurer,2025,4,claims_paid,Fire Domestic,90833.265,derived,merger_step,False,53566.053
+sanlam_allianz_general,insurer,2025,4,claims_paid,Fire Industrial,161687.712,derived,merger_step,False,83064.723
+sanlam_allianz_general,insurer,2025,4,claims_paid,Liability,30539.968,derived,merger_step,False,11651.547000000002
+sanlam_allianz_general,insurer,2025,4,claims_paid,Marine,34264.128,derived,merger_step,False,24191.087999999996
+sanlam_allianz_general,insurer,2025,4,claims_paid,Medical,9809.365,derived,merger_step,False,9809.365
+sanlam_allianz_general,insurer,2025,4,claims_paid,Miscellaneous,47220.201,derived,merger_step,False,38433.801
+sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Commercial,851571.075,derived,merger_step,False,615819.494
+sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Commercial PSV,125250.142,derived,merger_step,False,125250.142
+sanlam_allianz_general,insurer,2025,4,claims_paid,Motor Private,1363028.271,derived,merger_step,False,845957.269
+sanlam_allianz_general,insurer,2025,4,claims_paid,Personal Accident,14202.233,derived,merger_step,False,6510.677000000001
+sanlam_allianz_general,insurer,2025,4,claims_paid,Theft,18442.443,derived,merger_step,False,3256.008
+sanlam_allianz_general,insurer,2025,4,claims_paid,Total,2928084.180,derived,merger_step,False,1916949.094
+sanlam_allianz_general,insurer,2025,4,claims_paid,Workmen's Compensation,173413.980,derived,merger_step,False,91765.835
+sanlam_allianz_general,insurer,2025,4,commissions,Aviation,-848.735,derived,merger_step,False,-217.02200000000005
+sanlam_allianz_general,insurer,2025,4,commissions,Engineering,-4032.157,derived,merger_step,False,315.72599999999966
+sanlam_allianz_general,insurer,2025,4,commissions,Fire Domestic,31087.061,derived,merger_step,False,22214.196000000004
+sanlam_allianz_general,insurer,2025,4,commissions,Fire Industrial,89977.088,derived,merger_step,False,112095.136
+sanlam_allianz_general,insurer,2025,4,commissions,Liability,-27614.115,derived,merger_step,False,2791.3669999999984
+sanlam_allianz_general,insurer,2025,4,commissions,Marine,-10648.218,derived,merger_step,False,-1895.446
+sanlam_allianz_general,insurer,2025,4,commissions,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,commissions,Miscellaneous,-10957.984,derived,merger_step,False,-4693.3330000000005
+sanlam_allianz_general,insurer,2025,4,commissions,Motor Commercial,130008.876,derived,merger_step,False,85430.19
+sanlam_allianz_general,insurer,2025,4,commissions,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,commissions,Motor Private,196594.823,derived,merger_step,False,105539.706
+sanlam_allianz_general,insurer,2025,4,commissions,Personal Accident,2905.669,derived,merger_step,False,1838.072
+sanlam_allianz_general,insurer,2025,4,commissions,Theft,-4144.917,derived,merger_step,False,-5924.537
+sanlam_allianz_general,insurer,2025,4,commissions,Total,413444.785,derived,merger_step,False,331633.908
+sanlam_allianz_general,insurer,2025,4,commissions,Workmen's Compensation,21117.394,derived,merger_step,False,14139.853
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Aviation,1182.834,derived,merger_step,False,322.9860000000001
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Engineering,213707.523,derived,merger_step,False,153033.145
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Fire Domestic,159272.586,derived,merger_step,False,87456.68100000001
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Fire Industrial,2178486.819,derived,merger_step,False,839132.2680000002
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Liability,663403.607,derived,merger_step,False,139123.16699999996
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Marine,245260.034,derived,merger_step,False,69459.581
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Miscellaneous,158207.264,derived,merger_step,False,55366.311
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Commercial,1391969.961,derived,merger_step,False,912059.4859999999
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Motor Private,2139797.863,derived,merger_step,False,1153751.4929999998
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Personal Accident,32359.126,derived,merger_step,False,22018.968
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Theft,39259.358,derived,merger_step,False,17945.522
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Total,7726888.808,derived,merger_step,False,3644197.461
+sanlam_allianz_general,insurer,2025,4,gross_direct_premium,Workmen's Compensation,503981.833,derived,merger_step,False,194527.853
+sanlam_allianz_general,insurer,2025,4,gross_premium,Aviation,1182.834,derived,merger_step,False,322.9860000000001
+sanlam_allianz_general,insurer,2025,4,gross_premium,Engineering,213707.523,derived,merger_step,False,153033.145
+sanlam_allianz_general,insurer,2025,4,gross_premium,Fire Domestic,159272.586,derived,merger_step,False,87456.68100000001
+sanlam_allianz_general,insurer,2025,4,gross_premium,Fire Industrial,2178486.819,derived,merger_step,False,839132.2680000002
+sanlam_allianz_general,insurer,2025,4,gross_premium,Liability,663403.607,derived,merger_step,False,139123.16699999996
+sanlam_allianz_general,insurer,2025,4,gross_premium,Marine,245260.034,derived,merger_step,False,69459.581
+sanlam_allianz_general,insurer,2025,4,gross_premium,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,gross_premium,Miscellaneous,158207.264,derived,merger_step,False,55366.311
+sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Commercial,1391969.961,derived,merger_step,False,912059.4859999999
+sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,gross_premium,Motor Private,2139797.863,derived,merger_step,False,1153751.4929999998
+sanlam_allianz_general,insurer,2025,4,gross_premium,Personal Accident,32359.126,derived,merger_step,False,22018.968
+sanlam_allianz_general,insurer,2025,4,gross_premium,Theft,39259.358,derived,merger_step,False,17945.522
+sanlam_allianz_general,insurer,2025,4,gross_premium,Total,7726888.808,derived,merger_step,False,3644197.460999999
+sanlam_allianz_general,insurer,2025,4,gross_premium,Workmen's Compensation,503981.833,derived,merger_step,False,194527.853
+sanlam_allianz_general,insurer,2025,4,inward_premium,Aviation,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Engineering,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Fire Domestic,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Fire Industrial,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Liability,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Marine,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Miscellaneous,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Commercial,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Motor Private,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Personal Accident,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Theft,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Total,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,inward_premium,Workmen's Compensation,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,management_expenses,Aviation,11.828,derived,merger_step,False,3.2299999999999986
+sanlam_allianz_general,insurer,2025,4,management_expenses,Engineering,66675.232,derived,merger_step,False,49605.489
+sanlam_allianz_general,insurer,2025,4,management_expenses,Fire Domestic,52355.442,derived,merger_step,False,28387.844
+sanlam_allianz_general,insurer,2025,4,management_expenses,Fire Industrial,728044.811,derived,merger_step,False,602518.095
+sanlam_allianz_general,insurer,2025,4,management_expenses,Liability,226287.214,derived,merger_step,False,136243.348
+sanlam_allianz_general,insurer,2025,4,management_expenses,Marine,83292.911,derived,merger_step,False,54689.06499999999
+sanlam_allianz_general,insurer,2025,4,management_expenses,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,management_expenses,Miscellaneous,53715.960,derived,merger_step,False,30648.345999999998
+sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Commercial,449716.206,derived,merger_step,False,261860.797
+sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,management_expenses,Motor Private,705438.878,derived,merger_step,False,294788.62200000003
+sanlam_allianz_general,insurer,2025,4,management_expenses,Personal Accident,15529.975,derived,merger_step,False,2309.821249999999
+sanlam_allianz_general,insurer,2025,4,management_expenses,Theft,12918.392,derived,merger_step,False,-3415.656000000001
+sanlam_allianz_general,insurer,2025,4,management_expenses,Total,2561103.504,derived,merger_step,False,1527449.2332500003
+sanlam_allianz_general,insurer,2025,4,management_expenses,Workmen's Compensation,167116.655,derived,merger_step,False,69810.232
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Aviation,0.000,derived,merger_step,False,0.001
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Engineering,53225.157,derived,merger_step,False,34272.070999999996
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Fire Domestic,180759.359,derived,merger_step,False,128878.372
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Fire Industrial,555269.879,derived,merger_step,False,308960.801
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Liability,180826.000,derived,merger_step,False,77902.09
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Marine,72309.595,derived,merger_step,False,20620.124000000003
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Miscellaneous,41497.821,derived,merger_step,False,13872.226000000002
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Commercial,1290327.138,derived,merger_step,False,866953.4280000001
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Motor Private,2021941.674,derived,merger_step,False,1077208.2570000002
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Personal Accident,22304.429,derived,merger_step,False,13796.844000000001
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Theft,25839.082,derived,merger_step,False,6629.630999999998
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Total,4745283.082,derived,merger_step,False,2713403.4740000004
+sanlam_allianz_general,insurer,2025,4,net_earned_premium,Workmen's Compensation,300982.948,derived,merger_step,False,164309.629
+sanlam_allianz_general,insurer,2025,4,net_premium,Aviation,0.000,derived,merger_step,False,0.001
+sanlam_allianz_general,insurer,2025,4,net_premium,Engineering,50081.329,derived,merger_step,False,28604.645999999997
+sanlam_allianz_general,insurer,2025,4,net_premium,Fire Domestic,136760.918,derived,merger_step,False,75554.938
+sanlam_allianz_general,insurer,2025,4,net_premium,Fire Industrial,623697.099,derived,merger_step,False,328497.68700000003
+sanlam_allianz_general,insurer,2025,4,net_premium,Liability,144318.151,derived,merger_step,False,33691.55500000001
+sanlam_allianz_general,insurer,2025,4,net_premium,Marine,54304.719,derived,merger_step,False,16144.801999999996
+sanlam_allianz_general,insurer,2025,4,net_premium,Medical,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,net_premium,Miscellaneous,46954.295,derived,merger_step,False,18203.214
+sanlam_allianz_general,insurer,2025,4,net_premium,Motor Commercial,1327073.452,derived,merger_step,False,877103.3570000001
+sanlam_allianz_general,insurer,2025,4,net_premium,Motor Commercial PSV,0.000,derived,merger_step,False,0.0
+sanlam_allianz_general,insurer,2025,4,net_premium,Motor Private,2107934.711,derived,merger_step,False,1122754.648
+sanlam_allianz_general,insurer,2025,4,net_premium,Personal Accident,22261.420,derived,merger_step,False,11921.261999999999
+sanlam_allianz_general,insurer,2025,4,net_premium,Theft,22593.890,derived,merger_step,False,1563.4749999999985
+sanlam_allianz_general,insurer,2025,4,net_premium,Total,4794216.438,derived,merger_step,False,2649372.6240000003
+sanlam_allianz_general,insurer,2025,4,net_premium,Workmen's Compensation,258236.454,derived,merger_step,False,135333.039
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Aviation,836.907,derived,merger_step,False,213.793
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Engineering,-31314.613,derived,merger_step,False,-33167.089
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Fire Domestic,-12381.818,derived,merger_step,False,7177.742000000002
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Fire Industrial,-466299.650,derived,merger_step,False,-591343.962
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Liability,-111054.130,derived,merger_step,False,-52021.280000000006
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Marine,-33223.776,derived,merger_step,False,-69790.09599999999
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Medical,-9861.773,derived,merger_step,False,-9861.773
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Miscellaneous,-47457.544,derived,merger_step,False,-75638.724
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Commercial,-142244.633,derived,merger_step,False,67866.106
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Commercial PSV,-92043.619,derived,merger_step,False,-92043.619
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Motor Private,-310751.432,derived,merger_step,False,-40474.195999999996
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Personal Accident,-24818.447,derived,merger_step,False,-12759.36525
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Theft,1362.286,derived,merger_step,False,24160.48
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Total,-1114517.325,derived,merger_step,False,-629125.66025
+sanlam_allianz_general,insurer,2025,4,underwriting_result,Workmen's Compensation,164734.917,derived,merger_step,False,248556.32299999997
 sanlam_allianz_general,insurer,2026,1,claims_incurred,Aviation,0.000,q1,,True,0.0
 sanlam_allianz_general,insurer,2026,1,claims_incurred,Engineering,-6569.290,q1,,True,-6569.29
 sanlam_allianz_general,insurer,2026,1,claims_incurred,Fire Domestic,6502.419,q1,,True,6502.419

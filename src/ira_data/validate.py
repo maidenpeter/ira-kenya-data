@@ -113,7 +113,8 @@ print("\nfailures by check and period (top):")
 print(fails.groupby(["check", "year", "quarter"]).size().sort_values(ascending=False).head(25).to_string())
 
 # 5. cross-check against the PDF industry releases (Q4 2023 and Q4 2024 releases, tables 15 to 21,
-#    extracted independently with pdftotext for case study 03). Insurers only, micro insurers excluded.
+#    extracted independently with pdftotext for case study 03). Insurers including micro insurers, which
+#    is how IRA's releases count the market: leaving the micro insurers out opens small gaps in 2023 and 2024.
 PDF_REF = [  # (year, measure, value from the release, unit)
     (2020, "loss_ratio_pct", 63.6), (2021, "loss_ratio_pct", 68.8), (2022, "loss_ratio_pct", 67.9),
     (2023, "loss_ratio_pct", 67.9), (2024, "loss_ratio_pct", 70.4),
@@ -124,14 +125,14 @@ PDF_REF = [  # (year, measure, value from the release, unit)
 ]
 xr = []
 for y, measure, ref in PDF_REF:
-    g = rev[(rev.year == y) & (rev.quarter == 4) & (rev.segment == "insurer") & (~rev.company.str.contains("MICRO"))]
+    g = rev[(rev.year == y) & (rev.quarter == 4) & (rev.segment == "insurer")]
     g = g.groupby("line").value_ksh_000.sum()
     if measure == "loss_ratio_pct":
         v = round(100 * g.incurred_claims / g.net_earned_premium, 1)
     elif measure == "underwriting_result_ksh_bn":
         v = round(g.underwriting_result / 1e6, 2)
     else:
-        m = cls[(cls.year == y) & (cls.quarter == 4) & (cls.segment == "insurer") & (~cls.company.str.contains("MICRO"))
+        m = cls[(cls.year == y) & (cls.quarter == 4) & (cls.segment == "insurer")
                 & (cls.table == "gross_premium") & (cls.class_of_business == "Medical")]
         v = round(m.value_ksh_000.sum() / 1e6, 2)
     xr.append(dict(year=y, measure=measure, pdf_release=ref, workbooks=v, difference=round(v - ref, 2)))
@@ -157,12 +158,14 @@ for chk, y, q, seg, subj, why in KNOWN_ISSUES:
     n = int(((rep.known_issue == why) & (rep.year == y) & (rep.quarter == q)).sum())
     lines.append(f"- **Q{q} {y}** ({n} checks): {why}")
 lines += ["", "## Cross-check against the PDF releases", "",
-          "The same figures pulled from the Q4 2023 and Q4 2024 PDF industry releases, independently of the workbooks. Insurers only, micro insurers excluded.", "",
+          "The same figures pulled from the Q4 2023 and Q4 2024 PDF industry releases, independently of the workbooks. Insurers, micro insurers included, as the releases count them.", "",
           "| Year | Measure | PDF release | Workbooks | Difference |", "|---|---|---|---|---|"]
 for _, r in xr.iterrows():
     lines.append(f"| {r.year} | {r.measure} | {r.pdf_release} | {r.workbooks} | {r.difference} |")
-lines += ["", "Loss ratios agree to one decimal for all five years. The underwriting results for 2023 and 2024 and the 2024 medical premium differ slightly, by KSh 0.01bn to 0.1bn. "
-          "The PDF figures are sums over classes of business while the workbook figures come from company revenue accounts; the source of the gap is still to be traced."]
+n_ok = int((xr.difference == 0).sum())
+lines += ["", f"{n_ok} of {len(xr)} figures agree exactly at the precision the releases print. The releases count the micro insurers "
+          "with the insurers; leave them out and the 2023 and 2024 "
+          "underwriting results and the 2024 medical premium miss by KSh 0.01bn to 0.1bn."]
 open(os.path.join(V, "SUMMARY.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 # 6. company panel checks (needs build_panel.py to have run)
@@ -197,6 +200,7 @@ bs_path, pl_path = os.path.join(P, "general_balance_sheets.csv"), os.path.join(P
 if os.path.exists(bs_path):
     bsd = pd.read_csv(bs_path); pld = pd.read_csv(pl_path)
     st = []
+    tm = []
     ctx = (None, None, None)
     def sadd(kind, ok_):
         st.append(dict(check=kind, year=ctx[0], quarter=ctx[1], company=ctx[2], passed=bool(ok_)))
@@ -222,8 +226,24 @@ if os.path.exists(bs_path):
             sadd("pl4_profit_before_tax", ok(v["Total Income"] - v["Total Outgo"], v["Profit / (Loss) Before Taxation"]))
             sadd("pl4_profit_after_tax", ok(v["Profit / (Loss) Before Taxation"] - v["Provision for Taxation"], v["Profit/(Loss) After Taxation"]))
             if (y, q, c) in rvw.index:
-                sadd("pl4_transfer_equals_revenue_operating_result",
-                     ok(v["Profit Transferred from Revenue"] - v["Loss Transferred From Revenue"], rvw.loc[(y, q, c), "operating_result"]))
+                # companies present the transfer two ways: the whole operating result, or only the underwriting
+                # result with investment income booked in the P&L itself. Both are accepted; the rest are classified.
+                rv_ = rvw.loc[(y, q, c)]
+                t = v["Profit Transferred from Revenue"] - v["Loss Transferred From Revenue"]
+                if ok(t, rv_.operating_result):
+                    kind = "operating result"
+                elif ok(t, rv_.underwriting_result):
+                    kind = "underwriting result"
+                elif ok(-t, rv_.operating_result) or ok(v["Profit Transferred from Revenue"] + v["Loss Transferred From Revenue"], rv_.operating_result):
+                    kind = "sign of a loss reversed"
+                elif ok(t, 0):
+                    kind = "no transfer entered"
+                else:
+                    kind = "does not match either table"
+                sadd("pl4_transfer_matches_revenue_account", kind in ("operating result", "underwriting result"))
+                tm.append(dict(year=y, quarter=q, company=c, transfer_ksh_000=round(t, 1),
+                               operating_result_ksh_000=round(rv_.operating_result, 1),
+                               underwriting_result_ksh_000=round(rv_.underwriting_result, 1), matches=kind))
         else:
             sadd("pl17_insurance_service_result", ok(v["Insurance Revenue"] - v["Insurance Service Expense"]
                                                      - v.get("Net expenses from reinsurance contracts held", 0), v["Insurance Service Result"]))
@@ -236,7 +256,7 @@ if os.path.exists(bs_path):
               "pl4_total_income": "P&L (IFRS 4): income items add to total income",
               "pl4_profit_before_tax": "P&L (IFRS 4): total income less total outgo is profit before tax",
               "pl4_profit_after_tax": "P&L (IFRS 4): profit before tax less tax is profit after tax",
-              "pl4_transfer_equals_revenue_operating_result": "P&L (IFRS 4): transfer from revenue equals the revenue account's operating result",
+              "pl4_transfer_matches_revenue_account": "P&L (IFRS 4): transfer from revenue matches the revenue account (operating or underwriting result)",
               "pl17_insurance_service_result": "P&L (IFRS 17): revenue less service expense less net reinsurance is the insurance service result",
               "pl17_profit_after_tax": "P&L (IFRS 17): profit before tax less tax is profit for the year"}
     lines3 = ["", "## Balance sheets and profit and loss accounts", "",
@@ -244,7 +264,13 @@ if os.path.exists(bs_path):
     for k, r_ in sr.iterrows():
         lines3.append(f"| {names2.get(k, k)} | {int(r_['count']):,} | {int(r_['sum']):,} | {100*r_['sum']/r_['count']:.1f}% |")
     lines3 += ["", "IRA's IFRS 4 profit and loss accounts do not itemise everything inside Total Outgo, so outgo is not checked item by item. "
-               "The transfer-from-revenue check links two separate IRA tables; the companies where it misses are listed for follow-up in validation_statements.csv."]
+               "The transfer from revenue links two separate IRA tables. Most companies transfer the whole operating result; some transfer only "
+               "the underwriting result and book investment income in the P&L, and both are accepted. How every company-quarter matched is in "
+               "`transfer_from_revenue.csv`:", ""]
+    tmd = pd.DataFrame(tm)
+    tmd.to_csv(os.path.join(V, "transfer_from_revenue.csv"), index=False, lineterminator="\n")
+    for k_, n_ in tmd.matches.value_counts().items():
+        lines3.append(f"- {k_}: {n_:,}")
     pd.DataFrame(st).to_csv(os.path.join(V, "validation_statements.csv"), index=False, lineterminator="\n")
     with open(os.path.join(V, "SUMMARY.md"), "a", encoding="utf-8") as f:
         f.write("\n".join(lines3) + "\n")
@@ -257,7 +283,7 @@ if os.path.exists(qf_path):
     c = qf.groupby(["severity", "flag"]).size()
     lines4 = ["", "## Return quality across quarters", "",
               "Every quarter above adds up on its own. These checks look along each company's quarters for returns that add up but cannot be right. "
-              "Single-quarter figures from quarters flagged as errors are marked unreliable in the panels and left out of market single-quarter totals. "
+              "Single-quarter figures from quarters flagged as errors, and from the two quarters in which one insurer absorbed another's book mid-year (merger_step), are marked unreliable in the panels and left out of market single-quarter totals. "
               "Full list: `quality_flags.csv`.", "",
               "| Severity | Flag | Company quarters |", "|---|---|---|"]
     for (sev, fl), n in c.items():

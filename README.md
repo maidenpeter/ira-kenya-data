@@ -37,7 +37,7 @@ Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers
 | `data/processed/general_balance_sheets.csv` | 50,462 | Every company's general business balance sheet each quarter: equity, liabilities and 20 asset lines |
 | `data/processed/general_profit_loss.csv` | 22,351 | Every company's profit and loss account, on IFRS 4 lines to Q4 2023 and IFRS 17 lines from Q1 2024 |
 | `reference/company_crosswalk.csv` | 82 | Every spelling of every company name IRA has used, mapped to 52 companies, with the rename, merger or exit behind each change and a source link |
-| `validation/quality_flags.csv` | 112 | Return-quality flags read across each company's quarters: errors, warnings and missing filings |
+| `validation/quality_flags.csv` | 114 | Return-quality flags read across each company's quarters: errors, warnings, missing filings and merger quarters |
 
 35 quarters, 52 companies, two segments (insurer, reinsurer). Figures are in KSh thousands, year to date and unaudited, exactly as IRA published them. See `docs/data_dictionary.md` for every column.
 
@@ -56,7 +56,7 @@ Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers
 
 The balance sheets balance for all 1,388 company quarters, and the profit and loss accounts reconcile down to profit after tax under both IFRS 4 and IFRS 17, with the handful of exceptions listed in `validation/validation_statements.csv`.
 
-A return can add up on its own and still be wrong, so each company is also read across its quarters. Intra-Africa Assurance, for example, reported KSh 4.3bn of year-to-date premium at Q3 2024 and KSh 2.75bn for the full year. A running total cannot fall like that. Left in, it puts a phantom KSh 2.4bn underwriting profit into the market's third quarter. Twelve such returns are flagged as errors and kept out of single-quarter market totals.
+A return can add up on its own and still be wrong, so each company is also read across its quarters. Intra-Africa Assurance, for example, reported KSh 4.3bn of year-to-date premium at Q3 2024 and KSh 2.75bn for the full year. A running total cannot fall like that. Left in, it puts a phantom KSh 2.4bn underwriting profit into the market's third quarter. Twelve such returns are flagged as errors and kept out of single-quarter market totals. So are the two quarters in which one insurer absorbed another's book mid-year (MUA taking in Saham in Q3 2021, Sanlam Allianz General taking in Sanlam General in Q4 2025), because the absorbed company's earlier quarters would otherwise be counted twice.
 
 Every failure traces to an error in IRA's own publications, and each one is documented:
 
@@ -64,7 +64,7 @@ Every failure traces to an error in IRA's own publications, and each one is docu
 - The printed totals on two sheets in Q4 2025 and Q1 2026 are stale.
 - In Q2 and Q3 2019, one reinsurer's inward premium was filed under direct premium.
 
-As an independent check, the figures were rebuilt a second way from the PDF industry releases. Market loss ratios agree to one decimal place for all five years tested, 2020 to 2024.
+As an independent check, twelve market figures were taken from IRA's PDF industry releases for 2020 to 2024: loss ratios, underwriting results and medical premium. All twelve agree exactly with the workbooks once micro insurers are counted with the insurers, as the releases do.
 
 ## Following a company through its name changes
 
