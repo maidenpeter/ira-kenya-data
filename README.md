@@ -47,7 +47,7 @@ Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers
 
 ## How it is checked
 
-`src/ira_data/validate.py` runs 42,246 checks. The results are in `validation/SUMMARY.md` and each check is listed in `validation/validation_report.csv`.
+`src/ira_data/validate.py` runs 42,246 checks, and `pytest tests` runs seven guards on the processed tables on every push (GitHub Actions). The results are in `validation/SUMMARY.md` and each check is listed in `validation/validation_report.csv`.
 
 - Every company's revenue account adds up line by line: 1,460 of 1,460 pass on each of the four identities.
 - Every class split adds to its total: 14,118 of 14,118 pass.
@@ -87,6 +87,7 @@ data/
 reference/      company crosswalk
 explorer/       the data explorer page and its template
 src/ira_data/   extraction, panel, quality and validation code
+tests/          guards on the processed tables, run by GitHub Actions on every push
 validation/     validation report, summary, published totals, PDF cross-check
 docs/           data dictionary
 ```
@@ -96,6 +97,7 @@ docs/           data dictionary
 ```
 pip install -r requirements.txt
 ./run_all.sh
+pytest tests
 ```
 
 The raw files are about 400 MB, and one of them is over GitHub's 100 MB file limit, so they are not in git. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. They will be attached to a GitHub release.
