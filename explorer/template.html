@@ -165,7 +165,7 @@ const pct = v => (v==null||!isFinite(v)) ? 'n/a' : (v*100).toFixed(1) + '%';
 const years = [...new Set(P.filter(p=>p.endsWith('Q4')).map(p=>p.slice(0,4)))];
 const byId = Object.fromEntries(D.companies.map(c=>[c.id,c]));
 const FLAGNAMES = {premium_reversal:'Premium reversal', premium_spike:'Premium spike', claims_collapse:'Claims collapse',
-  claims_reversal:'Negative claims', loss_ratio_outlier:'Loss ratio outlier', direct_inward_reclass:'Direct to inward move'};
+  claims_reversal:'Negative claims', loss_ratio_outlier:'Loss ratio outlier', direct_inward_reclass:'Direct to inward move', merger_step:'Merger quarter'};
 
 // whole-market virtual companies: year-to-date sums over all, single quarters over reliable returns only
 function marketCompany(seg){
