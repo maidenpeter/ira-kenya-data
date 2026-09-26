@@ -83,7 +83,7 @@ for seg in ("insurer", "reinsurer"):
     qq = s[s.reliable_quarter].groupby(["period", "line"]).quarter_ksh_000.sum(min_count=1).reset_index()
     market[seg] = dict(ytd=series(ytd, "ytd_ksh_000"), q=series(qq, "quarter_ksh_000"))
 
-out = dict(generated=pd.Timestamp.today().strftime("%Y-%m-%d"), periods=periods, unit="KSh millions",
+out = dict(data_to=periods[-1], periods=periods, unit="KSh millions",
            companies=companies, market=market)
 path = os.path.join(ROOT, "explorer", "explorer_data.json")
 json.dump(out, open(path, "w"), separators=(",", ":"))

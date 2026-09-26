@@ -100,9 +100,12 @@ pip install -r requirements.txt
 
 The raw files are about 400 MB, and one of them is over GitHub's 100 MB file limit, so they are not in git. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. They will be attached to a GitHub release.
 
+## Built on this data
+
+- [ira-kenya-reinsurance](https://github.com/maidenpeter/ira-kenya-reinsurance): every Kenyan general insurer graded A to E each year the way a reinsurer screens a cedant, back-tested against the five insurers the regulator has stepped into since 2022
+
 ## Coming next
 
-- A cedant scorecard: every insurer scored the way a reinsurer would screen it, from underwriting record, retention, balance sheet strength and return quality
 - The annual statistics workbooks (2017 to 2025) and the reinsurance chapters of the annual reports
 - Life and long-term business, as its own module
 - The 2008 to 2016 PDF-only years, extracted with Veridoc, an OCR and document extraction tool in development
