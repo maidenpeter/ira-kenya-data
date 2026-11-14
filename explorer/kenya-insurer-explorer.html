@@ -1,29 +1,30 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head><body><title>Kenya Insurer Explorer</title>
+<script>try{var t=localStorage.getItem('mp-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Pinyon+Script&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
 :root{
-  --ground:#f4f6f3; --surface:#ffffff; --ink:#15202b; --ink-2:#4f5a64; --muted:#6d7780;
-  --rule:#d9dfdb; --rule-soft:#e8ece9; --accent:#184f95; --accent-soft:#e3ecf8;
-  --s1:#2a78d6; --s2:#eb6834; --crit:#d03b3b; --warn:#b98100; --warn-dot:#fab219; --good:#0a7d0a;
-  --hatch:#d03b3b;
+  color-scheme:dark;
+  --ground:#0f1b2d; --surface:#152539; --sunk:#0a1420;
+  --ink:#ede7d8; --ink-2:#c4c0b4; --muted:#9c9b94;
+  --rule:rgba(237,231,216,.17); --rule-soft:rgba(237,231,216,.09); --rule-strong:rgba(237,231,216,.34);
+  --accent:#f0a63a; --accent-soft:rgba(240,166,58,.11); --on-accent:#0f1b2d; --on-strong:#0f1b2d;
+  --s1:#25a3a4; --s2:#f0a63a; --crit:#ee8a72; --warn:#f0a63a; --warn-dot:#f0a63a; --good:#5cc9c9; --hatch:#d9694f;
   --serif:"EB Garamond", Garamond, "Adobe Garamond Pro", Georgia, serif;
   --ui:"IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --display:"IM Fell English", "EB Garamond", Garamond, Georgia, serif;
+  --display-sc:"IM Fell English SC", "IM Fell English", Georgia, serif;
+  --script:"Pinyon Script", "IM Fell English", cursive;
+  --label:"Old Standard TT", "EB Garamond", Georgia, serif;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --ground:#10161c; --surface:#172029; --ink:#e7ebee; --ink-2:#b4bdc5; --muted:#8f99a3;
-    --rule:#2b3640; --rule-soft:#222c35; --accent:#86b6ef; --accent-soft:#1d2a3a;
-    --s1:#3987e5; --s2:#d95926; --crit:#e66767; --warn:#fab219; --warn-dot:#fab219; --good:#3fbf3f; --hatch:#e66767;
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --ground:#10161c; --surface:#172029; --ink:#e7ebee; --ink-2:#b4bdc5; --muted:#8f99a3;
-  --rule:#2b3640; --rule-soft:#222c35; --accent:#86b6ef; --accent-soft:#1d2a3a;
-  --s1:#3987e5; --s2:#d95926; --crit:#e66767; --warn:#fab219; --warn-dot:#fab219; --good:#3fbf3f; --hatch:#e66767;
+:root[data-theme="light"]{
+  color-scheme:light;
+  --ground:#ecdfc3; --surface:#f3e8cf; --sunk:#e2d3b2;
+  --ink:#2b2118; --ink-2:#4a3a2a; --muted:#655440;
+  --rule:rgba(43,33,24,.20); --rule-soft:rgba(43,33,24,.10); --rule-strong:rgba(43,33,24,.42);
+  --accent:#7d530e; --accent-soft:rgba(125,83,14,.10); --on-accent:#f3e8cf; --on-strong:#ffffff;
+  --s1:#008a7e; --s2:#b08a2a; --crit:#7a2d1b; --warn:#7d530e; --warn-dot:#b08a2a; --good:#005a52; --hatch:#a8432a;
 }
 *{box-sizing:border-box}
 body{background:var(--ground); color:var(--ink); font-family:var(--serif); font-size:17px; line-height:1.45;}
@@ -68,8 +69,8 @@ th{font-weight:500; color:var(--muted); text-align:right; font-size:12px; letter
 th:first-child,td:first-child{text-align:left}
 td{text-align:right; padding:7px 10px; border-bottom:1px solid var(--rule-soft); white-space:nowrap; color:var(--ink)}
 th button{all:unset; cursor:pointer}
-th button[data-dir]::after{content:" ↓"; }
-th button[data-dir="asc"]::after{content:" ↑"}
+th button[data-dir]::after{content:" \2193"; }
+th button[data-dir="asc"]::after{content:" \2191"}
 tr[tabindex]{cursor:pointer}
 tr[tabindex]:hover td{background:var(--accent-soft)}
 .bar{display:inline-block; height:8px; border-radius:0 4px 4px 0; background:var(--s1); vertical-align:middle; margin-left:8px; opacity:.85}
@@ -86,8 +87,46 @@ footer{border-top:1px solid var(--rule); padding-top:16px; display:flex; flex-di
 @media (max-width:860px){ .grid2{grid-template-columns:1fr} .kpis{grid-template-columns:repeat(2,minmax(0,1fr))} .tabs{margin-left:0} .stamp{text-align:left} }
 @media (max-width:420px){ .kpi .v{font-size:23px} .flags li{grid-template-columns:1fr} }
 @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+
+/* ---------------------------------------------------------- copperplate layer, shared with maidenpeter.github.io */
+:root{--grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .93 0 0 0 0 .90 0 0 0 0 .84 0 0 0 .055 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); --fox:rgba(0,0,0,.30); --hatch-line:rgba(10,20,32,.30)}
+:root[data-theme="light"]{--grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .30 0 0 0 0 .16 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); --fox:rgba(138,90,36,.16); --hatch-line:rgba(43,33,24,.26)}
+body{background-color:var(--ground);background-image:var(--grain)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 50% 42%,transparent 58%,var(--fox) 100%)}
+.mp-head,.mp-sub,.wrap{position:relative;z-index:1}
+h1,h2{font-family:var(--display);font-weight:400;letter-spacing:0}
+.eyebrow{font-family:var(--label);letter-spacing:.16em}
+.sechead{border-top:3px double var(--rule-strong);padding-top:18px}
+.panel,.detail{border-radius:2px;outline:1px solid var(--rule);outline-offset:-6px}
+footer{border-top:3px double var(--rule-strong)}
+body{margin:0}
+.sw{display:inline-block;min-width:12px;min-height:12px;vertical-align:-1px}
+.track2 .bar,.sbar i{background-image:repeating-linear-gradient(135deg,var(--hatch-line) 0 1px,transparent 1px 4px)}
+
+/* portfolio header */
+.mp-head{border-bottom:3px double var(--rule-strong);background:transparent}
+.mp-in{max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px 22px;flex-wrap:wrap}
+.mp-brand{font-family:var(--display-sc);font-size:23px;font-weight:400;color:var(--ink);text-decoration:none;letter-spacing:.02em}
+.mp-brand span{font-family:var(--script);font-size:22px;color:var(--accent);margin-left:10px}
+.mp-nav{display:flex;align-items:center;gap:4px 18px;flex-wrap:wrap;font-family:var(--ui);font-size:15px}
+.mp-nav a{color:var(--ink-2);text-decoration:none;padding:6px 0}
+.mp-nav a:hover{color:var(--accent)}
+.mp-nav a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--accent)}
+.mp-theme{font-family:var(--ui);font-size:14px;color:var(--ink-2);background:transparent;border:1px solid var(--rule);border-radius:2px;padding:5px 12px;cursor:pointer;min-height:32px}
+.mp-theme:hover{border-color:var(--accent);color:var(--ink)}
+.mp-sub{border-bottom:1px solid var(--rule)}
+.mp-sub .mp-in{padding-block:8px;justify-content:flex-start;gap:4px 20px;font-family:var(--ui);font-size:14px}
+.mp-sub b{font-family:var(--label);font-weight:400;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;font-size:12px}
+.mp-sub a{color:var(--ink-2);text-decoration:none}
+.mp-sub a:hover{color:var(--accent)}
+.mp-sub a[aria-current="page"]{color:var(--accent)}
+.mp-head a:focus-visible,.mp-sub a:focus-visible,.mp-theme:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+@media (max-width:420px){.mp-brand span{display:block;margin:0;font-size:21px}}
+@media print{.mp-head,.mp-sub{display:none}body::before{display:none}body{background-image:none}}
 </style>
 
+<header class="mp-head"><div class="mp-in"><a class="mp-brand" href="https://maidenpeter.github.io/">Marion Peter<span>Actuarial Engineer</span></a><nav class="mp-nav" aria-label="Main"><a href="https://maidenpeter.github.io/#work">Work</a><a href="https://maidenpeter.github.io/#apps">Apps</a><a href="https://maidenpeter.github.io/kenya-insurance/" aria-current="page">Kenya series</a><a href="https://maidenpeter.github.io/about/">About</a><a href="https://maidenpeter.github.io/#contact">Contact</a><button class="mp-theme" type="button" hidden>Paper theme</button></nav></div></header>
+<nav class="mp-sub" aria-label="Kenya series"><div class="mp-in"><b>Kenya series</b><a href="https://maidenpeter.github.io/ira-kenya-insurance/page/kenya-insurance-loss-map.html">Loss map</a><a href="https://maidenpeter.github.io/ira-kenya-insurance/page/kenya-insurance-market-structure.html">Market structure</a><a href="https://maidenpeter.github.io/ira-kenya-reinsurance/page/kenya-cedant-scorecard.html">Cedant scorecard</a><a href="https://maidenpeter.github.io/ira-kenya-data/explorer/kenya-insurer-explorer.html" aria-current="page">Insurer explorer</a></div></nav>
 <div class="wrap">
   <header class="top">
     <div>
@@ -122,7 +161,7 @@ footer{border-top:1px solid var(--rule); padding-top:16px; display:flex; flex-di
       </div>
       <div class="panel">
         <h3>Quarter by quarter</h3>
-        <p class="sub">Underwriting result in each quarter alone, KSh millions, derived from IRA's year-to-date figures. The scale ignores unreliable returns; a bar cut off at the edge is marked !…</p>
+        <p class="sub">Underwriting result in each quarter alone, KSh millions, derived from IRA's year-to-date figures. The scale ignores unreliable returns; a bar cut off at the edge is marked !...</p>
         <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>Single quarter</span><span><i class="sw" style="background:repeating-linear-gradient(45deg,var(--hatch) 0 2px,transparent 2px 5px);border:1px solid var(--hatch)"></i>Unreliable return</span><span><i class="sw" style="border:1px dashed var(--muted)"></i>Not derivable</span></div>
         <div class="chart" id="chartB"></div>
       </div>
@@ -159,7 +198,7 @@ footer{border-top:1px solid var(--rule); padding-top:16px; display:flex; flex-di
 const D = JSON.parse(document.getElementById('data').textContent);
 const P = D.periods;
 const $ = id => document.getElementById(id);
-const fmtM = v => v==null ? '·' : (v<0?'-':'') + Math.abs(v).toLocaleString('en-US',{maximumFractionDigits:0});
+const fmtM = v => v==null ? 'n/a' : (v<0?'-':'') + Math.abs(v).toLocaleString('en-US',{maximumFractionDigits:0});
 const fmtBn = v => v==null ? 'n/a' : (v<0?'-':'') + 'KSh ' + (Math.abs(v)/1000).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1}) + 'bn';
 const pct = v => (v==null||!isFinite(v)) ? 'n/a' : (v*100).toFixed(1) + '%';
 const years = [...new Set(P.filter(p=>p.endsWith('Q4')).map(p=>p.slice(0,4)))];
@@ -190,7 +229,7 @@ const sortName = (a,b)=>a.name.localeCompare(b.name);
 addGroup('Insurers', D.companies.filter(c=>c.segment==='insurer').sort(sortName).map(c=>[c.id, c.name + (c.micro?' (micro)':'')]));
 addGroup('Reinsurers', D.companies.filter(c=>c.segment==='reinsurer').sort(sortName).map(c=>[c.id, c.name]));
 years.slice().reverse().forEach(y=>{ const o=document.createElement('option'); o.value=y; o.textContent=y; $('year').appendChild(o); });
-$('stamp').innerHTML = `${D.companies.length} companies · ${P.length} quarters<br>${P[0]} to ${P[P.length-1]} · KSh millions`;
+$('stamp').innerHTML = `${D.companies.length} companies, ${P.length} quarters<br>${P[0]} to ${P[P.length-1]}, KSh millions`;
 
 const state = {company:'market_insurer', year: years[years.length-1], sortKey:'wp', sortDir:'desc', tab:'company'};
 try{ const s=JSON.parse(localStorage.getItem('kie-state')||'{}'); if(s.company && (byId[s.company]||MK[s.company?.replace('market_','')])) state.company=s.company; if(s.year && years.includes(s.year)) state.year=s.year; }catch(e){}
@@ -241,7 +280,7 @@ function barChart(el, labels, series, opts){
       const d = v>=0 ? `M${x},${top+h} V${top+r} Q${x},${top} ${x+r},${top} H${x+bw-r} Q${x+bw},${top} ${x+bw},${top+r} V${top+h} Z`
                      : `M${x},${top} V${top+h-r} Q${x},${top+h} ${x+r},${top+h} H${x+bw-r} Q${x+bw},${top+h} ${x+bw},${top+h-r} V${top} Z`;
       s+=`<path d="${d}" fill="${fill}" ${stroke}/>`;
-      if(meta.bad) s+=`<text x="${x+bw/2}" y="${v>=0? top-4 : top+h+11}" text-anchor="middle" style="fill:var(--crit);font-weight:600">${clipped?'!…':'!'}</text>`;
+      if(meta.bad) s+=`<text x="${x+bw/2}" y="${v>=0? top-4 : top+h+11}" text-anchor="middle" style="fill:var(--crit);font-weight:600">${clipped?'!...':'!'}</text>`;
       s+=`<rect x="${x-1}" y="${mt}" width="${bw+2}" height="${H-mt-mb}" fill="transparent" class="hit" data-i="${i}" data-k="${k}"/>`;
     });
     if(i%every===0) s+=`<text x="${ml+i*band+band/2}" y="${H-mb+16}" text-anchor="middle">${esc(lab)}</text>`;
@@ -258,7 +297,7 @@ function renderCompany(){
   if(c.market) chips.push(`<span class="chip">${c.n} companies combined</span>`);
   const errs=c.flags.filter(x=>x.severity==='error').length, warns=c.flags.filter(x=>x.severity==='warning').length;
   if(errs) chips.push(`<span class="chip crit">! ${errs} unreliable return${errs>1?'s':''}</span>`);
-  if(warns) chips.push(`<span class="chip warn">△ ${warns} warning${warns>1?'s':''}</span>`);
+  if(warns) chips.push(`<span class="chip warn">${warns} warning${warns>1?'s':''}</span>`);
   $('cchips').innerHTML=chips.join('');
   let trail='';
   if(c.market) trail='Year-to-date figures add up every company IRA lists. Single-quarter figures leave out returns flagged as unreliable, so a bad filing cannot move the market line.';
@@ -300,7 +339,7 @@ function renderCompany(){
      meta:(j)=>{ const i=qi[j]; return {bad: !c.market && c.reliable[i]===false && c.q.uw[i]!=null, missing: c.q.uw[i]==null}; },
      tip:(j)=>{ const i=qi[j], p=P[i], v=c.q.uw[i], fl=flagAt(p);
        let h=`<b>${p}</b><br>`; h+= v==null ? (c.basis[i]==='not_filed'?'Listed with an all-zero return':'Cannot be derived for this quarter') : `Underwriting result: ${fmtM(v)}m`;
-       fl.forEach(x=>h+=`<br>${x.severity==='error'?'! ':'△ '}${FLAGNAMES[x.flag]||x.flag}: ${esc(x.detail)}`); return h; }});
+       fl.forEach(x=>h+=`<br>${x.severity==='error'?'! ':''}${FLAGNAMES[x.flag]||x.flag}: ${esc(x.detail)}`); return h; }});
   $('chartB').querySelectorAll('svg text').forEach(t=>{ const m=t.textContent.match(/^(\d{4}) Q(\d)$/); if(m){ if(m[2]==='1') t.textContent=m[1]; else t.remove(); } });
 
   // class table
@@ -315,8 +354,8 @@ function renderCompany(){
     let h='<thead><tr><th>Class</th><th>Gross premium</th><th>Share</th><th>Loss ratio</th><th>Underwriting result</th></tr></thead><tbody>';
     rows.forEach(k=>{ const nep=cy.net_earned_premium?.[k], cl=cy.claims_incurred?.[k], uw=cy.underwriting_result?.[k];
       const lr = nep>50 ? cl/nep : null;
-      h+=`<tr><td>${esc(k)}</td><td>${fmtM(gp[k])}<span class="bar" style="width:${Math.max(2,70*gp[k]/maxgp)}px"></span></td><td>${pct(gp[k]/tot)}</td><td>${lr==null?'<span style="color:var(--muted)">n/a</span>':pct(lr)}</td><td class="${uw<0?'neg':''}">${uw==null?'·':fmtM(uw)}</td></tr>`; });
-    h+=`</tbody><tfoot><tr><td><b>Total</b></td><td><b>${fmtM(tot)}</b></td><td>100.0%</td><td>${cy.net_earned_premium?.Total? pct(cy.claims_incurred.Total/cy.net_earned_premium.Total):'n/a'}</td><td class="${(cy.underwriting_result?.Total||0)<0?'neg':''}">${cy.underwriting_result? fmtM(cy.underwriting_result.Total):'·'}</td></tr></tfoot>`;
+      h+=`<tr><td>${esc(k)}</td><td>${fmtM(gp[k])}<span class="bar" style="width:${Math.max(2,70*gp[k]/maxgp)}px"></span></td><td>${pct(gp[k]/tot)}</td><td>${lr==null?'<span style="color:var(--muted)">n/a</span>':pct(lr)}</td><td class="${uw<0?'neg':''}">${uw==null?'n/a':fmtM(uw)}</td></tr>`; });
+    h+=`</tbody><tfoot><tr><td><b>Total</b></td><td><b>${fmtM(tot)}</b></td><td>100.0%</td><td>${cy.net_earned_premium?.Total? pct(cy.claims_incurred.Total/cy.net_earned_premium.Total):'n/a'}</td><td class="${(cy.underwriting_result?.Total||0)<0?'neg':''}">${cy.underwriting_result? fmtM(cy.underwriting_result.Total):'n/a'}</td></tr></tfoot>`;
     $('classTable').innerHTML=h;
   }
 
@@ -325,7 +364,7 @@ function renderCompany(){
   if(c.market){ fl.innerHTML='<li><span class="when">All</span><span>Switch to a single company to see its return-quality checks. Unreliable returns are already excluded from the single-quarter market line.</span></li>'; }
   else{
     const items=c.flags.slice().sort((a,b)=>P.indexOf(b.period)-P.indexOf(a.period));
-    let h=items.map(x=>`<li class="${x.severity}"><span class="when">${x.period}</span><span><span class="what">${x.severity==='error'?'! ':'△ '}${FLAGNAMES[x.flag]||x.flag}</span><br>${esc(x.detail.charAt(0).toUpperCase()+x.detail.slice(1))}.</span></li>`).join('');
+    let h=items.map(x=>`<li class="${x.severity}"><span class="when">${x.period}</span><span><span class="what">${x.severity==='error'?'! ':''}${FLAGNAMES[x.flag]||x.flag}</span><br>${esc(x.detail.charAt(0).toUpperCase()+x.detail.slice(1))}.</span></li>`).join('');
     if(c.not_filed.length) h+=`<li><span class="when">${c.not_filed.length} quarter${c.not_filed.length>1?'s':''}</span><span>Listed with an all-zero return, usually a missing filing: ${c.not_filed.join(', ')}.</span></li>`;
     fl.innerHTML = h || '<li><span class="when">Clean</span><span>No return-quality problems found across its quarters.</span></li>';
   }
@@ -362,4 +401,8 @@ $('tab-league').addEventListener('click',()=>setTab('league'));
 if(location.hash==='#league') setTab('league'); else render();
 })();
 </script>
+<script>(function(){var b=document.querySelector('.mp-theme');if(!b)return;var d=document.documentElement;
+function cur(){return d.getAttribute('data-theme')||'dark'}
+function lab(){var c=cur();b.textContent=c==='dark'?'Paper theme':'Ink theme';b.setAttribute('aria-label','Switch to '+(c==='dark'?'light':'dark')+' theme')}
+b.hidden=false;b.addEventListener('click',function(){var x=cur()==='dark'?'light':'dark';d.setAttribute('data-theme',x);try{localStorage.setItem('mp-theme',x)}catch(e){}lab()});lab()})();</script>
 </body></html>

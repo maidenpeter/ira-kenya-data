@@ -21,17 +21,18 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<script>try{var t=localStorage.getItem('mp-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('mp-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Pinyon+Script&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap">
 <a class="brand" href="/">Marion Peter<span>Actuarial Engineer</span></a>
-<nav class="main" aria-label="Main"><a href="/#work">Work</a><a href="/#apps">Apps</a><a href="/kenya-insurance/" aria-current="page">Kenya series</a><a href="/about/">About</a><a href="/#contact">Contact</a><button class="theme" type="button" hidden>Paper theme</button></nav>
+<button class="menu" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+<nav class="main" id="site-nav" aria-label="Main"><a href="/kenya-insurance/" aria-current="true" data-spy="work signals">Kenya series</a><a href="/#cases" data-spy="cases">Case studies</a><a href="/#apps" data-spy="apps products">Apps</a><a href="/about/" data-spy="">About</a><a href="/#contact" data-spy="contact">Contact</a><button class="theme" type="button" hidden>Paper theme</button></nav>
 </div></header>
 <main id="main" class="wrap">
 <section aria-labelledby="h1"><span class="eyebrow">ira-kenya-data</span><h1 id="h1" style="font-size:clamp(32px,4.6vw,50px)">Kenya Insurer Data</h1><p class="lede">The data layer behind the series: every general insurer and reinsurer, every quarter from Q4 2016 to Q1 2026, validated with 42,246 checks.</p>
@@ -47,5 +48,25 @@
 function cur(){return d.getAttribute('data-theme')||'dark'}
 function lab(){var c=cur();b.textContent=c==='dark'?'Paper theme':'Ink theme';b.setAttribute('aria-label','Switch to '+(c==='dark'?'light':'dark')+' theme')}
 b.hidden=false;b.addEventListener('click',function(){var x=cur()==='dark'?'light':'dark';d.setAttribute('data-theme',x);try{localStorage.setItem('mp-theme',x)}catch(e){}lab()});lab()})();</script>
+<script>(function(){var d=document.documentElement,h=document.querySelector('.site-head');if(!h)return;
+var m=h.querySelector('.menu'),nav=h.querySelector('nav.main'),wide=window.matchMedia('(min-width:861px)');
+function open(){return h.classList.contains('open')}
+function size(){if(!open())d.style.setProperty('--head-h',h.offsetHeight+'px')}
+function set(o){h.classList.toggle('open',o);m.setAttribute('aria-expanded',o?'true':'false');m.textContent=o?'Close':'Menu'}
+if(m){m.addEventListener('click',function(){set(!open())});
+nav.addEventListener('click',function(e){if(e.target.closest('a'))set(false)});
+document.addEventListener('click',function(e){if(open()&&!h.contains(e.target))set(false)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&open()){set(false);m.focus()}});}
+var home=location.pathname==='/'||location.pathname==='/index.html',
+secs=home?[].slice.call(document.querySelectorAll('main section[id]')):[],
+links=[].slice.call(nav.querySelectorAll('a[data-spy]'));
+function spy(){h.classList.toggle('stuck',window.scrollY>4);if(!secs.length)return;
+var y=parseFloat(getComputedStyle(d).getPropertyValue('--head-h'))+60,cur='';
+for(var i=0;i<secs.length;i++)if(secs[i].getBoundingClientRect().top<=y)cur=secs[i].id;
+if(window.innerHeight+window.scrollY>=d.scrollHeight-2)cur=secs[secs.length-1].id;
+links.forEach(function(a){a.classList.toggle('here',!!cur&&a.getAttribute('data-spy').split(' ').indexOf(cur)>-1)})}
+var q=0;window.addEventListener('scroll',function(){if(!q)q=requestAnimationFrame(function(){q=0;spy()})},{passive:true});
+window.addEventListener('resize',function(){if(m&&wide.matches&&open())set(false);size();spy()});
+if(window.ResizeObserver)new ResizeObserver(size).observe(h);size();spy()})();</script>
 </body>
 </html>
