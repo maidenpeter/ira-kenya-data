@@ -1,4 +1,4 @@
-# raw IRA files live in a GitHub release, not in git (see data/raw/manifest.csv)
+# raw IRA files are not distributed; data/raw/manifest.csv lists each with its IRA link and hash
 data/raw/**
 !data/raw/manifest.csv
 !data/raw/SOURCES.md

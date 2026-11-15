@@ -100,7 +100,7 @@ pip install -r requirements.txt
 pytest tests
 ```
 
-The raw files are about 400 MB, and one of them is over GitHub's 100 MB file limit, so they are not in git. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. They will be attached to a GitHub release.
+The raw files are about 400 MB and are not distributed with this repository. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. Every file is public on IRA's own site; the manifest gives the link and the hash, so a copy can be checked against the one used here.
 
 ## Built on this data
 
