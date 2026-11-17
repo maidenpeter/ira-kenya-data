@@ -39,6 +39,10 @@ The tables are built locally by `./run_all.sh` from IRA's files and, like the ra
 | `data/processed/general_balance_sheets.csv` | 50,462 | Every company's general business balance sheet each quarter: equity, liabilities and 20 asset lines |
 | `data/processed/general_profit_loss.csv` | 22,351 | Every company's profit and loss account, on IFRS 4 lines to Q4 2023 and IFRS 17 lines from Q1 2024 |
 | `reference/company_crosswalk.csv` | 82 | Every spelling of every company name IRA has used, mapped to 52 companies, with the rename, merger or exit behind each change and a source link |
+| `data/processed/claims_settlement.csv` | 4,473 | IRA's quarterly claims settlement statistics as printed: every insurer's claims movement (outstanding at the start, reported, revived, paid, declined, closed as no claim, outstanding at the end) for general liability, general non-liability and long-term business, in numbers and, from Q4 2022, amounts |
+| `data/processed/claims_panel.csv` | 4,469 | The same on stable company ids, one row per company and quarter, with IRA's payment ratio |
+| `reference/claims_crosswalk.csv` | 227 | Every insurer name printed in the claims tables, mapped to 48 general and 29 life companies |
+| `validation/CLAIMS_SUMMARY.md` | | The checks on the claims tables, counted by result |
 | `validation/quality_flags.csv` | 114 | Return-quality flags read across each company's quarters: errors, warnings, missing filings and merger quarters |
 
 35 quarters, 52 companies, two segments (insurer, reinsurer). Figures are in KSh thousands, year to date and unaudited, exactly as IRA published them. See `docs/data_dictionary.md` for every column.
@@ -67,6 +71,17 @@ Every failure traces to an error in IRA's own publications, and each one is docu
 - In Q2 and Q3 2019, one reinsurer's inward premium was filed under direct premium.
 
 As an independent check, twelve market figures were taken from IRA's PDF industry releases for 2020 to 2024: loss ratios, underwriting results and medical premium. All twelve agree exactly with the workbooks once micro insurers are counted with the insurers, as the releases do.
+
+## Claims settlement statistics
+
+IRA also publishes each insurer's claims movement every quarter. `src/ira_data/extract_claims.py` reads the 32 workbooks published from Q1 2017 to Q1 2026, mapping each column by its heading because the layout changed several times, and `src/ira_data/build_claims_panel.py` joins the printed names to companies and runs 12,791 checks: the rows against IRA's printed industry line, each quarter's movement, each quarter against the one before, IRA's printed payment ratio, and counts that cannot be negative.
+
+- The rows add up to the printed industry line in every table but two, both explained. In Q1 2020 IRA's printed life total leaves out Absa Life Assurance, in the first quarter it was printed under its new name: the gap in every column is Absa Life's row. In Q1 2017 the liability line is one claim higher than its rows.
+- From Q3 2018 to Q2 2020 the column printed as "claims revived" does not add to the count; IRA prints the same column as "claims revised" from Q3 2020. It is read as revised for those eight quarters.
+- 264 of 3,094 insurer-quarters do not add up from start to end, 152 do not start where the last quarter ended, and 8 print a negative count. They are kept as printed and counted; a negative count gets no payment ratio.
+- Not in the data: Q1 2018 for general business, Q1 to Q3 2021 and Q1 to Q2 2022.
+
+The analysis is in [ira-kenya-insurance](https://github.com/maidenpeter/ira-kenya-insurance), as analysis 2.
 
 ## Following a company through its name changes
 
@@ -106,6 +121,7 @@ The raw files are about 400 MB and are not distributed with this repository. `da
 
 ## Built on this data
 
+- [ira-kenya-insurance](https://github.com/maidenpeter/ira-kenya-insurance): class profitability, market structure, reinsurance flows and, as analysis 2, claims settlement
 - [ira-kenya-reinsurance](https://github.com/maidenpeter/ira-kenya-reinsurance): every Kenyan general insurer graded A to E each year the way a reinsurer screens a cedant, back-tested against the five insurers the regulator has stepped into since 2022
 
 ## Coming next
