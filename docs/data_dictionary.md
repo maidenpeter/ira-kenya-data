@@ -1,6 +1,6 @@
 # Data dictionary
 
-All money figures are KSh thousands, year to date to the period end, from IRA's unaudited quarterly returns.
+All money figures are KSh thousands, year to date to the period end, from IRA's unaudited quarterly returns. The tables are built locally by `run_all.sh` and are not published; this dictionary describes what they hold.
 
 ## Common columns
 

@@ -28,6 +28,8 @@ Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers
 
 ## Tables
 
+The tables are built locally by `./run_all.sh` from IRA's files and, like the raw files, they are not published. This repository holds the code that builds them, the company crosswalk, the return-quality flags, the validation summary and the explorer page.
+
 | File | Rows | What it holds |
 |---|---|---|
 | `data/processed/general_revenue_accounts.csv` | 21,900 | The general business revenue account for every insurer and reinsurer: gross premium, inward and outward reinsurance, reserves, net earned premium, claims, commissions, expenses, underwriting result, investment income, operating result |
@@ -47,7 +49,7 @@ Underwriting profit is also getting rarer. In 2016, 19 of the 35 active insurers
 
 ## How it is checked
 
-`src/ira_data/validate.py` runs 42,246 checks, and `pytest tests` runs seven guards on the processed tables on every push (GitHub Actions). The results are in `validation/SUMMARY.md` and each check is listed in `validation/validation_report.csv`.
+`src/ira_data/validate.py` runs 42,246 checks, and `pytest tests` runs seven guards on the processed tables wherever they are built. On every push, GitHub Actions runs the guards on what is published: the crosswalk, the quality flags, the source manifest, and a check that no data table is tracked. The results are in `validation/SUMMARY.md`; the full list of checks is written locally and not published.
 
 - Every company's revenue account adds up line by line: 1,460 of 1,460 pass on each of the four identities.
 - Every class split adds to its total: 14,118 of 14,118 pass.
@@ -83,12 +85,12 @@ The panel's single-quarter figures add back to the full-year totals for all 3,30
 ```
 data/
   raw/          IRA source files (not in git, see below) plus manifest.csv and SOURCES.md
-  processed/    the clean tables
+  processed/    the clean tables (built locally, not in git)
 reference/      company crosswalk
 explorer/       the data explorer page and its template
 src/ira_data/   extraction, panel, quality and validation code
-tests/          guards on the processed tables, run by GitHub Actions on every push
-validation/     validation report, summary, published totals, PDF cross-check
+tests/          guards on the processed tables (where built) and on the published files (on every push)
+validation/     summary, quality flags and the PDF cross-check; the full report is built locally
 docs/           data dictionary
 ```
 
@@ -100,7 +102,7 @@ pip install -r requirements.txt
 pytest tests
 ```
 
-The raw files are about 400 MB, and one of them is over GitHub's 100 MB file limit, so they are not in git. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. They will be attached to a GitHub release.
+The raw files are about 400 MB and are not distributed with this repository. `data/raw/manifest.csv` lists all 165 of them with their IRA source link and SHA-256 hash, and `data/raw/SOURCES.md` explains how they were collected, what is missing from IRA's site and why. Every file is public on IRA's own site; the manifest gives the link and the hash, so a copy can be checked against the one used here. The tables `./run_all.sh` builds from them stay local too.
 
 ## Built on this data
 

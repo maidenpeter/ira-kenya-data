@@ -1,7 +1,16 @@
-# raw IRA files live in a GitHub release, not in git (see data/raw/manifest.csv)
+# raw IRA files are not distributed; data/raw/manifest.csv lists each with its IRA link and hash
 data/raw/**
 !data/raw/manifest.csv
 !data/raw/SOURCES.md
+# the tables built from them are not published either: run_all.sh writes them locally
+data/processed/
+explorer/explorer_data.json
+validation/published_totals.csv
+validation/published_totals_profit_loss.csv
+validation/validation_report.csv
+validation/transfer_from_revenue.csv
+validation/claims_checks.csv
+validation/claims_printed_totals.csv
 __pycache__/
 *.pyc
 .ipynb_checkpoints/

@@ -1,4 +1,6 @@
-"""Guards on the processed tables. They run on the committed CSVs, so no raw files are needed.
+"""Guards on the processed tables. The tables are built locally by run_all.sh and are not published, so these
+guards run where they are present and are skipped elsewhere (on GitHub Actions, for one); the guards on the
+committed files are in test_published_files.py.
 
 Each test protects a result the README relies on. If a change to the extraction breaks one of them,
 the numbers downstream (explorer, scorecard) would be wrong without looking wrong.
@@ -11,6 +13,8 @@ import pytest
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 P = os.path.join(ROOT, "data", "processed")
 V = os.path.join(ROOT, "validation")
+HAVE = os.path.exists(os.path.join(P, "general_revenue_panel.csv"))
+needs_data = pytest.mark.skipif(not HAVE, reason="the processed tables are built locally from IRA's files and not published")
 
 
 def ok(a, b):
@@ -28,6 +32,7 @@ def wide(panel):
     return w[w.abs().sum(axis=1) > 0].fillna(0)
 
 
+@needs_data
 def test_revenue_account_identities(wide):
     w = wide
     assert ok(w.gross_direct_premium + w.inward_reinsurance - w.outward_reinsurance, w.net_premium_written).all()
@@ -37,6 +42,7 @@ def test_revenue_account_identities(wide):
     assert ok(w.underwriting_result + w.investment_income, w.operating_result).all()
 
 
+@needs_data
 def test_single_quarters_rebuild_the_year(panel):
     # where all four quarters of a year were derived, they must add back to the Q4 year-to-date figure
     d = panel.dropna(subset=["quarter_ksh_000"])
@@ -51,12 +57,13 @@ def test_every_company_is_mapped():
     cw = pd.read_csv(os.path.join(ROOT, "reference", "company_crosswalk.csv"))
     assert cw.company_raw.is_unique
     assert cw.company_id.notna().all()
-    for f in ["general_revenue_panel.csv", "general_balance_sheets.csv"]:
+    for f in ["general_revenue_panel.csv", "general_balance_sheets.csv"] if HAVE else []:
         ids = pd.read_csv(os.path.join(P, f), usecols=["company_id"]).company_id
         assert ids.notna().all(), f
         assert set(ids) <= set(cw.company_id), f
 
 
+@needs_data
 def test_balance_sheets_balance():
     b = pd.read_csv(os.path.join(P, "general_balance_sheets.csv"))
     w = b.pivot_table(index=["company_id", "year", "quarter"], columns="line_item", values="value_ksh_000", aggfunc="first")
@@ -65,6 +72,7 @@ def test_balance_sheets_balance():
     assert ok(w["Total Assets"], w["Total Equity And Liabilities"]).all()
 
 
+@needs_data
 def test_known_bad_returns_are_kept_out_of_market_quarters(panel):
     # Intra-Africa's Q3 2024 premium that vanished by Q4, and the two merger quarters
     def reliable(cid, y, q):
@@ -82,6 +90,7 @@ def test_pdf_release_crosscheck_agrees():
     assert (x.difference == 0).all()
 
 
+@pytest.mark.skipif(not os.path.exists(os.path.join(V, "validation_report.csv")), reason="the full check list is built locally and not published")
 def test_no_unexplained_validation_failures():
     r = pd.read_csv(os.path.join(V, "validation_report.csv"))
     failed = r[~r.passed.astype(bool)]
