@@ -195,9 +195,8 @@ Insurance Regulatory Authority, Kenya: quarterly industry statistics, annual rep
 
 ## Why I built this
 
-The work I like best starts by checking whether the data can be trusted. My first insurance role, as a data analyst
-from 2022, was mostly that: cleaning and validating data, then building the dashboards and automated reports on top of
-it. Employer data stays with the employer, so I wanted to do the same work on data anyone can check.
+The work I like best starts by checking whether the data can be trusted: cleaning and validating it first, then
+building the analysis and the reports on top of it. I wanted to do that work on data anyone can check.
 
 IRA's quarterly returns are that data. They cover every insurer in the market, but each question about the market
 starts with the same chore: find the right workbook, match the layout, work out which name the company went by that
